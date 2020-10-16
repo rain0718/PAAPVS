@@ -1,0 +1,6 @@
+A→B:Encrypt(<<ANonce>,Kab,s1>)
+B→A:Encrypt(<<ANonce+1,BNonce>,Kab,s2>)
+A→B:Encrypt(<<BNonce+1>,Kab,s3>)
+B→A:Encrypt(<<ANonce+1,K>,Kab,s4>)
+A→B:Encrypt(<<BNonce+1>,Kab,s3>)
+B→A:Encrypt(<<ANonce+1,K>,Kab,s4>)

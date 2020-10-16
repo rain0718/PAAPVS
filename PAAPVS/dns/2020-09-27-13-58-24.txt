@@ -1,0 +1,213 @@
+[2020-09-27 13:58:24,334]     Info: Web interface can be found at http://localhost:26000
+[2020-09-27 13:58:24,435] [33m[1mTest Case: 1: Query.TransactionID.1[0m
+[2020-09-27 13:58:24,436]     Info: Type: Word. Default value: b'\xcbc'. Case 1 of 3785 overall.
+[2020-09-27 13:58:24,436]     Info: Opening target connection (192.168.1.1:53)...
+[2020-09-27 13:58:24,436]     Info: Connection opened.
+[2020-09-27 13:58:24,436]   [35m[1mTest Step: Pre_Send callback: "check_alive"[0m
+[2020-09-27 13:58:27,463]       [32m[1mCheck OK: 设备存活![0m
+[2020-09-27 13:58:27,463]   [35m[1mTest Step: Fuzzing Node 'Query'[0m
+[2020-09-27 13:58:27,465]     Info: Sending 29 bytes...
+[2020-09-27 13:58:27,465]     [36mTransmitted 29 bytes: 00 00 01 00 00 01 00 00 00 00 00 00 07 74 70 6c 6f 67 69 6e 02 63 6e 00 00 01 00 01 41 b'\x00\x00\x01\x00\x00\x01\x00\x00\x00\x00\x00\x00\x07tplogin\x02cn\x00\x00\x01\x00\x01A'[0m
+[2020-09-27 13:58:27,465]     Info: Receiving...
+[2020-09-27 13:58:27,469]     [36mReceived: 00 00 81 80 00 01 00 01 00 00 00 00 07 74 70 6c 6f 67 69 6e 02 63 6e 00 00 01 00 01 c0 0c 00 01 00 01 00 00 00 01 00 04 c0 a8 01 01 b'\x00\x00\x81\x80\x00\x01\x00\x01\x00\x00\x00\x00\x07tplogin\x02cn\x00\x00\x01\x00\x01\xc0\x0c\x00\x01\x00\x01\x00\x00\x00\x01\x00\x04\xc0\xa8\x01\x01'[0m
+[2020-09-27 13:58:27,469]   [35m[1mTest Step: Post- test case callback: "get_case_info"[0m
+[2020-09-27 13:58:27,469]     Info: TransactionID: 
+                              0x0
+[2020-09-27 13:58:27,469]     Info: domain_part: 
+                              b'tplogin'
+[2020-09-27 13:58:27,469]     Info: aname: 
+                              b''
+[2020-09-27 13:58:27,469]     Info: domain_padding: 
+                              b'cn'
+[2020-09-27 13:58:27,469]     Info: payload: 
+                              b'A'
+[2020-09-27 13:58:27,469]   [35m[1mTest Step: Cleaning up connections from callbacks[0m
+[2020-09-27 13:58:27,469]     Info: Closing target connection...
+[2020-09-27 13:58:27,469]     Info: Connection closed.
+[2020-09-27 13:58:27,469]   [35m[1mTest Step: Sleep between tests.[0m
+[2020-09-27 13:58:27,469]     Info: sleeping for 1.000000 seconds
+[2020-09-27 13:58:28,515] [33m[1mTest Case: 2: Query.TransactionID.2[0m
+[2020-09-27 13:58:28,515]     Info: Type: Word. Default value: b'\xcbc'. Case 2 of 3785 overall.
+[2020-09-27 13:58:28,515]     Info: Opening target connection (192.168.1.1:53)...
+[2020-09-27 13:58:28,515]     Info: Connection opened.
+[2020-09-27 13:58:28,515]   [35m[1mTest Step: Pre_Send callback: "check_alive"[0m
+[2020-09-27 13:58:31,538]       [32m[1mCheck OK: 设备存活![0m
+[2020-09-27 13:58:31,538]   [35m[1mTest Step: Fuzzing Node 'Query'[0m
+[2020-09-27 13:58:31,538]     Info: Sending 29 bytes...
+[2020-09-27 13:58:31,539]     [36mTransmitted 29 bytes: 00 01 01 00 00 01 00 00 00 00 00 00 07 74 70 6c 6f 67 69 6e 02 63 6e 00 00 01 00 01 41 b'\x00\x01\x01\x00\x00\x01\x00\x00\x00\x00\x00\x00\x07tplogin\x02cn\x00\x00\x01\x00\x01A'[0m
+[2020-09-27 13:58:31,539]     Info: Receiving...
+[2020-09-27 13:58:31,541]     [36mReceived: 00 01 81 80 00 01 00 01 00 00 00 00 07 74 70 6c 6f 67 69 6e 02 63 6e 00 00 01 00 01 c0 0c 00 01 00 01 00 00 00 01 00 04 c0 a8 01 01 b'\x00\x01\x81\x80\x00\x01\x00\x01\x00\x00\x00\x00\x07tplogin\x02cn\x00\x00\x01\x00\x01\xc0\x0c\x00\x01\x00\x01\x00\x00\x00\x01\x00\x04\xc0\xa8\x01\x01'[0m
+[2020-09-27 13:58:31,541]   [35m[1mTest Step: Post- test case callback: "get_case_info"[0m
+[2020-09-27 13:58:31,541]     Info: TransactionID: 
+                              0x1
+[2020-09-27 13:58:31,541]     Info: domain_part: 
+                              b'tplogin'
+[2020-09-27 13:58:31,541]     Info: aname: 
+                              b''
+[2020-09-27 13:58:31,541]     Info: domain_padding: 
+                              b'cn'
+[2020-09-27 13:58:31,541]     Info: payload: 
+                              b'A'
+[2020-09-27 13:58:31,541]   [35m[1mTest Step: Cleaning up connections from callbacks[0m
+[2020-09-27 13:58:31,541]     Info: Closing target connection...
+[2020-09-27 13:58:31,541]     Info: Connection closed.
+[2020-09-27 13:58:31,541]   [35m[1mTest Step: Sleep between tests.[0m
+[2020-09-27 13:58:31,542]     Info: sleeping for 1.000000 seconds
+[2020-09-27 13:58:32,559] [33m[1mTest Case: 3: Query.TransactionID.3[0m
+[2020-09-27 13:58:32,559]     Info: Type: Word. Default value: b'\xcbc'. Case 3 of 3785 overall.
+[2020-09-27 13:58:32,559]     Info: Opening target connection (192.168.1.1:53)...
+[2020-09-27 13:58:32,559]     Info: Connection opened.
+[2020-09-27 13:58:32,559]   [35m[1mTest Step: Pre_Send callback: "check_alive"[0m
+[2020-09-27 13:58:35,584]       [32m[1mCheck OK: 设备存活![0m
+[2020-09-27 13:58:35,584]   [35m[1mTest Step: Fuzzing Node 'Query'[0m
+[2020-09-27 13:58:35,585]     Info: Sending 29 bytes...
+[2020-09-27 13:58:35,585]     [36mTransmitted 29 bytes: 00 02 01 00 00 01 00 00 00 00 00 00 07 74 70 6c 6f 67 69 6e 02 63 6e 00 00 01 00 01 41 b'\x00\x02\x01\x00\x00\x01\x00\x00\x00\x00\x00\x00\x07tplogin\x02cn\x00\x00\x01\x00\x01A'[0m
+[2020-09-27 13:58:35,585]     Info: Receiving...
+[2020-09-27 13:58:35,587]     [36mReceived: 00 02 81 80 00 01 00 01 00 00 00 00 07 74 70 6c 6f 67 69 6e 02 63 6e 00 00 01 00 01 c0 0c 00 01 00 01 00 00 00 01 00 04 c0 a8 01 01 b'\x00\x02\x81\x80\x00\x01\x00\x01\x00\x00\x00\x00\x07tplogin\x02cn\x00\x00\x01\x00\x01\xc0\x0c\x00\x01\x00\x01\x00\x00\x00\x01\x00\x04\xc0\xa8\x01\x01'[0m
+[2020-09-27 13:58:35,587]   [35m[1mTest Step: Post- test case callback: "get_case_info"[0m
+[2020-09-27 13:58:35,587]     Info: TransactionID: 
+                              0x2
+[2020-09-27 13:58:35,587]     Info: domain_part: 
+                              b'tplogin'
+[2020-09-27 13:58:35,587]     Info: aname: 
+                              b''
+[2020-09-27 13:58:35,587]     Info: domain_padding: 
+                              b'cn'
+[2020-09-27 13:58:35,587]     Info: payload: 
+                              b'A'
+[2020-09-27 13:58:35,587]   [35m[1mTest Step: Cleaning up connections from callbacks[0m
+[2020-09-27 13:58:35,587]     Info: Closing target connection...
+[2020-09-27 13:58:35,587]     Info: Connection closed.
+[2020-09-27 13:58:35,587]   [35m[1mTest Step: Sleep between tests.[0m
+[2020-09-27 13:58:35,587]     Info: sleeping for 1.000000 seconds
+[2020-09-27 13:58:36,618] [33m[1mTest Case: 4: Query.TransactionID.4[0m
+[2020-09-27 13:58:36,618]     Info: Type: Word. Default value: b'\xcbc'. Case 4 of 3785 overall.
+[2020-09-27 13:58:36,618]     Info: Opening target connection (192.168.1.1:53)...
+[2020-09-27 13:58:36,618]     Info: Connection opened.
+[2020-09-27 13:58:36,618]   [35m[1mTest Step: Pre_Send callback: "check_alive"[0m
+[2020-09-27 13:58:39,669]       [32m[1mCheck OK: 设备存活![0m
+[2020-09-27 13:58:39,669]   [35m[1mTest Step: Fuzzing Node 'Query'[0m
+[2020-09-27 13:58:39,674]     Info: Sending 29 bytes...
+[2020-09-27 13:58:39,675]     [36mTransmitted 29 bytes: 00 03 01 00 00 01 00 00 00 00 00 00 07 74 70 6c 6f 67 69 6e 02 63 6e 00 00 01 00 01 41 b'\x00\x03\x01\x00\x00\x01\x00\x00\x00\x00\x00\x00\x07tplogin\x02cn\x00\x00\x01\x00\x01A'[0m
+[2020-09-27 13:58:39,675]     Info: Receiving...
+[2020-09-27 13:58:39,677]     [36mReceived: 00 03 81 80 00 01 00 01 00 00 00 00 07 74 70 6c 6f 67 69 6e 02 63 6e 00 00 01 00 01 c0 0c 00 01 00 01 00 00 00 01 00 04 c0 a8 01 01 b'\x00\x03\x81\x80\x00\x01\x00\x01\x00\x00\x00\x00\x07tplogin\x02cn\x00\x00\x01\x00\x01\xc0\x0c\x00\x01\x00\x01\x00\x00\x00\x01\x00\x04\xc0\xa8\x01\x01'[0m
+[2020-09-27 13:58:39,677]   [35m[1mTest Step: Post- test case callback: "get_case_info"[0m
+[2020-09-27 13:58:39,678]     Info: TransactionID: 
+                              0x3
+[2020-09-27 13:58:39,678]     Info: domain_part: 
+                              b'tplogin'
+[2020-09-27 13:58:39,678]     Info: aname: 
+                              b''
+[2020-09-27 13:58:39,678]     Info: domain_padding: 
+                              b'cn'
+[2020-09-27 13:58:39,678]     Info: payload: 
+                              b'A'
+[2020-09-27 13:58:39,678]   [35m[1mTest Step: Cleaning up connections from callbacks[0m
+[2020-09-27 13:58:39,678]     Info: Closing target connection...
+[2020-09-27 13:58:39,679]     Info: Connection closed.
+[2020-09-27 13:58:39,679]   [35m[1mTest Step: Sleep between tests.[0m
+[2020-09-27 13:58:39,679]     Info: sleeping for 1.000000 seconds
+[2020-09-27 13:58:40,723] [33m[1mTest Case: 5: Query.TransactionID.5[0m
+[2020-09-27 13:58:40,723]     Info: Type: Word. Default value: b'\xcbc'. Case 5 of 3785 overall.
+[2020-09-27 13:58:40,723]     Info: Opening target connection (192.168.1.1:53)...
+[2020-09-27 13:58:40,723]     Info: Connection opened.
+[2020-09-27 13:58:40,723]   [35m[1mTest Step: Pre_Send callback: "check_alive"[0m
+[2020-09-27 13:58:43,741]       [32m[1mCheck OK: 设备存活![0m
+[2020-09-27 13:58:43,741]   [35m[1mTest Step: Fuzzing Node 'Query'[0m
+[2020-09-27 13:58:43,741]     Info: Sending 29 bytes...
+[2020-09-27 13:58:43,742]     [36mTransmitted 29 bytes: 00 04 01 00 00 01 00 00 00 00 00 00 07 74 70 6c 6f 67 69 6e 02 63 6e 00 00 01 00 01 41 b'\x00\x04\x01\x00\x00\x01\x00\x00\x00\x00\x00\x00\x07tplogin\x02cn\x00\x00\x01\x00\x01A'[0m
+[2020-09-27 13:58:43,742]     Info: Receiving...
+[2020-09-27 13:58:43,744]     [36mReceived: 00 04 81 80 00 01 00 01 00 00 00 00 07 74 70 6c 6f 67 69 6e 02 63 6e 00 00 01 00 01 c0 0c 00 01 00 01 00 00 00 01 00 04 c0 a8 01 01 b'\x00\x04\x81\x80\x00\x01\x00\x01\x00\x00\x00\x00\x07tplogin\x02cn\x00\x00\x01\x00\x01\xc0\x0c\x00\x01\x00\x01\x00\x00\x00\x01\x00\x04\xc0\xa8\x01\x01'[0m
+[2020-09-27 13:58:43,744]   [35m[1mTest Step: Post- test case callback: "get_case_info"[0m
+[2020-09-27 13:58:43,744]     Info: TransactionID: 
+                              0x4
+[2020-09-27 13:58:43,744]     Info: domain_part: 
+                              b'tplogin'
+[2020-09-27 13:58:43,744]     Info: aname: 
+                              b''
+[2020-09-27 13:58:43,744]     Info: domain_padding: 
+                              b'cn'
+[2020-09-27 13:58:43,744]     Info: payload: 
+                              b'A'
+[2020-09-27 13:58:43,744]   [35m[1mTest Step: Cleaning up connections from callbacks[0m
+[2020-09-27 13:58:43,744]     Info: Closing target connection...
+[2020-09-27 13:58:43,744]     Info: Connection closed.
+[2020-09-27 13:58:43,745]   [35m[1mTest Step: Sleep between tests.[0m
+[2020-09-27 13:58:43,745]     Info: sleeping for 1.000000 seconds
+[2020-09-27 13:58:44,771] [33m[1mTest Case: 6: Query.TransactionID.6[0m
+[2020-09-27 13:58:44,771]     Info: Type: Word. Default value: b'\xcbc'. Case 6 of 3785 overall.
+[2020-09-27 13:58:44,771]     Info: Opening target connection (192.168.1.1:53)...
+[2020-09-27 13:58:44,771]     Info: Connection opened.
+[2020-09-27 13:58:44,771]   [35m[1mTest Step: Pre_Send callback: "check_alive"[0m
+[2020-09-27 13:58:47,790]       [32m[1mCheck OK: 设备存活![0m
+[2020-09-27 13:58:47,791]   [35m[1mTest Step: Fuzzing Node 'Query'[0m
+[2020-09-27 13:58:47,792]     Info: Sending 29 bytes...
+[2020-09-27 13:58:47,792]     [36mTransmitted 29 bytes: 00 05 01 00 00 01 00 00 00 00 00 00 07 74 70 6c 6f 67 69 6e 02 63 6e 00 00 01 00 01 41 b'\x00\x05\x01\x00\x00\x01\x00\x00\x00\x00\x00\x00\x07tplogin\x02cn\x00\x00\x01\x00\x01A'[0m
+[2020-09-27 13:58:47,792]     Info: Receiving...
+[2020-09-27 13:58:47,797]     [36mReceived: 00 05 81 80 00 01 00 01 00 00 00 00 07 74 70 6c 6f 67 69 6e 02 63 6e 00 00 01 00 01 c0 0c 00 01 00 01 00 00 00 01 00 04 c0 a8 01 01 b'\x00\x05\x81\x80\x00\x01\x00\x01\x00\x00\x00\x00\x07tplogin\x02cn\x00\x00\x01\x00\x01\xc0\x0c\x00\x01\x00\x01\x00\x00\x00\x01\x00\x04\xc0\xa8\x01\x01'[0m
+[2020-09-27 13:58:47,797]   [35m[1mTest Step: Post- test case callback: "get_case_info"[0m
+[2020-09-27 13:58:47,797]     Info: TransactionID: 
+                              0x5
+[2020-09-27 13:58:47,797]     Info: domain_part: 
+                              b'tplogin'
+[2020-09-27 13:58:47,797]     Info: aname: 
+                              b''
+[2020-09-27 13:58:47,798]     Info: domain_padding: 
+                              b'cn'
+[2020-09-27 13:58:47,798]     Info: payload: 
+                              b'A'
+[2020-09-27 13:58:47,798]   [35m[1mTest Step: Cleaning up connections from callbacks[0m
+[2020-09-27 13:58:47,798]     Info: Closing target connection...
+[2020-09-27 13:58:47,798]     Info: Connection closed.
+[2020-09-27 13:58:47,798]   [35m[1mTest Step: Sleep between tests.[0m
+[2020-09-27 13:58:47,798]     Info: sleeping for 1.000000 seconds
+[2020-09-27 13:58:48,864] [33m[1mTest Case: 7: Query.TransactionID.7[0m
+[2020-09-27 13:58:48,864]     Info: Type: Word. Default value: b'\xcbc'. Case 7 of 3785 overall.
+[2020-09-27 13:58:48,864]     Info: Opening target connection (192.168.1.1:53)...
+[2020-09-27 13:58:48,864]     Info: Connection opened.
+[2020-09-27 13:58:48,864]   [35m[1mTest Step: Pre_Send callback: "check_alive"[0m
+[2020-09-27 13:58:51,904]       [32m[1mCheck OK: 设备存活![0m
+[2020-09-27 13:58:51,904]   [35m[1mTest Step: Fuzzing Node 'Query'[0m
+[2020-09-27 13:58:51,904]     Info: Sending 29 bytes...
+[2020-09-27 13:58:51,905]     [36mTransmitted 29 bytes: 00 06 01 00 00 01 00 00 00 00 00 00 07 74 70 6c 6f 67 69 6e 02 63 6e 00 00 01 00 01 41 b'\x00\x06\x01\x00\x00\x01\x00\x00\x00\x00\x00\x00\x07tplogin\x02cn\x00\x00\x01\x00\x01A'[0m
+[2020-09-27 13:58:51,905]     Info: Receiving...
+[2020-09-27 13:58:51,907]     [36mReceived: 00 06 81 80 00 01 00 01 00 00 00 00 07 74 70 6c 6f 67 69 6e 02 63 6e 00 00 01 00 01 c0 0c 00 01 00 01 00 00 00 01 00 04 c0 a8 01 01 b'\x00\x06\x81\x80\x00\x01\x00\x01\x00\x00\x00\x00\x07tplogin\x02cn\x00\x00\x01\x00\x01\xc0\x0c\x00\x01\x00\x01\x00\x00\x00\x01\x00\x04\xc0\xa8\x01\x01'[0m
+[2020-09-27 13:58:51,907]   [35m[1mTest Step: Post- test case callback: "get_case_info"[0m
+[2020-09-27 13:58:51,907]     Info: TransactionID: 
+                              0x6
+[2020-09-27 13:58:51,907]     Info: domain_part: 
+                              b'tplogin'
+[2020-09-27 13:58:51,907]     Info: aname: 
+                              b''
+[2020-09-27 13:58:51,907]     Info: domain_padding: 
+                              b'cn'
+[2020-09-27 13:58:51,907]     Info: payload: 
+                              b'A'
+[2020-09-27 13:58:51,907]   [35m[1mTest Step: Cleaning up connections from callbacks[0m
+[2020-09-27 13:58:51,907]     Info: Closing target connection...
+[2020-09-27 13:58:51,907]     Info: Connection closed.
+[2020-09-27 13:58:51,907]   [35m[1mTest Step: Sleep between tests.[0m
+[2020-09-27 13:58:51,907]     Info: sleeping for 1.000000 seconds
+[2020-09-27 13:58:52,966] [33m[1mTest Case: 8: Query.TransactionID.8[0m
+[2020-09-27 13:58:52,966]     Info: Type: Word. Default value: b'\xcbc'. Case 8 of 3785 overall.
+[2020-09-27 13:58:52,966]     Info: Opening target connection (192.168.1.1:53)...
+[2020-09-27 13:58:52,966]     Info: Connection opened.
+[2020-09-27 13:58:52,966]   [35m[1mTest Step: Pre_Send callback: "check_alive"[0m
+[2020-09-27 13:58:56,000]       [32m[1mCheck OK: 设备存活![0m
+[2020-09-27 13:58:56,000]   [35m[1mTest Step: Fuzzing Node 'Query'[0m
+[2020-09-27 13:58:56,001]     Info: Sending 29 bytes...
+[2020-09-27 13:58:56,001]     [36mTransmitted 29 bytes: 00 07 01 00 00 01 00 00 00 00 00 00 07 74 70 6c 6f 67 69 6e 02 63 6e 00 00 01 00 01 41 b'\x00\x07\x01\x00\x00\x01\x00\x00\x00\x00\x00\x00\x07tplogin\x02cn\x00\x00\x01\x00\x01A'[0m
+[2020-09-27 13:58:56,001]     Info: Receiving...
+[2020-09-27 13:58:56,003]     [36mReceived: 00 07 81 80 00 01 00 01 00 00 00 00 07 74 70 6c 6f 67 69 6e 02 63 6e 00 00 01 00 01 c0 0c 00 01 00 01 00 00 00 01 00 04 c0 a8 01 01 b'\x00\x07\x81\x80\x00\x01\x00\x01\x00\x00\x00\x00\x07tplogin\x02cn\x00\x00\x01\x00\x01\xc0\x0c\x00\x01\x00\x01\x00\x00\x00\x01\x00\x04\xc0\xa8\x01\x01'[0m
+[2020-09-27 13:58:56,003]   [35m[1mTest Step: Post- test case callback: "get_case_info"[0m
+[2020-09-27 13:58:56,003]     Info: TransactionID: 
+                              0x7
+[2020-09-27 13:58:56,003]     Info: domain_part: 
+                              b'tplogin'
+[2020-09-27 13:58:56,003]     Info: aname: 
+                              b''
+[2020-09-27 13:58:56,003]     Info: domain_padding: 
+                              b'cn'
+[2020-09-27 13:58:56,003]     Info: payload: 
+                              b'A'
+[2020-09-27 13:58:56,003]   [35m[1mTest Step: Cleaning up connections from callbacks[0m

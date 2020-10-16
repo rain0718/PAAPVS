@@ -1,0 +1,75 @@
+apt-get换国内源：https://www.cnblogs.com/rainouyang/p/13656421.html
+	出现加锁问题：sudo rm  /var/lib/apt/lists/lock 
+pip换国内源：https://www.cnblogs.com/rainouyang/p/13656458.html
+
+将PAAPVS拷贝到 ~/PAAPVS 下
+
+将spin(** 6.5.1 )添加到环境变量中去
+sudo cp ~/PAAPVS/ProtocolAnalyzer/spin  /usr/local/bin
+
+安装系统软件gcc
+sudo apt-get install gcc
+安装tcl
+sudo apt-get install tcl
+安装wish
+sudo apt-get install wish
+安装python3-pip
+sudo apt-get install python3-pip
+
+安装dnsutils
+sudo apt-get install dnsutils
+
+安装curl(7.58.0)
+sudo apt-get install curl
+
+安装build-essential（12.4ubuntu1）
+sudo apt-get install build-essential 
+
+安装tshark(2.6.10)（后续选择否）
+sudo apt-get install tshark
+
+安装net-tools (1.60+git20161116.90da8a0-1ubuntu1)
+sudo apt-get install net-tools
+
+安装python 环境
+sudo apt-get install python3-venv
+创建虚拟环境
+python3 -m venv ~/env
+创建active软链接
+ln -s ~/env/bin/activate ~/activate
+开启python 虚拟环境
+source ~/activate
+
+安装requests
+pip install requests -i http://mirrors.aliyun.com/pypi/simple
+
+安装pyqt5(** 5.11.2)
+pip install pyqt5==5.11.2 -i http://mirrors.aliyun.com/pypi/simple/ --trusted-host mirrors.aliyun.com
+	如果报错：Command "python setup.py egg_info" failed with error code 1 in /tmp/pip-build-23ykqx51/pynacl/
+	则执行：pip3 install --upgrade pip 后再次运行安装命令
+
+安装boofuzz(** 0.1.6)
+pip install boofuzz==0.1.6
+
+运行协议分析与渗透软件 ***
+source ~/activate
+cd ~/PAAPVS/STISystem
+python Vul.py
+	
+运行httpdecode软件
+source ~/activate 
+cd ~/PAAPVS/http_decode
+python httpdecode.py
+
+运行协议分析软件
+source ~/activate
+cd ~/PAAPVS/ProtocolAnalyzer
+python Vul.py
+
+运行渗透软件
+source ~/activate
+cd ~/PAAPVS/PMGsystem
+python Vul.py
+
+
+

@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>792</width>
+    <height>577</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>渗透报文生成</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QTableWidget" name="table"/>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>792</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="protocol_menu">
+    <property name="title">
+     <string>协议选择</string>
+    </property>
+    <addaction name="snmp_action"/>
+    <addaction name="ftp_action"/>
+    <addaction name="dns_action"/>
+    <addaction name="http_action"/>
+    <addaction name="other_action"/>
+   </widget>
+   <widget class="QMenu" name="help_menu">
+    <property name="title">
+     <string>帮助</string>
+    </property>
+    <addaction name="about_action"/>
+   </widget>
+   <widget class="QMenu" name="menu_vul">
+    <property name="title">
+     <string>漏洞知识库</string>
+    </property>
+    <widget class="QMenu" name="menuall">
+     <property name="title">
+      <string>所有漏洞</string>
+     </property>
+     <addaction name="tplink_action"/>
+     <addaction name="dlink_action"/>
+     <addaction name="huawei_action"/>
+     <addaction name="tplink_action_2"/>
+    </widget>
+    <addaction name="menuall"/>
+    <addaction name="cwe_info"/>
+    <addaction name="action_4"/>
+    <addaction name="action_3"/>
+   </widget>
+   <addaction name="protocol_menu"/>
+   <addaction name="menu_vul"/>
+   <addaction name="help_menu"/>
+  </widget>
+  <action name="network_menu">
+   <property name="text">
+    <string>网络层</string>
+   </property>
+  </action>
+  <action name="trans_menu">
+   <property name="text">
+    <string>传输层</string>
+   </property>
+  </action>
+  <action name="snmp_action">
+   <property name="text">
+    <string>SNMP</string>
+   </property>
+  </action>
+  <action name="ftp_action">
+   <property name="text">
+    <string>FTP</string>
+   </property>
+  </action>
+  <action name="http_action">
+   <property name="text">
+    <string>HTTP</string>
+   </property>
+  </action>
+  <action name="dns_action">
+   <property name="text">
+    <string>DNS</string>
+   </property>
+  </action>
+  <action name="other_action">
+   <property name="text">
+    <string>other</string>
+   </property>
+  </action>
+  <action name="all_action">
+   <property name="text">
+    <string>所有漏洞</string>
+   </property>
+  </action>
+  <action name="tplink_action">
+   <property name="text">
+    <string>tplink漏洞</string>
+   </property>
+  </action>
+  <action name="dlink_action">
+   <property name="text">
+    <string>dlink漏洞</string>
+   </property>
+  </action>
+  <action name="huawei_action">
+   <property name="text">
+    <string>huawei漏洞</string>
+   </property>
+  </action>
+  <action name="tplink_action_2">
+   <property name="text">
+    <string>tenda漏洞</string>
+   </property>
+  </action>
+  <action name="cwe_info">
+   <property name="text">
+    <string>CWE信息</string>
+   </property>
+  </action>
+  <action name="action_3">
+   <property name="text">
+    <string>网络设备关联规则</string>
+   </property>
+  </action>
+  <action name="action_4">
+   <property name="text">
+    <string>漏洞类别关联规则</string>
+   </property>
+  </action>
+  <action name="OSPFv2_action">
+   <property name="text">
+    <string>OSPFv2</string>
+   </property>
+  </action>
+  <action name="snmp2_action">
+   <property name="text">
+    <string>snmp</string>
+   </property>
+  </action>
+  <action name="NDP_action">
+   <property name="text">
+    <string>NDP</string>
+   </property>
+  </action>
+  <action name="NTP_action">
+   <property name="text">
+    <string>NTP</string>
+   </property>
+  </action>
+  <action name="logs_action">
+   <property name="text">
+    <string>logs</string>
+   </property>
+  </action>
+  <action name="BGP_4_action">
+   <property name="text">
+    <string>BGP-4</string>
+   </property>
+  </action>
+  <action name="RIPv2_action">
+   <property name="text">
+    <string>RIPv2</string>
+   </property>
+  </action>
+  <action name="about_action">
+   <property name="text">
+    <string>关于</string>
+   </property>
+  </action>
+  <action name="actiona">
+   <property name="text">
+    <string>a</string>
+   </property>
+  </action>
+  <action name="actiona_2">
+   <property name="text">
+    <string>插桩</string>
+   </property>
+  </action>
+  <action name="actionb">
+   <property name="text">
+    <string>渗透报文生成</string>
+   </property>
+  </action>
+  <action name="action">
+   <property name="text">
+    <string>插桩</string>
+   </property>
+  </action>
+  <action name="action_2">
+   <property name="text">
+    <string>渗透报文生成</string>
+   </property>
+  </action>
+  <action name="actiona_3">
+   <property name="text">
+    <string>a</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,34 @@
+[
+  {
+    "_index": "packets-2020-09-11",
+    "_type": "pcap_file",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "ip.src": ["192.168.3.33"],
+        "ip.dst": ["49.4.32.196"],
+        "http.request.method": ["POST"],
+        "http.request.full_uri": ["http:\/\/query.hicloud.com\/hid_and_common\/v2\/Test.action"],
+        "http.request.version": ["HTTP\/1.1"],
+        "http.request.line": ["Host: query.hicloud.com\r\n","Accept: *\/*\r\n","Content-Length: 31\r\n","Content-Type: application\/x-www-form-urlencoded\r\n","Connection: close\r\n"]
+      }
+    }
+  }
+
+  ,
+  {
+    "_index": "packets-2020-09-11",
+    "_type": "pcap_file",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "ip.src": ["49.4.32.196"],
+        "ip.dst": ["192.168.3.33"],
+        "http.response.version": ["HTTP\/1.1"],
+        "http.response.code": ["200"],
+        "http.response.line": ["Date: Thu, 10 Sep 2020 17:18:08 GMT\r\n","Content-Type: application\/json;charset=utf8\r\n","Content-Length: 65\r\n","Connection: close\r\n","wise_traceid: 4130-1597945253240-36089207\r\n","wise_spanid: 1\r\n","X-XSS-Protection: 1; mode=block\r\n","X-frame-options: SAMEORIGIN\r\n","X-Content-Type-Options: nosniff\r\n","Server: elb\r\n"]
+      }
+    }
+  }
+
+]

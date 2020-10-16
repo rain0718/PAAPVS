@@ -1,0 +1,126 @@
+never p1 {    /* !((([] (! (AcommitB))) || ((! (AcommitB)) U (BrunningA))) && (([] (! (BcommitA))) || ((! (BcommitA)) U (ArunningB)))) */
+T0_init:
+	do
+	:: (! ((! (AcommitB))) && ! ((BrunningA))) -> goto accept_S11
+	:: atomic { (((! ((! (BcommitA))) && ! ((ArunningB))) || (! ((! (AcommitB))) && ! ((BrunningA))))) -> assert(!(((! ((! (BcommitA))) && ! ((ArunningB))) || (! ((! (AcommitB))) && ! ((BrunningA)))))) }
+	:: (! ((BrunningA))) -> goto T0_S14
+	:: (! ((! (AcommitB))) && ! ((BrunningA))) -> goto accept_S2
+	:: (! ((! (BcommitA))) && ! ((ArunningB))) -> goto accept_S34
+	:: (! ((ArunningB))) -> goto T0_S37
+	:: (! ((! (BcommitA))) && ! ((ArunningB))) -> goto accept_S25
+	od;
+accept_S11:
+	do
+	:: (! ((BrunningA))) -> goto accept_S11
+	:: atomic { (! ((! (AcommitB))) && ! ((BrunningA))) -> assert(!(! ((! (AcommitB))) && ! ((BrunningA)))) }
+	od;
+accept_S2:
+	do
+	:: atomic { (! ((! (AcommitB)))) -> assert(!(! ((! (AcommitB))))) }
+	:: (1) -> goto T0_S2
+	od;
+accept_S34:
+	do
+	:: (! ((ArunningB))) -> goto accept_S34
+	:: atomic { (! ((! (BcommitA))) && ! ((ArunningB))) -> assert(!(! ((! (BcommitA))) && ! ((ArunningB)))) }
+	od;
+accept_S25:
+	do
+	:: atomic { (! ((! (BcommitA)))) -> assert(!(! ((! (BcommitA))))) }
+	:: (1) -> goto T0_S25
+	od;
+T0_S14:
+	do
+	:: (! ((! (AcommitB))) && ! ((BrunningA))) -> goto accept_S11
+	:: atomic { (! ((! (AcommitB))) && ! ((BrunningA))) -> assert(!(! ((! (AcommitB))) && ! ((BrunningA)))) }
+	:: (! ((BrunningA))) -> goto T0_S14
+	:: (! ((! (AcommitB))) && ! ((BrunningA))) -> goto accept_S2
+	od;
+T0_S2:
+	do
+	:: atomic { (! ((! (AcommitB)))) -> assert(!(! ((! (AcommitB))))) }
+	:: (1) -> goto T0_S2
+	od;
+T0_S37:
+	do
+	:: (! ((! (BcommitA))) && ! ((ArunningB))) -> goto accept_S34
+	:: atomic { (! ((! (BcommitA))) && ! ((ArunningB))) -> assert(!(! ((! (BcommitA))) && ! ((ArunningB)))) }
+	:: (! ((ArunningB))) -> goto T0_S37
+	:: (! ((! (BcommitA))) && ! ((ArunningB))) -> goto accept_S25
+	od;
+T0_S25:
+	do
+	:: atomic { (! ((! (BcommitA)))) -> assert(!(! ((! (BcommitA))))) }
+	:: (1) -> goto T0_S25
+	od;
+accept_all:
+	skip
+}
+never p2 {    /* !([] (([] (! (AcommitB))) || ((! (AcommitB)) U (BrunningA)))) */
+T0_init:
+	do
+	:: (! ((! (AcommitB))) && ! ((BrunningA))) -> goto accept_S11
+	:: atomic { (! ((! (AcommitB))) && ! ((BrunningA))) -> assert(!(! ((! (AcommitB))) && ! ((BrunningA)))) }
+	:: (! ((BrunningA))) -> goto T0_S14
+	:: (! ((! (AcommitB))) && ! ((BrunningA))) -> goto accept_S2
+	:: (1) -> goto T0_init
+	od;
+accept_S11:
+	do
+	:: (! ((BrunningA))) -> goto accept_S11
+	:: atomic { (! ((! (AcommitB))) && ! ((BrunningA))) -> assert(!(! ((! (AcommitB))) && ! ((BrunningA)))) }
+	od;
+accept_S2:
+	do
+	:: atomic { (! ((! (AcommitB)))) -> assert(!(! ((! (AcommitB))))) }
+	:: (1) -> goto T0_S2
+	od;
+T0_S14:
+	do
+	:: (! ((! (AcommitB))) && ! ((BrunningA))) -> goto accept_S11
+	:: atomic { (! ((! (AcommitB))) && ! ((BrunningA))) -> assert(!(! ((! (AcommitB))) && ! ((BrunningA)))) }
+	:: (! ((BrunningA))) -> goto T0_S14
+	:: (! ((! (AcommitB))) && ! ((BrunningA))) -> goto accept_S2
+	od;
+T0_S2:
+	do
+	:: atomic { (! ((! (AcommitB)))) -> assert(!(! ((! (AcommitB))))) }
+	:: (1) -> goto T0_S2
+	od;
+accept_all:
+	skip
+}
+never p3 {    /* !([] (([] (! (BcommitA))) || ((! (BcommitA)) U (ArunningB)))) */
+T0_init:
+	do
+	:: (! ((! (BcommitA))) && ! ((ArunningB))) -> goto accept_S11
+	:: atomic { (! ((! (BcommitA))) && ! ((ArunningB))) -> assert(!(! ((! (BcommitA))) && ! ((ArunningB)))) }
+	:: (! ((ArunningB))) -> goto T0_S14
+	:: (! ((! (BcommitA))) && ! ((ArunningB))) -> goto accept_S2
+	:: (1) -> goto T0_init
+	od;
+accept_S11:
+	do
+	:: (! ((ArunningB))) -> goto accept_S11
+	:: atomic { (! ((! (BcommitA))) && ! ((ArunningB))) -> assert(!(! ((! (BcommitA))) && ! ((ArunningB)))) }
+	od;
+accept_S2:
+	do
+	:: atomic { (! ((! (BcommitA)))) -> assert(!(! ((! (BcommitA))))) }
+	:: (1) -> goto T0_S2
+	od;
+T0_S14:
+	do
+	:: (! ((! (BcommitA))) && ! ((ArunningB))) -> goto accept_S11
+	:: atomic { (! ((! (BcommitA))) && ! ((ArunningB))) -> assert(!(! ((! (BcommitA))) && ! ((ArunningB)))) }
+	:: (! ((ArunningB))) -> goto T0_S14
+	:: (! ((! (BcommitA))) && ! ((ArunningB))) -> goto accept_S2
+	od;
+T0_S2:
+	do
+	:: atomic { (! ((! (BcommitA)))) -> assert(!(! ((! (BcommitA))))) }
+	:: (1) -> goto T0_S2
+	od;
+accept_all:
+	skip
+}

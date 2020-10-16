@@ -1,0 +1,1972 @@
+[2020-09-29 12:57:48,315]     Info: Web interface can be found at http://localhost:26000
+[2020-09-29 12:57:48,601] [33m[1mTest Case: 1: Query.TransactionID.1[0m
+[2020-09-29 12:57:48,601]     Info: Type: RandomData. Default value: b'\x8e\x07'. Case 1 of 6086 overall.
+[2020-09-29 12:57:48,601]     Info: Opening target connection (192.168.1.1:53)...
+[2020-09-29 12:57:48,602]     Info: Connection opened.
+[2020-09-29 12:57:48,602]   [35m[1mTest Step: Pre_Send callback: "check_alive"[0m
+[2020-09-29 12:57:51,659]       [32m[1mCheck OK: 设备存活![0m
+[2020-09-29 12:57:51,659]   [35m[1mTest Step: Fuzzing Node 'Query'[0m
+[2020-09-29 12:57:51,660]     Info: Sending 27 bytes...
+[2020-09-29 12:57:51,661]     [36mTransmitted 27 bytes: 08 6c 01 00 00 01 00 00 00 00 00 00 05 62 61 69 64 75 03 63 6f 6d 00 00 01 00 01 b'\x08l\x01\x00\x00\x01\x00\x00\x00\x00\x00\x00\x05baidu\x03com\x00\x00\x01\x00\x01'[0m
+[2020-09-29 12:57:51,661]     Info: Receiving...
+[2020-09-29 12:57:56,902]     [36mReceived: [0m
+[2020-09-29 12:57:56,902]   [35m[1mTest Step: Post- test case callback: "get_case_info"[0m
+[2020-09-29 12:57:56,902]     Info: TransactionID: 
+                              b'\x08l'
+[2020-09-29 12:57:56,902]     Info: domain_part: 
+                              b'baidu'
+[2020-09-29 12:57:56,903]     Info: aname: 
+                              b''
+[2020-09-29 12:57:56,903]     Info: domain_padding: 
+                              b'com'
+[2020-09-29 12:57:56,903]     Info: payload: 
+                              b'\x01'
+[2020-09-29 12:57:56,903]   [35m[1mTest Step: Cleaning up connections from callbacks[0m
+[2020-09-29 12:57:56,903]     Info: Closing target connection...
+[2020-09-29 12:57:56,904]     Info: Connection closed.
+[2020-09-29 12:57:56,904]   [35m[1mTest Step: Sleep between tests.[0m
+[2020-09-29 12:57:56,904]     Info: sleeping for 1.000000 seconds
+[2020-09-29 12:57:57,927] [33m[1mTest Case: 2: Query.TransactionID.2[0m
+[2020-09-29 12:57:57,927]     Info: Type: RandomData. Default value: b'\x8e\x07'. Case 2 of 6086 overall.
+[2020-09-29 12:57:57,927]     Info: Opening target connection (192.168.1.1:53)...
+[2020-09-29 12:57:57,927]     Info: Connection opened.
+[2020-09-29 12:57:57,927]   [35m[1mTest Step: Pre_Send callback: "check_alive"[0m
+[2020-09-29 12:58:00,962]       [32m[1mCheck OK: 设备存活![0m
+[2020-09-29 12:58:00,962]   [35m[1mTest Step: Fuzzing Node 'Query'[0m
+[2020-09-29 12:58:00,962]     Info: Sending 27 bytes...
+[2020-09-29 12:58:00,962]     [36mTransmitted 27 bytes: 10 46 01 00 00 01 00 00 00 00 00 00 05 62 61 69 64 75 03 63 6f 6d 00 00 01 00 01 b'\x10F\x01\x00\x00\x01\x00\x00\x00\x00\x00\x00\x05baidu\x03com\x00\x00\x01\x00\x01'[0m
+[2020-09-29 12:58:00,962]     Info: Receiving...
+[2020-09-29 12:58:06,118]     [36mReceived: [0m
+[2020-09-29 12:58:06,118]   [35m[1mTest Step: Post- test case callback: "get_case_info"[0m
+[2020-09-29 12:58:06,118]     Info: TransactionID: 
+                              b'\x10F'
+[2020-09-29 12:58:06,118]     Info: domain_part: 
+                              b'baidu'
+[2020-09-29 12:58:06,118]     Info: aname: 
+                              b''
+[2020-09-29 12:58:06,118]     Info: domain_padding: 
+                              b'com'
+[2020-09-29 12:58:06,118]     Info: payload: 
+                              b'\x01'
+[2020-09-29 12:58:06,118]   [35m[1mTest Step: Cleaning up connections from callbacks[0m
+[2020-09-29 12:58:06,118]     Info: Closing target connection...
+[2020-09-29 12:58:06,118]     Info: Connection closed.
+[2020-09-29 12:58:06,118]   [35m[1mTest Step: Sleep between tests.[0m
+[2020-09-29 12:58:06,118]     Info: sleeping for 1.000000 seconds
+[2020-09-29 12:58:07,160] [33m[1mTest Case: 3: Query.TransactionID.3[0m
+[2020-09-29 12:58:07,160]     Info: Type: RandomData. Default value: b'\x8e\x07'. Case 3 of 6086 overall.
+[2020-09-29 12:58:07,160]     Info: Opening target connection (192.168.1.1:53)...
+[2020-09-29 12:58:07,161]     Info: Connection opened.
+[2020-09-29 12:58:07,161]   [35m[1mTest Step: Pre_Send callback: "check_alive"[0m
+[2020-09-29 12:58:10,238]       [32m[1mCheck OK: 设备存活![0m
+[2020-09-29 12:58:10,238]   [35m[1mTest Step: Fuzzing Node 'Query'[0m
+[2020-09-29 12:58:10,239]     Info: Sending 27 bytes...
+[2020-09-29 12:58:10,239]     [36mTransmitted 27 bytes: 22 92 01 00 00 01 00 00 00 00 00 00 05 62 61 69 64 75 03 63 6f 6d 00 00 01 00 01 b'"\x92\x01\x00\x00\x01\x00\x00\x00\x00\x00\x00\x05baidu\x03com\x00\x00\x01\x00\x01'[0m
+[2020-09-29 12:58:10,239]     Info: Receiving...
+[2020-09-29 12:58:15,334]     [36mReceived: [0m
+[2020-09-29 12:58:15,334]   [35m[1mTest Step: Post- test case callback: "get_case_info"[0m
+[2020-09-29 12:58:15,334]     Info: TransactionID: 
+                              b'"\x92'
+[2020-09-29 12:58:15,334]     Info: domain_part: 
+                              b'baidu'
+[2020-09-29 12:58:15,334]     Info: aname: 
+                              b''
+[2020-09-29 12:58:15,334]     Info: domain_padding: 
+                              b'com'
+[2020-09-29 12:58:15,334]     Info: payload: 
+                              b'\x01'
+[2020-09-29 12:58:15,334]   [35m[1mTest Step: Cleaning up connections from callbacks[0m
+[2020-09-29 12:58:15,334]     Info: Closing target connection...
+[2020-09-29 12:58:15,334]     Info: Connection closed.
+[2020-09-29 12:58:15,334]   [35m[1mTest Step: Sleep between tests.[0m
+[2020-09-29 12:58:15,334]     Info: sleeping for 1.000000 seconds
+[2020-09-29 12:58:16,368] [33m[1mTest Case: 4: Query.TransactionID.4[0m
+[2020-09-29 12:58:16,368]     Info: Type: RandomData. Default value: b'\x8e\x07'. Case 4 of 6086 overall.
+[2020-09-29 12:58:16,368]     Info: Opening target connection (192.168.1.1:53)...
+[2020-09-29 12:58:16,368]     Info: Connection opened.
+[2020-09-29 12:58:16,368]   [35m[1mTest Step: Pre_Send callback: "check_alive"[0m
+[2020-09-29 12:58:19,399]       [32m[1mCheck OK: 设备存活![0m
+[2020-09-29 12:58:19,399]   [35m[1mTest Step: Fuzzing Node 'Query'[0m
+[2020-09-29 12:58:19,400]     Info: Sending 27 bytes...
+[2020-09-29 12:58:19,400]     [36mTransmitted 27 bytes: 36 ac 01 00 00 01 00 00 00 00 00 00 05 62 61 69 64 75 03 63 6f 6d 00 00 01 00 01 b'6\xac\x01\x00\x00\x01\x00\x00\x00\x00\x00\x00\x05baidu\x03com\x00\x00\x01\x00\x01'[0m
+[2020-09-29 12:58:19,400]     Info: Receiving...
+[2020-09-29 12:58:24,550]     [36mReceived: [0m
+[2020-09-29 12:58:24,550]   [35m[1mTest Step: Post- test case callback: "get_case_info"[0m
+[2020-09-29 12:58:24,550]     Info: TransactionID: 
+                              b'6\xac'
+[2020-09-29 12:58:24,550]     Info: domain_part: 
+                              b'baidu'
+[2020-09-29 12:58:24,550]     Info: aname: 
+                              b''
+[2020-09-29 12:58:24,550]     Info: domain_padding: 
+                              b'com'
+[2020-09-29 12:58:24,550]     Info: payload: 
+                              b'\x01'
+[2020-09-29 12:58:24,550]   [35m[1mTest Step: Cleaning up connections from callbacks[0m
+[2020-09-29 12:58:24,550]     Info: Closing target connection...
+[2020-09-29 12:58:24,550]     Info: Connection closed.
+[2020-09-29 12:58:24,550]   [35m[1mTest Step: Sleep between tests.[0m
+[2020-09-29 12:58:24,550]     Info: sleeping for 1.000000 seconds
+[2020-09-29 12:58:25,597] [33m[1mTest Case: 5: Query.TransactionID.5[0m
+[2020-09-29 12:58:25,597]     Info: Type: RandomData. Default value: b'\x8e\x07'. Case 5 of 6086 overall.
+[2020-09-29 12:58:25,598]     Info: Opening target connection (192.168.1.1:53)...
+[2020-09-29 12:58:25,598]     Info: Connection opened.
+[2020-09-29 12:58:25,598]   [35m[1mTest Step: Pre_Send callback: "check_alive"[0m
+[2020-09-29 12:58:28,645]       [32m[1mCheck OK: 设备存活![0m
+[2020-09-29 12:58:28,646]   [35m[1mTest Step: Fuzzing Node 'Query'[0m
+[2020-09-29 12:58:28,646]     Info: Sending 27 bytes...
+[2020-09-29 12:58:28,646]     [36mTransmitted 27 bytes: 78 bc 01 00 00 01 00 00 00 00 00 00 05 62 61 69 64 75 03 63 6f 6d 00 00 01 00 01 b'x\xbc\x01\x00\x00\x01\x00\x00\x00\x00\x00\x00\x05baidu\x03com\x00\x00\x01\x00\x01'[0m
+[2020-09-29 12:58:28,646]     Info: Receiving...
+[2020-09-29 12:58:33,766]     [36mReceived: [0m
+[2020-09-29 12:58:33,779]   [35m[1mTest Step: Post- test case callback: "get_case_info"[0m
+[2020-09-29 12:58:33,779]     Info: TransactionID: 
+                              b'x\xbc'
+[2020-09-29 12:58:33,779]     Info: domain_part: 
+                              b'baidu'
+[2020-09-29 12:58:33,779]     Info: aname: 
+                              b''
+[2020-09-29 12:58:33,779]     Info: domain_padding: 
+                              b'com'
+[2020-09-29 12:58:33,779]     Info: payload: 
+                              b'\x01'
+[2020-09-29 12:58:33,779]   [35m[1mTest Step: Cleaning up connections from callbacks[0m
+[2020-09-29 12:58:33,779]     Info: Closing target connection...
+[2020-09-29 12:58:33,780]     Info: Connection closed.
+[2020-09-29 12:58:33,780]   [35m[1mTest Step: Sleep between tests.[0m
+[2020-09-29 12:58:33,780]     Info: sleeping for 1.000000 seconds
+[2020-09-29 12:58:34,833] [33m[1mTest Case: 6: Query.TransactionID.6[0m
+[2020-09-29 12:58:34,833]     Info: Type: RandomData. Default value: b'\x8e\x07'. Case 6 of 6086 overall.
+[2020-09-29 12:58:34,833]     Info: Opening target connection (192.168.1.1:53)...
+[2020-09-29 12:58:34,833]     Info: Connection opened.
+[2020-09-29 12:58:34,833]   [35m[1mTest Step: Pre_Send callback: "check_alive"[0m
+[2020-09-29 12:58:37,862]       [32m[1mCheck OK: 设备存活![0m
+[2020-09-29 12:58:37,863]   [35m[1mTest Step: Fuzzing Node 'Query'[0m
+[2020-09-29 12:58:37,863]     Info: Sending 27 bytes...
+[2020-09-29 12:58:37,864]     [36mTransmitted 27 bytes: 2d 76 01 00 00 01 00 00 00 00 00 00 05 62 61 69 64 75 03 63 6f 6d 00 00 01 00 01 b'-v\x01\x00\x00\x01\x00\x00\x00\x00\x00\x00\x05baidu\x03com\x00\x00\x01\x00\x01'[0m
+[2020-09-29 12:58:37,864]     Info: Receiving...
+[2020-09-29 12:58:42,983]     [36mReceived: [0m
+[2020-09-29 12:58:42,983]   [35m[1mTest Step: Post- test case callback: "get_case_info"[0m
+[2020-09-29 12:58:42,983]     Info: TransactionID: 
+                              b'-v'
+[2020-09-29 12:58:42,983]     Info: domain_part: 
+                              b'baidu'
+[2020-09-29 12:58:42,983]     Info: aname: 
+                              b''
+[2020-09-29 12:58:42,983]     Info: domain_padding: 
+                              b'com'
+[2020-09-29 12:58:42,983]     Info: payload: 
+                              b'\x01'
+[2020-09-29 12:58:42,984]   [35m[1mTest Step: Cleaning up connections from callbacks[0m
+[2020-09-29 12:58:42,984]     Info: Closing target connection...
+[2020-09-29 12:58:42,984]     Info: Connection closed.
+[2020-09-29 12:58:42,984]   [35m[1mTest Step: Sleep between tests.[0m
+[2020-09-29 12:58:42,984]     Info: sleeping for 1.000000 seconds
+[2020-09-29 12:58:44,023] [33m[1mTest Case: 7: Query.TransactionID.7[0m
+[2020-09-29 12:58:44,023]     Info: Type: RandomData. Default value: b'\x8e\x07'. Case 7 of 6086 overall.
+[2020-09-29 12:58:44,023]     Info: Opening target connection (192.168.1.1:53)...
+[2020-09-29 12:58:44,023]     Info: Connection opened.
+[2020-09-29 12:58:44,023]   [35m[1mTest Step: Pre_Send callback: "check_alive"[0m
+[2020-09-29 12:58:47,082]       [32m[1mCheck OK: 设备存活![0m
+[2020-09-29 12:58:47,082]   [35m[1mTest Step: Fuzzing Node 'Query'[0m
+[2020-09-29 12:58:47,082]     Info: Sending 27 bytes...
+[2020-09-29 12:58:47,083]     [36mTransmitted 27 bytes: 5f 30 01 00 00 01 00 00 00 00 00 00 05 62 61 69 64 75 03 63 6f 6d 00 00 01 00 01 b'_0\x01\x00\x00\x01\x00\x00\x00\x00\x00\x00\x05baidu\x03com\x00\x00\x01\x00\x01'[0m
+[2020-09-29 12:58:47,083]     Info: Receiving...
+[2020-09-29 12:58:52,198]     [36mReceived: [0m
+[2020-09-29 12:58:52,198]   [35m[1mTest Step: Post- test case callback: "get_case_info"[0m
+[2020-09-29 12:58:52,198]     Info: TransactionID: 
+                              b'_0'
+[2020-09-29 12:58:52,198]     Info: domain_part: 
+                              b'baidu'
+[2020-09-29 12:58:52,198]     Info: aname: 
+                              b''
+[2020-09-29 12:58:52,198]     Info: domain_padding: 
+                              b'com'
+[2020-09-29 12:58:52,198]     Info: payload: 
+                              b'\x01'
+[2020-09-29 12:58:52,198]   [35m[1mTest Step: Cleaning up connections from callbacks[0m
+[2020-09-29 12:58:52,198]     Info: Closing target connection...
+[2020-09-29 12:58:52,198]     Info: Connection closed.
+[2020-09-29 12:58:52,198]   [35m[1mTest Step: Sleep between tests.[0m
+[2020-09-29 12:58:52,198]     Info: sleeping for 1.000000 seconds
+[2020-09-29 12:58:53,265] [33m[1mTest Case: 8: Query.TransactionID.8[0m
+[2020-09-29 12:58:53,265]     Info: Type: RandomData. Default value: b'\x8e\x07'. Case 8 of 6086 overall.
+[2020-09-29 12:58:53,265]     Info: Opening target connection (192.168.1.1:53)...
+[2020-09-29 12:58:53,265]     Info: Connection opened.
+[2020-09-29 12:58:53,265]   [35m[1mTest Step: Pre_Send callback: "check_alive"[0m
+[2020-09-29 12:58:56,307]       [32m[1mCheck OK: 设备存活![0m
+[2020-09-29 12:58:56,307]   [35m[1mTest Step: Fuzzing Node 'Query'[0m
+[2020-09-29 12:58:56,308]     Info: Sending 27 bytes...
+[2020-09-29 12:58:56,308]     [36mTransmitted 27 bytes: 8a 70 01 00 00 01 00 00 00 00 00 00 05 62 61 69 64 75 03 63 6f 6d 00 00 01 00 01 b'\x8ap\x01\x00\x00\x01\x00\x00\x00\x00\x00\x00\x05baidu\x03com\x00\x00\x01\x00\x01'[0m
+[2020-09-29 12:58:56,308]     Info: Receiving...
+[2020-09-29 12:59:01,414]     [36mReceived: [0m
+[2020-09-29 12:59:01,414]   [35m[1mTest Step: Post- test case callback: "get_case_info"[0m
+[2020-09-29 12:59:01,414]     Info: TransactionID: 
+                              b'\x8ap'
+[2020-09-29 12:59:01,414]     Info: domain_part: 
+                              b'baidu'
+[2020-09-29 12:59:01,414]     Info: aname: 
+                              b''
+[2020-09-29 12:59:01,414]     Info: domain_padding: 
+                              b'com'
+[2020-09-29 12:59:01,414]     Info: payload: 
+                              b'\x01'
+[2020-09-29 12:59:01,414]   [35m[1mTest Step: Cleaning up connections from callbacks[0m
+[2020-09-29 12:59:01,414]     Info: Closing target connection...
+[2020-09-29 12:59:01,414]     Info: Connection closed.
+[2020-09-29 12:59:01,414]   [35m[1mTest Step: Sleep between tests.[0m
+[2020-09-29 12:59:01,415]     Info: sleeping for 1.000000 seconds
+[2020-09-29 12:59:02,520] [33m[1mTest Case: 9: Query.TransactionID.9[0m
+[2020-09-29 12:59:02,520]     Info: Type: RandomData. Default value: b'\x8e\x07'. Case 9 of 6086 overall.
+[2020-09-29 12:59:02,520]     Info: Opening target connection (192.168.1.1:53)...
+[2020-09-29 12:59:02,520]     Info: Connection opened.
+[2020-09-29 12:59:02,520]   [35m[1mTest Step: Pre_Send callback: "check_alive"[0m
+[2020-09-29 12:59:05,580]       [32m[1mCheck OK: 设备存活![0m
+[2020-09-29 12:59:05,580]   [35m[1mTest Step: Fuzzing Node 'Query'[0m
+[2020-09-29 12:59:05,581]     Info: Sending 27 bytes...
+[2020-09-29 12:59:05,581]     [36mTransmitted 27 bytes: c9 5e 01 00 00 01 00 00 00 00 00 00 05 62 61 69 64 75 03 63 6f 6d 00 00 01 00 01 b'\xc9^\x01\x00\x00\x01\x00\x00\x00\x00\x00\x00\x05baidu\x03com\x00\x00\x01\x00\x01'[0m
+[2020-09-29 12:59:05,581]     Info: Receiving...
+[2020-09-29 12:59:10,633]     [36mReceived: [0m
+[2020-09-29 12:59:10,633]   [35m[1mTest Step: Post- test case callback: "get_case_info"[0m
+[2020-09-29 12:59:10,633]     Info: TransactionID: 
+                              b'\xc9^'
+[2020-09-29 12:59:10,633]     Info: domain_part: 
+                              b'baidu'
+[2020-09-29 12:59:10,633]     Info: aname: 
+                              b''
+[2020-09-29 12:59:10,633]     Info: domain_padding: 
+                              b'com'
+[2020-09-29 12:59:10,633]     Info: payload: 
+                              b'\x01'
+[2020-09-29 12:59:10,633]   [35m[1mTest Step: Cleaning up connections from callbacks[0m
+[2020-09-29 12:59:10,633]     Info: Closing target connection...
+[2020-09-29 12:59:10,633]     Info: Connection closed.
+[2020-09-29 12:59:10,633]   [35m[1mTest Step: Sleep between tests.[0m
+[2020-09-29 12:59:10,633]     Info: sleeping for 1.000000 seconds
+[2020-09-29 12:59:11,688] [33m[1mTest Case: 10: Query.TransactionID.10[0m
+[2020-09-29 12:59:11,688]     Info: Type: RandomData. Default value: b'\x8e\x07'. Case 10 of 6086 overall.
+[2020-09-29 12:59:11,688]     Info: Opening target connection (192.168.1.1:53)...
+[2020-09-29 12:59:11,689]     Info: Connection opened.
+[2020-09-29 12:59:11,689]   [35m[1mTest Step: Pre_Send callback: "check_alive"[0m
+[2020-09-29 12:59:14,740]       [32m[1mCheck OK: 设备存活![0m
+[2020-09-29 12:59:14,741]   [35m[1mTest Step: Fuzzing Node 'Query'[0m
+[2020-09-29 12:59:14,741]     Info: Sending 27 bytes...
+[2020-09-29 12:59:14,741]     [36mTransmitted 27 bytes: 41 d6 01 00 00 01 00 00 00 00 00 00 05 62 61 69 64 75 03 63 6f 6d 00 00 01 00 01 b'A\xd6\x01\x00\x00\x01\x00\x00\x00\x00\x00\x00\x05baidu\x03com\x00\x00\x01\x00\x01'[0m
+[2020-09-29 12:59:14,741]     Info: Receiving...
+[2020-09-29 12:59:19,847]     [36mReceived: [0m
+[2020-09-29 12:59:19,847]   [35m[1mTest Step: Post- test case callback: "get_case_info"[0m
+[2020-09-29 12:59:19,847]     Info: TransactionID: 
+                              b'A\xd6'
+[2020-09-29 12:59:19,847]     Info: domain_part: 
+                              b'baidu'
+[2020-09-29 12:59:19,847]     Info: aname: 
+                              b''
+[2020-09-29 12:59:19,847]     Info: domain_padding: 
+                              b'com'
+[2020-09-29 12:59:19,847]     Info: payload: 
+                              b'\x01'
+[2020-09-29 12:59:19,847]   [35m[1mTest Step: Cleaning up connections from callbacks[0m
+[2020-09-29 12:59:19,847]     Info: Closing target connection...
+[2020-09-29 12:59:19,847]     Info: Connection closed.
+[2020-09-29 12:59:19,847]   [35m[1mTest Step: Sleep between tests.[0m
+[2020-09-29 12:59:19,847]     Info: sleeping for 1.000000 seconds
+[2020-09-29 12:59:20,889] [33m[1mTest Case: 11: Query.TransactionID.11[0m
+[2020-09-29 12:59:20,889]     Info: Type: RandomData. Default value: b'\x8e\x07'. Case 11 of 6086 overall.
+[2020-09-29 12:59:20,889]     Info: Opening target connection (192.168.1.1:53)...
+[2020-09-29 12:59:20,889]     Info: Connection opened.
+[2020-09-29 12:59:20,889]   [35m[1mTest Step: Pre_Send callback: "check_alive"[0m
+[2020-09-29 12:59:23,940]       [32m[1mCheck OK: 设备存活![0m
+[2020-09-29 12:59:23,940]   [35m[1mTest Step: Fuzzing Node 'Query'[0m
+[2020-09-29 12:59:23,940]     Info: Sending 27 bytes...
+[2020-09-29 12:59:23,941]     [36mTransmitted 27 bytes: 0a c3 01 00 00 01 00 00 00 00 00 00 05 62 61 69 64 75 03 63 6f 6d 00 00 01 00 01 b'\n\xc3\x01\x00\x00\x01\x00\x00\x00\x00\x00\x00\x05baidu\x03com\x00\x00\x01\x00\x01'[0m
+[2020-09-29 12:59:23,941]     Info: Receiving...
+[2020-09-29 12:59:29,062]     [36mReceived: [0m
+[2020-09-29 12:59:29,062]   [35m[1mTest Step: Post- test case callback: "get_case_info"[0m
+[2020-09-29 12:59:29,062]     Info: TransactionID: 
+                              b'\n\xc3'
+[2020-09-29 12:59:29,062]     Info: domain_part: 
+                              b'baidu'
+[2020-09-29 12:59:29,062]     Info: aname: 
+                              b''
+[2020-09-29 12:59:29,062]     Info: domain_padding: 
+                              b'com'
+[2020-09-29 12:59:29,062]     Info: payload: 
+                              b'\x01'
+[2020-09-29 12:59:29,062]   [35m[1mTest Step: Cleaning up connections from callbacks[0m
+[2020-09-29 12:59:29,062]     Info: Closing target connection...
+[2020-09-29 12:59:29,062]     Info: Connection closed.
+[2020-09-29 12:59:29,062]   [35m[1mTest Step: Sleep between tests.[0m
+[2020-09-29 12:59:29,062]     Info: sleeping for 1.000000 seconds
+[2020-09-29 12:59:30,113] [33m[1mTest Case: 12: Query.TransactionID.12[0m
+[2020-09-29 12:59:30,113]     Info: Type: RandomData. Default value: b'\x8e\x07'. Case 12 of 6086 overall.
+[2020-09-29 12:59:30,113]     Info: Opening target connection (192.168.1.1:53)...
+[2020-09-29 12:59:30,113]     Info: Connection opened.
+[2020-09-29 12:59:30,113]   [35m[1mTest Step: Pre_Send callback: "check_alive"[0m
+[2020-09-29 12:59:33,204]       [32m[1mCheck OK: 设备存活![0m
+[2020-09-29 12:59:33,205]   [35m[1mTest Step: Fuzzing Node 'Query'[0m
+[2020-09-29 12:59:33,205]     Info: Sending 27 bytes...
+[2020-09-29 12:59:33,208]     [36mTransmitted 27 bytes: 2c 0a 01 00 00 01 00 00 00 00 00 00 05 62 61 69 64 75 03 63 6f 6d 00 00 01 00 01 b',\n\x01\x00\x00\x01\x00\x00\x00\x00\x00\x00\x05baidu\x03com\x00\x00\x01\x00\x01'[0m
+[2020-09-29 12:59:33,208]     Info: Receiving...
+[2020-09-29 12:59:38,278]     [36mReceived: [0m
+[2020-09-29 12:59:38,278]   [35m[1mTest Step: Post- test case callback: "get_case_info"[0m
+[2020-09-29 12:59:38,278]     Info: TransactionID: 
+                              b',\n'
+[2020-09-29 12:59:38,278]     Info: domain_part: 
+                              b'baidu'
+[2020-09-29 12:59:38,278]     Info: aname: 
+                              b''
+[2020-09-29 12:59:38,278]     Info: domain_padding: 
+                              b'com'
+[2020-09-29 12:59:38,278]     Info: payload: 
+                              b'\x01'
+[2020-09-29 12:59:38,278]   [35m[1mTest Step: Cleaning up connections from callbacks[0m
+[2020-09-29 12:59:38,278]     Info: Closing target connection...
+[2020-09-29 12:59:38,278]     Info: Connection closed.
+[2020-09-29 12:59:38,278]   [35m[1mTest Step: Sleep between tests.[0m
+[2020-09-29 12:59:38,278]     Info: sleeping for 1.000000 seconds
+[2020-09-29 12:59:39,323] [33m[1mTest Case: 13: Query.TransactionID.13[0m
+[2020-09-29 12:59:39,323]     Info: Type: RandomData. Default value: b'\x8e\x07'. Case 13 of 6086 overall.
+[2020-09-29 12:59:39,323]     Info: Opening target connection (192.168.1.1:53)...
+[2020-09-29 12:59:39,324]     Info: Connection opened.
+[2020-09-29 12:59:39,324]   [35m[1mTest Step: Pre_Send callback: "check_alive"[0m
+[2020-09-29 12:59:42,373]       [32m[1mCheck OK: 设备存活![0m
+[2020-09-29 12:59:42,373]   [35m[1mTest Step: Fuzzing Node 'Query'[0m
+[2020-09-29 12:59:42,373]     Info: Sending 27 bytes...
+[2020-09-29 12:59:42,374]     [36mTransmitted 27 bytes: 9b 76 01 00 00 01 00 00 00 00 00 00 05 62 61 69 64 75 03 63 6f 6d 00 00 01 00 01 b'\x9bv\x01\x00\x00\x01\x00\x00\x00\x00\x00\x00\x05baidu\x03com\x00\x00\x01\x00\x01'[0m
+[2020-09-29 12:59:42,374]     Info: Receiving...
+[2020-09-29 12:59:47,494]     [36mReceived: [0m
+[2020-09-29 12:59:47,494]   [35m[1mTest Step: Post- test case callback: "get_case_info"[0m
+[2020-09-29 12:59:47,494]     Info: TransactionID: 
+                              b'\x9bv'
+[2020-09-29 12:59:47,494]     Info: domain_part: 
+                              b'baidu'
+[2020-09-29 12:59:47,494]     Info: aname: 
+                              b''
+[2020-09-29 12:59:47,494]     Info: domain_padding: 
+                              b'com'
+[2020-09-29 12:59:47,494]     Info: payload: 
+                              b'\x01'
+[2020-09-29 12:59:47,495]   [35m[1mTest Step: Cleaning up connections from callbacks[0m
+[2020-09-29 12:59:47,495]     Info: Closing target connection...
+[2020-09-29 12:59:47,495]     Info: Connection closed.
+[2020-09-29 12:59:47,495]   [35m[1mTest Step: Sleep between tests.[0m
+[2020-09-29 12:59:47,495]     Info: sleeping for 1.000000 seconds
+[2020-09-29 12:59:48,530] [33m[1mTest Case: 14: Query.TransactionID.14[0m
+[2020-09-29 12:59:48,530]     Info: Type: RandomData. Default value: b'\x8e\x07'. Case 14 of 6086 overall.
+[2020-09-29 12:59:48,530]     Info: Opening target connection (192.168.1.1:53)...
+[2020-09-29 12:59:48,530]     Info: Connection opened.
+[2020-09-29 12:59:48,531]   [35m[1mTest Step: Pre_Send callback: "check_alive"[0m
+[2020-09-29 12:59:51,575]       [32m[1mCheck OK: 设备存活![0m
+[2020-09-29 12:59:51,576]   [35m[1mTest Step: Fuzzing Node 'Query'[0m
+[2020-09-29 12:59:51,576]     Info: Sending 27 bytes...
+[2020-09-29 12:59:51,576]     [36mTransmitted 27 bytes: 83 4e 01 00 00 01 00 00 00 00 00 00 05 62 61 69 64 75 03 63 6f 6d 00 00 01 00 01 b'\x83N\x01\x00\x00\x01\x00\x00\x00\x00\x00\x00\x05baidu\x03com\x00\x00\x01\x00\x01'[0m
+[2020-09-29 12:59:51,576]     Info: Receiving...
+[2020-09-29 12:59:56,709]     [36mReceived: [0m
+[2020-09-29 12:59:56,710]   [35m[1mTest Step: Post- test case callback: "get_case_info"[0m
+[2020-09-29 12:59:56,710]     Info: TransactionID: 
+                              b'\x83N'
+[2020-09-29 12:59:56,710]     Info: domain_part: 
+                              b'baidu'
+[2020-09-29 12:59:56,710]     Info: aname: 
+                              b''
+[2020-09-29 12:59:56,710]     Info: domain_padding: 
+                              b'com'
+[2020-09-29 12:59:56,710]     Info: payload: 
+                              b'\x01'
+[2020-09-29 12:59:56,710]   [35m[1mTest Step: Cleaning up connections from callbacks[0m
+[2020-09-29 12:59:56,710]     Info: Closing target connection...
+[2020-09-29 12:59:56,710]     Info: Connection closed.
+[2020-09-29 12:59:56,710]   [35m[1mTest Step: Sleep between tests.[0m
+[2020-09-29 12:59:56,710]     Info: sleeping for 1.000000 seconds
+[2020-09-29 12:59:57,752] [33m[1mTest Case: 15: Query.TransactionID.15[0m
+[2020-09-29 12:59:57,752]     Info: Type: RandomData. Default value: b'\x8e\x07'. Case 15 of 6086 overall.
+[2020-09-29 12:59:57,752]     Info: Opening target connection (192.168.1.1:53)...
+[2020-09-29 12:59:57,753]     Info: Connection opened.
+[2020-09-29 12:59:57,753]   [35m[1mTest Step: Pre_Send callback: "check_alive"[0m
+[2020-09-29 13:00:00,790]       [32m[1mCheck OK: 设备存活![0m
+[2020-09-29 13:00:00,791]   [35m[1mTest Step: Fuzzing Node 'Query'[0m
+[2020-09-29 13:00:00,791]     Info: Sending 27 bytes...
+[2020-09-29 13:00:00,792]     [36mTransmitted 27 bytes: eb 6f 01 00 00 01 00 00 00 00 00 00 05 62 61 69 64 75 03 63 6f 6d 00 00 01 00 01 b'\xebo\x01\x00\x00\x01\x00\x00\x00\x00\x00\x00\x05baidu\x03com\x00\x00\x01\x00\x01'[0m
+[2020-09-29 13:00:00,792]     Info: Receiving...
+[2020-09-29 13:00:05,926]     [36mReceived: [0m
+[2020-09-29 13:00:05,926]   [35m[1mTest Step: Post- test case callback: "get_case_info"[0m
+[2020-09-29 13:00:05,926]     Info: TransactionID: 
+                              b'\xebo'
+[2020-09-29 13:00:05,926]     Info: domain_part: 
+                              b'baidu'
+[2020-09-29 13:00:05,926]     Info: aname: 
+                              b''
+[2020-09-29 13:00:05,926]     Info: domain_padding: 
+                              b'com'
+[2020-09-29 13:00:05,926]     Info: payload: 
+                              b'\x01'
+[2020-09-29 13:00:05,926]   [35m[1mTest Step: Cleaning up connections from callbacks[0m
+[2020-09-29 13:00:05,926]     Info: Closing target connection...
+[2020-09-29 13:00:05,926]     Info: Connection closed.
+[2020-09-29 13:00:05,926]   [35m[1mTest Step: Sleep between tests.[0m
+[2020-09-29 13:00:05,926]     Info: sleeping for 1.000000 seconds
+[2020-09-29 13:00:06,966] [33m[1mTest Case: 16: Query.TransactionID.16[0m
+[2020-09-29 13:00:06,966]     Info: Type: RandomData. Default value: b'\x8e\x07'. Case 16 of 6086 overall.
+[2020-09-29 13:00:06,966]     Info: Opening target connection (192.168.1.1:53)...
+[2020-09-29 13:00:06,966]     Info: Connection opened.
+[2020-09-29 13:00:06,966]   [35m[1mTest Step: Pre_Send callback: "check_alive"[0m
+[2020-09-29 13:00:10,001]       [32m[1mCheck OK: 设备存活![0m
+[2020-09-29 13:00:10,001]   [35m[1mTest Step: Fuzzing Node 'Query'[0m
+[2020-09-29 13:00:10,001]     Info: Sending 27 bytes...
+[2020-09-29 13:00:10,002]     [36mTransmitted 27 bytes: cd 9c 01 00 00 01 00 00 00 00 00 00 05 62 61 69 64 75 03 63 6f 6d 00 00 01 00 01 b'\xcd\x9c\x01\x00\x00\x01\x00\x00\x00\x00\x00\x00\x05baidu\x03com\x00\x00\x01\x00\x01'[0m
+[2020-09-29 13:00:10,002]     Info: Receiving...
+[2020-09-29 13:00:15,141]     [36mReceived: [0m
+[2020-09-29 13:00:15,141]   [35m[1mTest Step: Post- test case callback: "get_case_info"[0m
+[2020-09-29 13:00:15,141]     Info: TransactionID: 
+                              b'\xcd\x9c'
+[2020-09-29 13:00:15,142]     Info: domain_part: 
+                              b'baidu'
+[2020-09-29 13:00:15,142]     Info: aname: 
+                              b''
+[2020-09-29 13:00:15,142]     Info: domain_padding: 
+                              b'com'
+[2020-09-29 13:00:15,142]     Info: payload: 
+                              b'\x01'
+[2020-09-29 13:00:15,142]   [35m[1mTest Step: Cleaning up connections from callbacks[0m
+[2020-09-29 13:00:15,142]     Info: Closing target connection...
+[2020-09-29 13:00:15,142]     Info: Connection closed.
+[2020-09-29 13:00:15,142]   [35m[1mTest Step: Sleep between tests.[0m
+[2020-09-29 13:00:15,142]     Info: sleeping for 1.000000 seconds
+[2020-09-29 13:00:16,187] [33m[1mTest Case: 17: Query.TransactionID.17[0m
+[2020-09-29 13:00:16,187]     Info: Type: RandomData. Default value: b'\x8e\x07'. Case 17 of 6086 overall.
+[2020-09-29 13:00:16,187]     Info: Opening target connection (192.168.1.1:53)...
+[2020-09-29 13:00:16,188]     Info: Connection opened.
+[2020-09-29 13:00:16,188]   [35m[1mTest Step: Pre_Send callback: "check_alive"[0m
+[2020-09-29 13:00:19,209]       [32m[1mCheck OK: 设备存活![0m
+[2020-09-29 13:00:19,209]   [35m[1mTest Step: Fuzzing Node 'Query'[0m
+[2020-09-29 13:00:19,209]     Info: Sending 27 bytes...
+[2020-09-29 13:00:19,210]     [36mTransmitted 27 bytes: 5f 3c 01 00 00 01 00 00 00 00 00 00 05 62 61 69 64 75 03 63 6f 6d 00 00 01 00 01 b'_<\x01\x00\x00\x01\x00\x00\x00\x00\x00\x00\x05baidu\x03com\x00\x00\x01\x00\x01'[0m
+[2020-09-29 13:00:19,210]     Info: Receiving...
+[2020-09-29 13:00:24,359]     [36mReceived: [0m
+[2020-09-29 13:00:24,359]   [35m[1mTest Step: Post- test case callback: "get_case_info"[0m
+[2020-09-29 13:00:24,359]     Info: TransactionID: 
+                              b'_<'
+[2020-09-29 13:00:24,359]     Info: domain_part: 
+                              b'baidu'
+[2020-09-29 13:00:24,359]     Info: aname: 
+                              b''
+[2020-09-29 13:00:24,359]     Info: domain_padding: 
+                              b'com'
+[2020-09-29 13:00:24,359]     Info: payload: 
+                              b'\x01'
+[2020-09-29 13:00:24,359]   [35m[1mTest Step: Cleaning up connections from callbacks[0m
+[2020-09-29 13:00:24,359]     Info: Closing target connection...
+[2020-09-29 13:00:24,359]     Info: Connection closed.
+[2020-09-29 13:00:24,359]   [35m[1mTest Step: Sleep between tests.[0m
+[2020-09-29 13:00:24,359]     Info: sleeping for 1.000000 seconds
+[2020-09-29 13:00:25,398] [33m[1mTest Case: 18: Query.TransactionID.18[0m
+[2020-09-29 13:00:25,398]     Info: Type: RandomData. Default value: b'\x8e\x07'. Case 18 of 6086 overall.
+[2020-09-29 13:00:25,398]     Info: Opening target connection (192.168.1.1:53)...
+[2020-09-29 13:00:25,399]     Info: Connection opened.
+[2020-09-29 13:00:25,399]   [35m[1mTest Step: Pre_Send callback: "check_alive"[0m
+[2020-09-29 13:00:28,445]       [32m[1mCheck OK: 设备存活![0m
+[2020-09-29 13:00:28,445]   [35m[1mTest Step: Fuzzing Node 'Query'[0m
+[2020-09-29 13:00:28,446]     Info: Sending 27 bytes...
+[2020-09-29 13:00:28,446]     [36mTransmitted 27 bytes: 86 ba 01 00 00 01 00 00 00 00 00 00 05 62 61 69 64 75 03 63 6f 6d 00 00 01 00 01 b'\x86\xba\x01\x00\x00\x01\x00\x00\x00\x00\x00\x00\x05baidu\x03com\x00\x00\x01\x00\x01'[0m
+[2020-09-29 13:00:28,446]     Info: Receiving...
+[2020-09-29 13:00:33,574]     [36mReceived: [0m
+[2020-09-29 13:00:33,574]   [35m[1mTest Step: Post- test case callback: "get_case_info"[0m
+[2020-09-29 13:00:33,574]     Info: TransactionID: 
+                              b'\x86\xba'
+[2020-09-29 13:00:33,574]     Info: domain_part: 
+                              b'baidu'
+[2020-09-29 13:00:33,574]     Info: aname: 
+                              b''
+[2020-09-29 13:00:33,574]     Info: domain_padding: 
+                              b'com'
+[2020-09-29 13:00:33,574]     Info: payload: 
+                              b'\x01'
+[2020-09-29 13:00:33,574]   [35m[1mTest Step: Cleaning up connections from callbacks[0m
+[2020-09-29 13:00:33,574]     Info: Closing target connection...
+[2020-09-29 13:00:33,574]     Info: Connection closed.
+[2020-09-29 13:00:33,574]   [35m[1mTest Step: Sleep between tests.[0m
+[2020-09-29 13:00:33,574]     Info: sleeping for 1.000000 seconds
+[2020-09-29 13:00:34,639] [33m[1mTest Case: 19: Query.TransactionID.19[0m
+[2020-09-29 13:00:34,639]     Info: Type: RandomData. Default value: b'\x8e\x07'. Case 19 of 6086 overall.
+[2020-09-29 13:00:34,639]     Info: Opening target connection (192.168.1.1:53)...
+[2020-09-29 13:00:34,639]     Info: Connection opened.
+[2020-09-29 13:00:34,639]   [35m[1mTest Step: Pre_Send callback: "check_alive"[0m
+[2020-09-29 13:00:37,698]       [32m[1mCheck OK: 设备存活![0m
+[2020-09-29 13:00:37,698]   [35m[1mTest Step: Fuzzing Node 'Query'[0m
+[2020-09-29 13:00:37,699]     Info: Sending 27 bytes...
+[2020-09-29 13:00:37,699]     [36mTransmitted 27 bytes: de 8b 01 00 00 01 00 00 00 00 00 00 05 62 61 69 64 75 03 63 6f 6d 00 00 01 00 01 b'\xde\x8b\x01\x00\x00\x01\x00\x00\x00\x00\x00\x00\x05baidu\x03com\x00\x00\x01\x00\x01'[0m
+[2020-09-29 13:00:37,700]     Info: Receiving...
+[2020-09-29 13:00:42,790]     [36mReceived: [0m
+[2020-09-29 13:00:42,790]   [35m[1mTest Step: Post- test case callback: "get_case_info"[0m
+[2020-09-29 13:00:42,790]     Info: TransactionID: 
+                              b'\xde\x8b'
+[2020-09-29 13:00:42,790]     Info: domain_part: 
+                              b'baidu'
+[2020-09-29 13:00:42,790]     Info: aname: 
+                              b''
+[2020-09-29 13:00:42,790]     Info: domain_padding: 
+                              b'com'
+[2020-09-29 13:00:42,790]     Info: payload: 
+                              b'\x01'
+[2020-09-29 13:00:42,790]   [35m[1mTest Step: Cleaning up connections from callbacks[0m
+[2020-09-29 13:00:42,790]     Info: Closing target connection...
+[2020-09-29 13:00:42,790]     Info: Connection closed.
+[2020-09-29 13:00:42,790]   [35m[1mTest Step: Sleep between tests.[0m
+[2020-09-29 13:00:42,790]     Info: sleeping for 1.000000 seconds
+[2020-09-29 13:00:43,844] [33m[1mTest Case: 20: Query.TransactionID.20[0m
+[2020-09-29 13:00:43,844]     Info: Type: RandomData. Default value: b'\x8e\x07'. Case 20 of 6086 overall.
+[2020-09-29 13:00:43,844]     Info: Opening target connection (192.168.1.1:53)...
+[2020-09-29 13:00:43,845]     Info: Connection opened.
+[2020-09-29 13:00:43,845]   [35m[1mTest Step: Pre_Send callback: "check_alive"[0m
+[2020-09-29 13:00:46,861]       [32m[1mCheck OK: 设备存活![0m
+[2020-09-29 13:00:46,861]   [35m[1mTest Step: Fuzzing Node 'Query'[0m
+[2020-09-29 13:00:46,862]     Info: Sending 27 bytes...
+[2020-09-29 13:00:46,862]     [36mTransmitted 27 bytes: 46 cb 01 00 00 01 00 00 00 00 00 00 05 62 61 69 64 75 03 63 6f 6d 00 00 01 00 01 b'F\xcb\x01\x00\x00\x01\x00\x00\x00\x00\x00\x00\x05baidu\x03com\x00\x00\x01\x00\x01'[0m
+[2020-09-29 13:00:46,862]     Info: Receiving...
+[2020-09-29 13:00:52,006]     [36mReceived: [0m
+[2020-09-29 13:00:52,006]   [35m[1mTest Step: Post- test case callback: "get_case_info"[0m
+[2020-09-29 13:00:52,006]     Info: TransactionID: 
+                              b'F\xcb'
+[2020-09-29 13:00:52,006]     Info: domain_part: 
+                              b'baidu'
+[2020-09-29 13:00:52,006]     Info: aname: 
+                              b''
+[2020-09-29 13:00:52,006]     Info: domain_padding: 
+                              b'com'
+[2020-09-29 13:00:52,006]     Info: payload: 
+                              b'\x01'
+[2020-09-29 13:00:52,006]   [35m[1mTest Step: Cleaning up connections from callbacks[0m
+[2020-09-29 13:00:52,006]     Info: Closing target connection...
+[2020-09-29 13:00:52,006]     Info: Connection closed.
+[2020-09-29 13:00:52,006]   [35m[1mTest Step: Sleep between tests.[0m
+[2020-09-29 13:00:52,006]     Info: sleeping for 1.000000 seconds
+[2020-09-29 13:00:53,033] [33m[1mTest Case: 21: Query.TransactionID.21[0m
+[2020-09-29 13:00:53,033]     Info: Type: RandomData. Default value: b'\x8e\x07'. Case 21 of 6086 overall.
+[2020-09-29 13:00:53,033]     Info: Opening target connection (192.168.1.1:53)...
+[2020-09-29 13:00:53,033]     Info: Connection opened.
+[2020-09-29 13:00:53,033]   [35m[1mTest Step: Pre_Send callback: "check_alive"[0m
+[2020-09-29 13:00:56,050]       [32m[1mCheck OK: 设备存活![0m
+[2020-09-29 13:00:56,050]   [35m[1mTest Step: Fuzzing Node 'Query'[0m
+[2020-09-29 13:00:56,050]     Info: Sending 27 bytes...
+[2020-09-29 13:00:56,050]     [36mTransmitted 27 bytes: a6 40 01 00 00 01 00 00 00 00 00 00 05 62 61 69 64 75 03 63 6f 6d 00 00 01 00 01 b'\xa6@\x01\x00\x00\x01\x00\x00\x00\x00\x00\x00\x05baidu\x03com\x00\x00\x01\x00\x01'[0m
+[2020-09-29 13:00:56,050]     Info: Receiving...
+[2020-09-29 13:01:01,222]     [36mReceived: [0m
+[2020-09-29 13:01:01,222]   [35m[1mTest Step: Post- test case callback: "get_case_info"[0m
+[2020-09-29 13:01:01,222]     Info: TransactionID: 
+                              b'\xa6@'
+[2020-09-29 13:01:01,222]     Info: domain_part: 
+                              b'baidu'
+[2020-09-29 13:01:01,223]     Info: aname: 
+                              b''
+[2020-09-29 13:01:01,223]     Info: domain_padding: 
+                              b'com'
+[2020-09-29 13:01:01,223]     Info: payload: 
+                              b'\x01'
+[2020-09-29 13:01:01,223]   [35m[1mTest Step: Cleaning up connections from callbacks[0m
+[2020-09-29 13:01:01,223]     Info: Closing target connection...
+[2020-09-29 13:01:01,223]     Info: Connection closed.
+[2020-09-29 13:01:01,223]   [35m[1mTest Step: Sleep between tests.[0m
+[2020-09-29 13:01:01,223]     Info: sleeping for 1.000000 seconds
+[2020-09-29 13:01:02,321] [33m[1mTest Case: 22: Query.TransactionID.22[0m
+[2020-09-29 13:01:02,321]     Info: Type: RandomData. Default value: b'\x8e\x07'. Case 22 of 6086 overall.
+[2020-09-29 13:01:02,321]     Info: Opening target connection (192.168.1.1:53)...
+[2020-09-29 13:01:02,321]     Info: Connection opened.
+[2020-09-29 13:01:02,321]   [35m[1mTest Step: Pre_Send callback: "check_alive"[0m
+[2020-09-29 13:01:05,355]       [32m[1mCheck OK: 设备存活![0m
+[2020-09-29 13:01:05,355]   [35m[1mTest Step: Fuzzing Node 'Query'[0m
+[2020-09-29 13:01:05,355]     Info: Sending 27 bytes...
+[2020-09-29 13:01:05,355]     [36mTransmitted 27 bytes: 7e ae 01 00 00 01 00 00 00 00 00 00 05 62 61 69 64 75 03 63 6f 6d 00 00 01 00 01 b'~\xae\x01\x00\x00\x01\x00\x00\x00\x00\x00\x00\x05baidu\x03com\x00\x00\x01\x00\x01'[0m
+[2020-09-29 13:01:05,355]     Info: Receiving...
+[2020-09-29 13:01:10,438]     [36mReceived: [0m
+[2020-09-29 13:01:10,438]   [35m[1mTest Step: Post- test case callback: "get_case_info"[0m
+[2020-09-29 13:01:10,438]     Info: TransactionID: 
+                              b'~\xae'
+[2020-09-29 13:01:10,438]     Info: domain_part: 
+                              b'baidu'
+[2020-09-29 13:01:10,438]     Info: aname: 
+                              b''
+[2020-09-29 13:01:10,438]     Info: domain_padding: 
+                              b'com'
+[2020-09-29 13:01:10,438]     Info: payload: 
+                              b'\x01'
+[2020-09-29 13:01:10,438]   [35m[1mTest Step: Cleaning up connections from callbacks[0m
+[2020-09-29 13:01:10,439]     Info: Closing target connection...
+[2020-09-29 13:01:10,439]     Info: Connection closed.
+[2020-09-29 13:01:10,439]   [35m[1mTest Step: Sleep between tests.[0m
+[2020-09-29 13:01:10,439]     Info: sleeping for 1.000000 seconds
+[2020-09-29 13:01:11,469] [33m[1mTest Case: 23: Query.TransactionID.23[0m
+[2020-09-29 13:01:11,469]     Info: Type: RandomData. Default value: b'\x8e\x07'. Case 23 of 6086 overall.
+[2020-09-29 13:01:11,469]     Info: Opening target connection (192.168.1.1:53)...
+[2020-09-29 13:01:11,469]     Info: Connection opened.
+[2020-09-29 13:01:11,469]   [35m[1mTest Step: Pre_Send callback: "check_alive"[0m
+[2020-09-29 13:01:14,504]       [32m[1mCheck OK: 设备存活![0m
+[2020-09-29 13:01:14,504]   [35m[1mTest Step: Fuzzing Node 'Query'[0m
+[2020-09-29 13:01:14,505]     Info: Sending 27 bytes...
+[2020-09-29 13:01:14,505]     [36mTransmitted 27 bytes: cb 25 01 00 00 01 00 00 00 00 00 00 05 62 61 69 64 75 03 63 6f 6d 00 00 01 00 01 b'\xcb%\x01\x00\x00\x01\x00\x00\x00\x00\x00\x00\x05baidu\x03com\x00\x00\x01\x00\x01'[0m
+[2020-09-29 13:01:14,505]     Info: Receiving...
+[2020-09-29 13:01:19,653]     [36mReceived: [0m
+[2020-09-29 13:01:19,654]   [35m[1mTest Step: Post- test case callback: "get_case_info"[0m
+[2020-09-29 13:01:19,654]     Info: TransactionID: 
+                              b'\xcb%'
+[2020-09-29 13:01:19,654]     Info: domain_part: 
+                              b'baidu'
+[2020-09-29 13:01:19,654]     Info: aname: 
+                              b''
+[2020-09-29 13:01:19,654]     Info: domain_padding: 
+                              b'com'
+[2020-09-29 13:01:19,655]     Info: payload: 
+                              b'\x01'
+[2020-09-29 13:01:19,655]   [35m[1mTest Step: Cleaning up connections from callbacks[0m
+[2020-09-29 13:01:19,655]     Info: Closing target connection...
+[2020-09-29 13:01:19,655]     Info: Connection closed.
+[2020-09-29 13:01:19,655]   [35m[1mTest Step: Sleep between tests.[0m
+[2020-09-29 13:01:19,655]     Info: sleeping for 1.000000 seconds
+[2020-09-29 13:01:20,705] [33m[1mTest Case: 24: Query.TransactionID.24[0m
+[2020-09-29 13:01:20,706]     Info: Type: RandomData. Default value: b'\x8e\x07'. Case 24 of 6086 overall.
+[2020-09-29 13:01:20,706]     Info: Opening target connection (192.168.1.1:53)...
+[2020-09-29 13:01:20,706]     Info: Connection opened.
+[2020-09-29 13:01:20,706]   [35m[1mTest Step: Pre_Send callback: "check_alive"[0m
+[2020-09-29 13:01:23,736]       [32m[1mCheck OK: 设备存活![0m
+[2020-09-29 13:01:23,736]   [35m[1mTest Step: Fuzzing Node 'Query'[0m
+[2020-09-29 13:01:23,736]     Info: Sending 27 bytes...
+[2020-09-29 13:01:23,736]     [36mTransmitted 27 bytes: 05 84 01 00 00 01 00 00 00 00 00 00 05 62 61 69 64 75 03 63 6f 6d 00 00 01 00 01 b'\x05\x84\x01\x00\x00\x01\x00\x00\x00\x00\x00\x00\x05baidu\x03com\x00\x00\x01\x00\x01'[0m
+[2020-09-29 13:01:23,736]     Info: Receiving...
+[2020-09-29 13:01:28,869]     [36mReceived: [0m
+[2020-09-29 13:01:28,869]   [35m[1mTest Step: Post- test case callback: "get_case_info"[0m
+[2020-09-29 13:01:28,869]     Info: TransactionID: 
+                              b'\x05\x84'
+[2020-09-29 13:01:28,869]     Info: domain_part: 
+                              b'baidu'
+[2020-09-29 13:01:28,869]     Info: aname: 
+                              b''
+[2020-09-29 13:01:28,869]     Info: domain_padding: 
+                              b'com'
+[2020-09-29 13:01:28,869]     Info: payload: 
+                              b'\x01'
+[2020-09-29 13:01:28,869]   [35m[1mTest Step: Cleaning up connections from callbacks[0m
+[2020-09-29 13:01:28,869]     Info: Closing target connection...
+[2020-09-29 13:01:28,869]     Info: Connection closed.
+[2020-09-29 13:01:28,869]   [35m[1mTest Step: Sleep between tests.[0m
+[2020-09-29 13:01:28,869]     Info: sleeping for 1.000000 seconds
+[2020-09-29 13:01:29,922] [33m[1mTest Case: 25: Query.TransactionID.25[0m
+[2020-09-29 13:01:29,922]     Info: Type: RandomData. Default value: b'\x8e\x07'. Case 25 of 6086 overall.
+[2020-09-29 13:01:29,922]     Info: Opening target connection (192.168.1.1:53)...
+[2020-09-29 13:01:29,923]     Info: Connection opened.
+[2020-09-29 13:01:29,923]   [35m[1mTest Step: Pre_Send callback: "check_alive"[0m
+[2020-09-29 13:01:32,975]       [32m[1mCheck OK: 设备存活![0m
+[2020-09-29 13:01:32,975]   [35m[1mTest Step: Fuzzing Node 'Query'[0m
+[2020-09-29 13:01:32,976]     Info: Sending 27 bytes...
+[2020-09-29 13:01:32,976]     [36mTransmitted 27 bytes: 40 a9 01 00 00 01 00 00 00 00 00 00 05 62 61 69 64 75 03 63 6f 6d 00 00 01 00 01 b'@\xa9\x01\x00\x00\x01\x00\x00\x00\x00\x00\x00\x05baidu\x03com\x00\x00\x01\x00\x01'[0m
+[2020-09-29 13:01:32,976]     Info: Receiving...
+[2020-09-29 13:01:38,086]     [36mReceived: [0m
+[2020-09-29 13:01:38,086]   [35m[1mTest Step: Post- test case callback: "get_case_info"[0m
+[2020-09-29 13:01:38,086]     Info: TransactionID: 
+                              b'@\xa9'
+[2020-09-29 13:01:38,086]     Info: domain_part: 
+                              b'baidu'
+[2020-09-29 13:01:38,086]     Info: aname: 
+                              b''
+[2020-09-29 13:01:38,086]     Info: domain_padding: 
+                              b'com'
+[2020-09-29 13:01:38,086]     Info: payload: 
+                              b'\x01'
+[2020-09-29 13:01:38,086]   [35m[1mTest Step: Cleaning up connections from callbacks[0m
+[2020-09-29 13:01:38,086]     Info: Closing target connection...
+[2020-09-29 13:01:38,086]     Info: Connection closed.
+[2020-09-29 13:01:38,086]   [35m[1mTest Step: Sleep between tests.[0m
+[2020-09-29 13:01:38,086]     Info: sleeping for 1.000000 seconds
+[2020-09-29 13:01:39,134] [33m[1mTest Case: 26: Query.TransactionID.26[0m
+[2020-09-29 13:01:39,134]     Info: Type: RandomData. Default value: b'\x8e\x07'. Case 26 of 6086 overall.
+[2020-09-29 13:01:39,134]     Info: Opening target connection (192.168.1.1:53)...
+[2020-09-29 13:01:39,134]     Info: Connection opened.
+[2020-09-29 13:01:39,134]   [35m[1mTest Step: Pre_Send callback: "check_alive"[0m
+[2020-09-29 13:01:42,173]       [32m[1mCheck OK: 设备存活![0m
+[2020-09-29 13:01:42,173]   [35m[1mTest Step: Fuzzing Node 'Query'[0m
+[2020-09-29 13:01:42,173]     Info: Sending 27 bytes...
+[2020-09-29 13:01:42,174]     [36mTransmitted 27 bytes: 41 42 01 00 00 01 00 00 00 00 00 00 05 62 61 69 64 75 03 63 6f 6d 00 00 01 00 01 b'AB\x01\x00\x00\x01\x00\x00\x00\x00\x00\x00\x05baidu\x03com\x00\x00\x01\x00\x01'[0m
+[2020-09-29 13:01:42,174]     Info: Receiving...
+[2020-09-29 13:01:47,302]     [36mReceived: [0m
+[2020-09-29 13:01:47,302]   [35m[1mTest Step: Post- test case callback: "get_case_info"[0m
+[2020-09-29 13:01:47,302]     Info: TransactionID: 
+                              b'AB'
+[2020-09-29 13:01:47,302]     Info: domain_part: 
+                              b'baidu'
+[2020-09-29 13:01:47,302]     Info: aname: 
+                              b''
+[2020-09-29 13:01:47,302]     Info: domain_padding: 
+                              b'com'
+[2020-09-29 13:01:47,302]     Info: payload: 
+                              b'\x01'
+[2020-09-29 13:01:47,302]   [35m[1mTest Step: Cleaning up connections from callbacks[0m
+[2020-09-29 13:01:47,302]     Info: Closing target connection...
+[2020-09-29 13:01:47,303]     Info: Connection closed.
+[2020-09-29 13:01:47,303]   [35m[1mTest Step: Sleep between tests.[0m
+[2020-09-29 13:01:47,303]     Info: sleeping for 1.000000 seconds
+[2020-09-29 13:01:48,350] [33m[1mTest Case: 27: Query.TransactionID.27[0m
+[2020-09-29 13:01:48,350]     Info: Type: RandomData. Default value: b'\x8e\x07'. Case 27 of 6086 overall.
+[2020-09-29 13:01:48,350]     Info: Opening target connection (192.168.1.1:53)...
+[2020-09-29 13:01:48,351]     Info: Connection opened.
+[2020-09-29 13:01:48,351]   [35m[1mTest Step: Pre_Send callback: "check_alive"[0m
+[2020-09-29 13:01:51,381]       [32m[1mCheck OK: 设备存活![0m
+[2020-09-29 13:01:51,382]   [35m[1mTest Step: Fuzzing Node 'Query'[0m
+[2020-09-29 13:01:51,382]     Info: Sending 27 bytes...
+[2020-09-29 13:01:51,383]     [36mTransmitted 27 bytes: a6 a0 01 00 00 01 00 00 00 00 00 00 05 62 61 69 64 75 03 63 6f 6d 00 00 01 00 01 b'\xa6\xa0\x01\x00\x00\x01\x00\x00\x00\x00\x00\x00\x05baidu\x03com\x00\x00\x01\x00\x01'[0m
+[2020-09-29 13:01:51,383]     Info: Receiving...
+[2020-09-29 13:01:56,519]     [36mReceived: [0m
+[2020-09-29 13:01:56,519]   [35m[1mTest Step: Post- test case callback: "get_case_info"[0m
+[2020-09-29 13:01:56,519]     Info: TransactionID: 
+                              b'\xa6\xa0'
+[2020-09-29 13:01:56,519]     Info: domain_part: 
+                              b'baidu'
+[2020-09-29 13:01:56,519]     Info: aname: 
+                              b''
+[2020-09-29 13:01:56,519]     Info: domain_padding: 
+                              b'com'
+[2020-09-29 13:01:56,519]     Info: payload: 
+                              b'\x01'
+[2020-09-29 13:01:56,519]   [35m[1mTest Step: Cleaning up connections from callbacks[0m
+[2020-09-29 13:01:56,519]     Info: Closing target connection...
+[2020-09-29 13:01:56,519]     Info: Connection closed.
+[2020-09-29 13:01:56,520]   [35m[1mTest Step: Sleep between tests.[0m
+[2020-09-29 13:01:56,520]     Info: sleeping for 1.000000 seconds
+[2020-09-29 13:01:57,574] [33m[1mTest Case: 28: Query.TransactionID.28[0m
+[2020-09-29 13:01:57,574]     Info: Type: RandomData. Default value: b'\x8e\x07'. Case 28 of 6086 overall.
+[2020-09-29 13:01:57,574]     Info: Opening target connection (192.168.1.1:53)...
+[2020-09-29 13:01:57,575]     Info: Connection opened.
+[2020-09-29 13:01:57,575]   [35m[1mTest Step: Pre_Send callback: "check_alive"[0m
+[2020-09-29 13:02:00,594]       [32m[1mCheck OK: 设备存活![0m
+[2020-09-29 13:02:00,594]   [35m[1mTest Step: Fuzzing Node 'Query'[0m
+[2020-09-29 13:02:00,595]     Info: Sending 27 bytes...
+[2020-09-29 13:02:00,595]     [36mTransmitted 27 bytes: b2 b8 01 00 00 01 00 00 00 00 00 00 05 62 61 69 64 75 03 63 6f 6d 00 00 01 00 01 b'\xb2\xb8\x01\x00\x00\x01\x00\x00\x00\x00\x00\x00\x05baidu\x03com\x00\x00\x01\x00\x01'[0m
+[2020-09-29 13:02:00,595]     Info: Receiving...
+[2020-09-29 13:02:05,734]     [36mReceived: [0m
+[2020-09-29 13:02:05,734]   [35m[1mTest Step: Post- test case callback: "get_case_info"[0m
+[2020-09-29 13:02:05,734]     Info: TransactionID: 
+                              b'\xb2\xb8'
+[2020-09-29 13:02:05,734]     Info: domain_part: 
+                              b'baidu'
+[2020-09-29 13:02:05,734]     Info: aname: 
+                              b''
+[2020-09-29 13:02:05,734]     Info: domain_padding: 
+                              b'com'
+[2020-09-29 13:02:05,734]     Info: payload: 
+                              b'\x01'
+[2020-09-29 13:02:05,734]   [35m[1mTest Step: Cleaning up connections from callbacks[0m
+[2020-09-29 13:02:05,734]     Info: Closing target connection...
+[2020-09-29 13:02:05,734]     Info: Connection closed.
+[2020-09-29 13:02:05,734]   [35m[1mTest Step: Sleep between tests.[0m
+[2020-09-29 13:02:05,734]     Info: sleeping for 1.000000 seconds
+[2020-09-29 13:02:06,775] [33m[1mTest Case: 29: Query.TransactionID.29[0m
+[2020-09-29 13:02:06,775]     Info: Type: RandomData. Default value: b'\x8e\x07'. Case 29 of 6086 overall.
+[2020-09-29 13:02:06,775]     Info: Opening target connection (192.168.1.1:53)...
+[2020-09-29 13:02:06,775]     Info: Connection opened.
+[2020-09-29 13:02:06,775]   [35m[1mTest Step: Pre_Send callback: "check_alive"[0m
+[2020-09-29 13:02:09,826]       [32m[1mCheck OK: 设备存活![0m
+[2020-09-29 13:02:09,826]   [35m[1mTest Step: Fuzzing Node 'Query'[0m
+[2020-09-29 13:02:09,826]     Info: Sending 27 bytes...
+[2020-09-29 13:02:09,826]     [36mTransmitted 27 bytes: cb bc 01 00 00 01 00 00 00 00 00 00 05 62 61 69 64 75 03 63 6f 6d 00 00 01 00 01 b'\xcb\xbc\x01\x00\x00\x01\x00\x00\x00\x00\x00\x00\x05baidu\x03com\x00\x00\x01\x00\x01'[0m
+[2020-09-29 13:02:09,826]     Info: Receiving...
+[2020-09-29 13:02:14,950]     [36mReceived: [0m
+[2020-09-29 13:02:14,950]   [35m[1mTest Step: Post- test case callback: "get_case_info"[0m
+[2020-09-29 13:02:14,950]     Info: TransactionID: 
+                              b'\xcb\xbc'
+[2020-09-29 13:02:14,950]     Info: domain_part: 
+                              b'baidu'
+[2020-09-29 13:02:14,950]     Info: aname: 
+                              b''
+[2020-09-29 13:02:14,950]     Info: domain_padding: 
+                              b'com'
+[2020-09-29 13:02:14,950]     Info: payload: 
+                              b'\x01'
+[2020-09-29 13:02:14,950]   [35m[1mTest Step: Cleaning up connections from callbacks[0m
+[2020-09-29 13:02:14,950]     Info: Closing target connection...
+[2020-09-29 13:02:14,950]     Info: Connection closed.
+[2020-09-29 13:02:14,950]   [35m[1mTest Step: Sleep between tests.[0m
+[2020-09-29 13:02:14,951]     Info: sleeping for 1.000000 seconds
+[2020-09-29 13:02:15,993] [33m[1mTest Case: 30: Query.TransactionID.30[0m
+[2020-09-29 13:02:15,993]     Info: Type: RandomData. Default value: b'\x8e\x07'. Case 30 of 6086 overall.
+[2020-09-29 13:02:15,993]     Info: Opening target connection (192.168.1.1:53)...
+[2020-09-29 13:02:15,993]     Info: Connection opened.
+[2020-09-29 13:02:15,993]   [35m[1mTest Step: Pre_Send callback: "check_alive"[0m
+[2020-09-29 13:02:19,040]       [32m[1mCheck OK: 设备存活![0m
+[2020-09-29 13:02:19,040]   [35m[1mTest Step: Fuzzing Node 'Query'[0m
+[2020-09-29 13:02:19,041]     Info: Sending 27 bytes...
+[2020-09-29 13:02:19,041]     [36mTransmitted 27 bytes: 7a 5f 01 00 00 01 00 00 00 00 00 00 05 62 61 69 64 75 03 63 6f 6d 00 00 01 00 01 b'z_\x01\x00\x00\x01\x00\x00\x00\x00\x00\x00\x05baidu\x03com\x00\x00\x01\x00\x01'[0m
+[2020-09-29 13:02:19,041]     Info: Receiving...
+[2020-09-29 13:02:24,166]     [36mReceived: [0m
+[2020-09-29 13:02:24,166]   [35m[1mTest Step: Post- test case callback: "get_case_info"[0m
+[2020-09-29 13:02:24,166]     Info: TransactionID: 
+                              b'z_'
+[2020-09-29 13:02:24,166]     Info: domain_part: 
+                              b'baidu'
+[2020-09-29 13:02:24,166]     Info: aname: 
+                              b''
+[2020-09-29 13:02:24,166]     Info: domain_padding: 
+                              b'com'
+[2020-09-29 13:02:24,166]     Info: payload: 
+                              b'\x01'
+[2020-09-29 13:02:24,166]   [35m[1mTest Step: Cleaning up connections from callbacks[0m
+[2020-09-29 13:02:24,166]     Info: Closing target connection...
+[2020-09-29 13:02:24,166]     Info: Connection closed.
+[2020-09-29 13:02:24,166]   [35m[1mTest Step: Sleep between tests.[0m
+[2020-09-29 13:02:24,166]     Info: sleeping for 1.000000 seconds
+[2020-09-29 13:02:25,199] [33m[1mTest Case: 31: Query.TransactionID.31[0m
+[2020-09-29 13:02:25,199]     Info: Type: RandomData. Default value: b'\x8e\x07'. Case 31 of 6086 overall.
+[2020-09-29 13:02:25,199]     Info: Opening target connection (192.168.1.1:53)...
+[2020-09-29 13:02:25,199]     Info: Connection opened.
+[2020-09-29 13:02:25,199]   [35m[1mTest Step: Pre_Send callback: "check_alive"[0m
+[2020-09-29 13:02:28,239]       [32m[1mCheck OK: 设备存活![0m
+[2020-09-29 13:02:28,239]   [35m[1mTest Step: Fuzzing Node 'Query'[0m
+[2020-09-29 13:02:28,240]     Info: Sending 27 bytes...
+[2020-09-29 13:02:28,240]     [36mTransmitted 27 bytes: 21 d4 01 00 00 01 00 00 00 00 00 00 05 62 61 69 64 75 03 63 6f 6d 00 00 01 00 01 b'!\xd4\x01\x00\x00\x01\x00\x00\x00\x00\x00\x00\x05baidu\x03com\x00\x00\x01\x00\x01'[0m
+[2020-09-29 13:02:28,240]     Info: Receiving...
+[2020-09-29 13:02:33,383]     [36mReceived: [0m
+[2020-09-29 13:02:33,383]   [35m[1mTest Step: Post- test case callback: "get_case_info"[0m
+[2020-09-29 13:02:33,383]     Info: TransactionID: 
+                              b'!\xd4'
+[2020-09-29 13:02:33,383]     Info: domain_part: 
+                              b'baidu'
+[2020-09-29 13:02:33,383]     Info: aname: 
+                              b''
+[2020-09-29 13:02:33,383]     Info: domain_padding: 
+                              b'com'
+[2020-09-29 13:02:33,383]     Info: payload: 
+                              b'\x01'
+[2020-09-29 13:02:33,383]   [35m[1mTest Step: Cleaning up connections from callbacks[0m
+[2020-09-29 13:02:33,383]     Info: Closing target connection...
+[2020-09-29 13:02:33,384]     Info: Connection closed.
+[2020-09-29 13:02:33,384]   [35m[1mTest Step: Sleep between tests.[0m
+[2020-09-29 13:02:33,384]     Info: sleeping for 1.000000 seconds
+[2020-09-29 13:02:34,450] [33m[1mTest Case: 32: Query.TransactionID.32[0m
+[2020-09-29 13:02:34,450]     Info: Type: RandomData. Default value: b'\x8e\x07'. Case 32 of 6086 overall.
+[2020-09-29 13:02:34,450]     Info: Opening target connection (192.168.1.1:53)...
+[2020-09-29 13:02:34,450]     Info: Connection opened.
+[2020-09-29 13:02:34,451]   [35m[1mTest Step: Pre_Send callback: "check_alive"[0m
+[2020-09-29 13:02:37,516]       [32m[1mCheck OK: 设备存活![0m
+[2020-09-29 13:02:37,516]   [35m[1mTest Step: Fuzzing Node 'Query'[0m
+[2020-09-29 13:02:37,516]     Info: Sending 27 bytes...
+[2020-09-29 13:02:37,516]     [36mTransmitted 27 bytes: d3 e9 01 00 00 01 00 00 00 00 00 00 05 62 61 69 64 75 03 63 6f 6d 00 00 01 00 01 b'\xd3\xe9\x01\x00\x00\x01\x00\x00\x00\x00\x00\x00\x05baidu\x03com\x00\x00\x01\x00\x01'[0m
+[2020-09-29 13:02:37,516]     Info: Receiving...
+[2020-09-29 13:02:42,598]     [36mReceived: [0m
+[2020-09-29 13:02:42,598]   [35m[1mTest Step: Post- test case callback: "get_case_info"[0m
+[2020-09-29 13:02:42,598]     Info: TransactionID: 
+                              b'\xd3\xe9'
+[2020-09-29 13:02:42,598]     Info: domain_part: 
+                              b'baidu'
+[2020-09-29 13:02:42,598]     Info: aname: 
+                              b''
+[2020-09-29 13:02:42,598]     Info: domain_padding: 
+                              b'com'
+[2020-09-29 13:02:42,598]     Info: payload: 
+                              b'\x01'
+[2020-09-29 13:02:42,598]   [35m[1mTest Step: Cleaning up connections from callbacks[0m
+[2020-09-29 13:02:42,599]     Info: Closing target connection...
+[2020-09-29 13:02:42,599]     Info: Connection closed.
+[2020-09-29 13:02:42,599]   [35m[1mTest Step: Sleep between tests.[0m
+[2020-09-29 13:02:42,599]     Info: sleeping for 1.000000 seconds
+[2020-09-29 13:02:43,659] [33m[1mTest Case: 33: Query.TransactionID.33[0m
+[2020-09-29 13:02:43,659]     Info: Type: RandomData. Default value: b'\x8e\x07'. Case 33 of 6086 overall.
+[2020-09-29 13:02:43,659]     Info: Opening target connection (192.168.1.1:53)...
+[2020-09-29 13:02:43,659]     Info: Connection opened.
+[2020-09-29 13:02:43,659]   [35m[1mTest Step: Pre_Send callback: "check_alive"[0m
+[2020-09-29 13:02:46,715]       [32m[1mCheck OK: 设备存活![0m
+[2020-09-29 13:02:46,715]   [35m[1mTest Step: Fuzzing Node 'Query'[0m
+[2020-09-29 13:02:46,715]     Info: Sending 27 bytes...
+[2020-09-29 13:02:46,715]     [36mTransmitted 27 bytes: ac 66 01 00 00 01 00 00 00 00 00 00 05 62 61 69 64 75 03 63 6f 6d 00 00 01 00 01 b'\xacf\x01\x00\x00\x01\x00\x00\x00\x00\x00\x00\x05baidu\x03com\x00\x00\x01\x00\x01'[0m
+[2020-09-29 13:02:46,715]     Info: Receiving...
+[2020-09-29 13:02:51,814]     [36mReceived: [0m
+[2020-09-29 13:02:51,814]   [35m[1mTest Step: Post- test case callback: "get_case_info"[0m
+[2020-09-29 13:02:51,814]     Info: TransactionID: 
+                              b'\xacf'
+[2020-09-29 13:02:51,814]     Info: domain_part: 
+                              b'baidu'
+[2020-09-29 13:02:51,814]     Info: aname: 
+                              b''
+[2020-09-29 13:02:51,814]     Info: domain_padding: 
+                              b'com'
+[2020-09-29 13:02:51,814]     Info: payload: 
+                              b'\x01'
+[2020-09-29 13:02:51,814]   [35m[1mTest Step: Cleaning up connections from callbacks[0m
+[2020-09-29 13:02:51,814]     Info: Closing target connection...
+[2020-09-29 13:02:51,814]     Info: Connection closed.
+[2020-09-29 13:02:51,814]   [35m[1mTest Step: Sleep between tests.[0m
+[2020-09-29 13:02:51,814]     Info: sleeping for 1.000000 seconds
+[2020-09-29 13:02:52,868] [33m[1mTest Case: 34: Query.TransactionID.34[0m
+[2020-09-29 13:02:52,868]     Info: Type: RandomData. Default value: b'\x8e\x07'. Case 34 of 6086 overall.
+[2020-09-29 13:02:52,868]     Info: Opening target connection (192.168.1.1:53)...
+[2020-09-29 13:02:52,868]     Info: Connection opened.
+[2020-09-29 13:02:52,868]   [35m[1mTest Step: Pre_Send callback: "check_alive"[0m
+[2020-09-29 13:02:55,912]       [32m[1mCheck OK: 设备存活![0m
+[2020-09-29 13:02:55,912]   [35m[1mTest Step: Fuzzing Node 'Query'[0m
+[2020-09-29 13:02:55,912]     Info: Sending 27 bytes...
+[2020-09-29 13:02:55,913]     [36mTransmitted 27 bytes: 35 bd 01 00 00 01 00 00 00 00 00 00 05 62 61 69 64 75 03 63 6f 6d 00 00 01 00 01 b'5\xbd\x01\x00\x00\x01\x00\x00\x00\x00\x00\x00\x05baidu\x03com\x00\x00\x01\x00\x01'[0m
+[2020-09-29 13:02:55,913]     Info: Receiving...
+[2020-09-29 13:03:01,029]     [36mReceived: [0m
+[2020-09-29 13:03:01,030]   [35m[1mTest Step: Post- test case callback: "get_case_info"[0m
+[2020-09-29 13:03:01,030]     Info: TransactionID: 
+                              b'5\xbd'
+[2020-09-29 13:03:01,030]     Info: domain_part: 
+                              b'baidu'
+[2020-09-29 13:03:01,030]     Info: aname: 
+                              b''
+[2020-09-29 13:03:01,030]     Info: domain_padding: 
+                              b'com'
+[2020-09-29 13:03:01,030]     Info: payload: 
+                              b'\x01'
+[2020-09-29 13:03:01,030]   [35m[1mTest Step: Cleaning up connections from callbacks[0m
+[2020-09-29 13:03:01,030]     Info: Closing target connection...
+[2020-09-29 13:03:01,030]     Info: Connection closed.
+[2020-09-29 13:03:01,030]   [35m[1mTest Step: Sleep between tests.[0m
+[2020-09-29 13:03:01,030]     Info: sleeping for 1.000000 seconds
+[2020-09-29 13:03:02,083] [33m[1mTest Case: 35: Query.TransactionID.35[0m
+[2020-09-29 13:03:02,083]     Info: Type: RandomData. Default value: b'\x8e\x07'. Case 35 of 6086 overall.
+[2020-09-29 13:03:02,083]     Info: Opening target connection (192.168.1.1:53)...
+[2020-09-29 13:03:02,083]     Info: Connection opened.
+[2020-09-29 13:03:02,083]   [35m[1mTest Step: Pre_Send callback: "check_alive"[0m
+[2020-09-29 13:03:05,117]       [32m[1mCheck OK: 设备存活![0m
+[2020-09-29 13:03:05,117]   [35m[1mTest Step: Fuzzing Node 'Query'[0m
+[2020-09-29 13:03:05,117]     Info: Sending 27 bytes...
+[2020-09-29 13:03:05,117]     [36mTransmitted 27 bytes: fd f1 01 00 00 01 00 00 00 00 00 00 05 62 61 69 64 75 03 63 6f 6d 00 00 01 00 01 b'\xfd\xf1\x01\x00\x00\x01\x00\x00\x00\x00\x00\x00\x05baidu\x03com\x00\x00\x01\x00\x01'[0m
+[2020-09-29 13:03:05,117]     Info: Receiving...
+[2020-09-29 13:03:10,246]     [36mReceived: [0m
+[2020-09-29 13:03:10,246]   [35m[1mTest Step: Post- test case callback: "get_case_info"[0m
+[2020-09-29 13:03:10,246]     Info: TransactionID: 
+                              b'\xfd\xf1'
+[2020-09-29 13:03:10,246]     Info: domain_part: 
+                              b'baidu'
+[2020-09-29 13:03:10,246]     Info: aname: 
+                              b''
+[2020-09-29 13:03:10,246]     Info: domain_padding: 
+                              b'com'
+[2020-09-29 13:03:10,246]     Info: payload: 
+                              b'\x01'
+[2020-09-29 13:03:10,246]   [35m[1mTest Step: Cleaning up connections from callbacks[0m
+[2020-09-29 13:03:10,246]     Info: Closing target connection...
+[2020-09-29 13:03:10,246]     Info: Connection closed.
+[2020-09-29 13:03:10,246]   [35m[1mTest Step: Sleep between tests.[0m
+[2020-09-29 13:03:10,246]     Info: sleeping for 1.000000 seconds
+[2020-09-29 13:03:11,284] [33m[1mTest Case: 36: Query.TransactionID.36[0m
+[2020-09-29 13:03:11,284]     Info: Type: RandomData. Default value: b'\x8e\x07'. Case 36 of 6086 overall.
+[2020-09-29 13:03:11,284]     Info: Opening target connection (192.168.1.1:53)...
+[2020-09-29 13:03:11,284]     Info: Connection opened.
+[2020-09-29 13:03:11,284]   [35m[1mTest Step: Pre_Send callback: "check_alive"[0m
+[2020-09-29 13:03:14,316]       [32m[1mCheck OK: 设备存活![0m
+[2020-09-29 13:03:14,316]   [35m[1mTest Step: Fuzzing Node 'Query'[0m
+[2020-09-29 13:03:14,317]     Info: Sending 27 bytes...
+[2020-09-29 13:03:14,317]     [36mTransmitted 27 bytes: f2 4c 01 00 00 01 00 00 00 00 00 00 05 62 61 69 64 75 03 63 6f 6d 00 00 01 00 01 b'\xf2L\x01\x00\x00\x01\x00\x00\x00\x00\x00\x00\x05baidu\x03com\x00\x00\x01\x00\x01'[0m
+[2020-09-29 13:03:14,317]     Info: Receiving...
+[2020-09-29 13:03:19,462]     [36mReceived: [0m
+[2020-09-29 13:03:19,462]   [35m[1mTest Step: Post- test case callback: "get_case_info"[0m
+[2020-09-29 13:03:19,462]     Info: TransactionID: 
+                              b'\xf2L'
+[2020-09-29 13:03:19,463]     Info: domain_part: 
+                              b'baidu'
+[2020-09-29 13:03:19,463]     Info: aname: 
+                              b''
+[2020-09-29 13:03:19,463]     Info: domain_padding: 
+                              b'com'
+[2020-09-29 13:03:19,463]     Info: payload: 
+                              b'\x01'
+[2020-09-29 13:03:19,463]   [35m[1mTest Step: Cleaning up connections from callbacks[0m
+[2020-09-29 13:03:19,463]     Info: Closing target connection...
+[2020-09-29 13:03:19,463]     Info: Connection closed.
+[2020-09-29 13:03:19,463]   [35m[1mTest Step: Sleep between tests.[0m
+[2020-09-29 13:03:19,463]     Info: sleeping for 1.000000 seconds
+[2020-09-29 13:03:20,532] [33m[1mTest Case: 37: Query.TransactionID.37[0m
+[2020-09-29 13:03:20,532]     Info: Type: RandomData. Default value: b'\x8e\x07'. Case 37 of 6086 overall.
+[2020-09-29 13:03:20,533]     Info: Opening target connection (192.168.1.1:53)...
+[2020-09-29 13:03:20,533]     Info: Connection opened.
+[2020-09-29 13:03:20,533]   [35m[1mTest Step: Pre_Send callback: "check_alive"[0m
+[2020-09-29 13:03:23,610]       [32m[1mCheck OK: 设备存活![0m
+[2020-09-29 13:03:23,610]   [35m[1mTest Step: Fuzzing Node 'Query'[0m
+[2020-09-29 13:03:23,611]     Info: Sending 27 bytes...
+[2020-09-29 13:03:23,611]     [36mTransmitted 27 bytes: c9 87 01 00 00 01 00 00 00 00 00 00 05 62 61 69 64 75 03 63 6f 6d 00 00 01 00 01 b'\xc9\x87\x01\x00\x00\x01\x00\x00\x00\x00\x00\x00\x05baidu\x03com\x00\x00\x01\x00\x01'[0m
+[2020-09-29 13:03:23,613]     Info: Receiving...
+[2020-09-29 13:03:28,677]     [36mReceived: [0m
+[2020-09-29 13:03:28,677]   [35m[1mTest Step: Post- test case callback: "get_case_info"[0m
+[2020-09-29 13:03:28,677]     Info: TransactionID: 
+                              b'\xc9\x87'
+[2020-09-29 13:03:28,677]     Info: domain_part: 
+                              b'baidu'
+[2020-09-29 13:03:28,677]     Info: aname: 
+                              b''
+[2020-09-29 13:03:28,677]     Info: domain_padding: 
+                              b'com'
+[2020-09-29 13:03:28,677]     Info: payload: 
+                              b'\x01'
+[2020-09-29 13:03:28,678]   [35m[1mTest Step: Cleaning up connections from callbacks[0m
+[2020-09-29 13:03:28,678]     Info: Closing target connection...
+[2020-09-29 13:03:28,678]     Info: Connection closed.
+[2020-09-29 13:03:28,678]   [35m[1mTest Step: Sleep between tests.[0m
+[2020-09-29 13:03:28,678]     Info: sleeping for 1.000000 seconds
+[2020-09-29 13:03:29,735] [33m[1mTest Case: 38: Query.TransactionID.38[0m
+[2020-09-29 13:03:29,735]     Info: Type: RandomData. Default value: b'\x8e\x07'. Case 38 of 6086 overall.
+[2020-09-29 13:03:29,735]     Info: Opening target connection (192.168.1.1:53)...
+[2020-09-29 13:03:29,735]     Info: Connection opened.
+[2020-09-29 13:03:29,735]   [35m[1mTest Step: Pre_Send callback: "check_alive"[0m
+[2020-09-29 13:03:32,762]       [32m[1mCheck OK: 设备存活![0m
+[2020-09-29 13:03:32,762]   [35m[1mTest Step: Fuzzing Node 'Query'[0m
+[2020-09-29 13:03:32,763]     Info: Sending 27 bytes...
+[2020-09-29 13:03:32,763]     [36mTransmitted 27 bytes: eb cf 01 00 00 01 00 00 00 00 00 00 05 62 61 69 64 75 03 63 6f 6d 00 00 01 00 01 b'\xeb\xcf\x01\x00\x00\x01\x00\x00\x00\x00\x00\x00\x05baidu\x03com\x00\x00\x01\x00\x01'[0m
+[2020-09-29 13:03:32,763]     Info: Receiving...
+[2020-09-29 13:03:37,895]     [36mReceived: [0m
+[2020-09-29 13:03:37,895]   [35m[1mTest Step: Post- test case callback: "get_case_info"[0m
+[2020-09-29 13:03:37,895]     Info: TransactionID: 
+                              b'\xeb\xcf'
+[2020-09-29 13:03:37,895]     Info: domain_part: 
+                              b'baidu'
+[2020-09-29 13:03:37,895]     Info: aname: 
+                              b''
+[2020-09-29 13:03:37,895]     Info: domain_padding: 
+                              b'com'
+[2020-09-29 13:03:37,896]     Info: payload: 
+                              b'\x01'
+[2020-09-29 13:03:37,896]   [35m[1mTest Step: Cleaning up connections from callbacks[0m
+[2020-09-29 13:03:37,896]     Info: Closing target connection...
+[2020-09-29 13:03:37,896]     Info: Connection closed.
+[2020-09-29 13:03:37,896]   [35m[1mTest Step: Sleep between tests.[0m
+[2020-09-29 13:03:37,896]     Info: sleeping for 1.000000 seconds
+[2020-09-29 13:03:38,940] [33m[1mTest Case: 39: Query.TransactionID.39[0m
+[2020-09-29 13:03:38,940]     Info: Type: RandomData. Default value: b'\x8e\x07'. Case 39 of 6086 overall.
+[2020-09-29 13:03:38,940]     Info: Opening target connection (192.168.1.1:53)...
+[2020-09-29 13:03:38,940]     Info: Connection opened.
+[2020-09-29 13:03:38,941]   [35m[1mTest Step: Pre_Send callback: "check_alive"[0m
+[2020-09-29 13:03:41,964]       [32m[1mCheck OK: 设备存活![0m
+[2020-09-29 13:03:41,964]   [35m[1mTest Step: Fuzzing Node 'Query'[0m
+[2020-09-29 13:03:41,965]     Info: Sending 27 bytes...
+[2020-09-29 13:03:41,970]     [36mTransmitted 27 bytes: 9b 18 01 00 00 01 00 00 00 00 00 00 05 62 61 69 64 75 03 63 6f 6d 00 00 01 00 01 b'\x9b\x18\x01\x00\x00\x01\x00\x00\x00\x00\x00\x00\x05baidu\x03com\x00\x00\x01\x00\x01'[0m
+[2020-09-29 13:03:41,970]     Info: Receiving...
+[2020-09-29 13:03:47,109]     [36mReceived: [0m
+[2020-09-29 13:03:47,110]   [35m[1mTest Step: Post- test case callback: "get_case_info"[0m
+[2020-09-29 13:03:47,110]     Info: TransactionID: 
+                              b'\x9b\x18'
+[2020-09-29 13:03:47,110]     Info: domain_part: 
+                              b'baidu'
+[2020-09-29 13:03:47,110]     Info: aname: 
+                              b''
+[2020-09-29 13:03:47,110]     Info: domain_padding: 
+                              b'com'
+[2020-09-29 13:03:47,110]     Info: payload: 
+                              b'\x01'
+[2020-09-29 13:03:47,110]   [35m[1mTest Step: Cleaning up connections from callbacks[0m
+[2020-09-29 13:03:47,110]     Info: Closing target connection...
+[2020-09-29 13:03:47,110]     Info: Connection closed.
+[2020-09-29 13:03:47,110]   [35m[1mTest Step: Sleep between tests.[0m
+[2020-09-29 13:03:47,110]     Info: sleeping for 1.000000 seconds
+[2020-09-29 13:03:48,150] [33m[1mTest Case: 40: Query.TransactionID.40[0m
+[2020-09-29 13:03:48,150]     Info: Type: RandomData. Default value: b'\x8e\x07'. Case 40 of 6086 overall.
+[2020-09-29 13:03:48,150]     Info: Opening target connection (192.168.1.1:53)...
+[2020-09-29 13:03:48,150]     Info: Connection opened.
+[2020-09-29 13:03:48,150]   [35m[1mTest Step: Pre_Send callback: "check_alive"[0m
+[2020-09-29 13:03:51,169]       [32m[1mCheck OK: 设备存活![0m
+[2020-09-29 13:03:51,169]   [35m[1mTest Step: Fuzzing Node 'Query'[0m
+[2020-09-29 13:03:51,170]     Info: Sending 27 bytes...
+[2020-09-29 13:03:51,170]     [36mTransmitted 27 bytes: 41 01 01 00 00 01 00 00 00 00 00 00 05 62 61 69 64 75 03 63 6f 6d 00 00 01 00 01 b'A\x01\x01\x00\x00\x01\x00\x00\x00\x00\x00\x00\x05baidu\x03com\x00\x00\x01\x00\x01'[0m
+[2020-09-29 13:03:51,171]     Info: Receiving...
+[2020-09-29 13:03:56,326]     [36mReceived: [0m
+[2020-09-29 13:03:56,326]   [35m[1mTest Step: Post- test case callback: "get_case_info"[0m
+[2020-09-29 13:03:56,326]     Info: TransactionID: 
+                              b'A\x01'
+[2020-09-29 13:03:56,326]     Info: domain_part: 
+                              b'baidu'
+[2020-09-29 13:03:56,327]     Info: aname: 
+                              b''
+[2020-09-29 13:03:56,327]     Info: domain_padding: 
+                              b'com'
+[2020-09-29 13:03:56,327]     Info: payload: 
+                              b'\x01'
+[2020-09-29 13:03:56,327]   [35m[1mTest Step: Cleaning up connections from callbacks[0m
+[2020-09-29 13:03:56,327]     Info: Closing target connection...
+[2020-09-29 13:03:56,327]     Info: Connection closed.
+[2020-09-29 13:03:56,327]   [35m[1mTest Step: Sleep between tests.[0m
+[2020-09-29 13:03:56,327]     Info: sleeping for 1.000000 seconds
+[2020-09-29 13:03:57,376] [33m[1mTest Case: 41: Query.TransactionID.41[0m
+[2020-09-29 13:03:57,376]     Info: Type: RandomData. Default value: b'\x8e\x07'. Case 41 of 6086 overall.
+[2020-09-29 13:03:57,376]     Info: Opening target connection (192.168.1.1:53)...
+[2020-09-29 13:03:57,377]     Info: Connection opened.
+[2020-09-29 13:03:57,377]   [35m[1mTest Step: Pre_Send callback: "check_alive"[0m
+[2020-09-29 13:04:00,416]       [32m[1mCheck OK: 设备存活![0m
+[2020-09-29 13:04:00,416]   [35m[1mTest Step: Fuzzing Node 'Query'[0m
+[2020-09-29 13:04:00,416]     Info: Sending 27 bytes...
+[2020-09-29 13:04:00,416]     [36mTransmitted 27 bytes: ed 21 01 00 00 01 00 00 00 00 00 00 05 62 61 69 64 75 03 63 6f 6d 00 00 01 00 01 b'\xed!\x01\x00\x00\x01\x00\x00\x00\x00\x00\x00\x05baidu\x03com\x00\x00\x01\x00\x01'[0m
+[2020-09-29 13:04:00,416]     Info: Receiving...
+[2020-09-29 13:04:05,546]     [36mReceived: [0m
+[2020-09-29 13:04:05,546]   [35m[1mTest Step: Post- test case callback: "get_case_info"[0m
+[2020-09-29 13:04:05,546]     Info: TransactionID: 
+                              b'\xed!'
+[2020-09-29 13:04:05,546]     Info: domain_part: 
+                              b'baidu'
+[2020-09-29 13:04:05,546]     Info: aname: 
+                              b''
+[2020-09-29 13:04:05,546]     Info: domain_padding: 
+                              b'com'
+[2020-09-29 13:04:05,546]     Info: payload: 
+                              b'\x01'
+[2020-09-29 13:04:05,546]   [35m[1mTest Step: Cleaning up connections from callbacks[0m
+[2020-09-29 13:04:05,546]     Info: Closing target connection...
+[2020-09-29 13:04:05,546]     Info: Connection closed.
+[2020-09-29 13:04:05,546]   [35m[1mTest Step: Sleep between tests.[0m
+[2020-09-29 13:04:05,546]     Info: sleeping for 1.000000 seconds
+[2020-09-29 13:04:06,620] [33m[1mTest Case: 42: Query.TransactionID.42[0m
+[2020-09-29 13:04:06,620]     Info: Type: RandomData. Default value: b'\x8e\x07'. Case 42 of 6086 overall.
+[2020-09-29 13:04:06,620]     Info: Opening target connection (192.168.1.1:53)...
+[2020-09-29 13:04:06,620]     Info: Connection opened.
+[2020-09-29 13:04:06,620]   [35m[1mTest Step: Pre_Send callback: "check_alive"[0m
+[2020-09-29 13:04:09,685]       [32m[1mCheck OK: 设备存活![0m
+[2020-09-29 13:04:09,685]   [35m[1mTest Step: Fuzzing Node 'Query'[0m
+[2020-09-29 13:04:09,685]     Info: Sending 27 bytes...
+[2020-09-29 13:04:09,686]     [36mTransmitted 27 bytes: 66 0d 01 00 00 01 00 00 00 00 00 00 05 62 61 69 64 75 03 63 6f 6d 00 00 01 00 01 b'f\r\x01\x00\x00\x01\x00\x00\x00\x00\x00\x00\x05baidu\x03com\x00\x00\x01\x00\x01'[0m
+[2020-09-29 13:04:09,686]     Info: Receiving...
+[2020-09-29 13:04:14,758]     [36mReceived: [0m
+[2020-09-29 13:04:14,758]   [35m[1mTest Step: Post- test case callback: "get_case_info"[0m
+[2020-09-29 13:04:14,758]     Info: TransactionID: 
+                              b'f\r'
+[2020-09-29 13:04:14,758]     Info: domain_part: 
+                              b'baidu'
+[2020-09-29 13:04:14,758]     Info: aname: 
+                              b''
+[2020-09-29 13:04:14,758]     Info: domain_padding: 
+                              b'com'
+[2020-09-29 13:04:14,758]     Info: payload: 
+                              b'\x01'
+[2020-09-29 13:04:14,758]   [35m[1mTest Step: Cleaning up connections from callbacks[0m
+[2020-09-29 13:04:14,758]     Info: Closing target connection...
+[2020-09-29 13:04:14,758]     Info: Connection closed.
+[2020-09-29 13:04:14,758]   [35m[1mTest Step: Sleep between tests.[0m
+[2020-09-29 13:04:14,758]     Info: sleeping for 1.000000 seconds
+[2020-09-29 13:04:15,806] [33m[1mTest Case: 43: Query.TransactionID.43[0m
+[2020-09-29 13:04:15,806]     Info: Type: RandomData. Default value: b'\x8e\x07'. Case 43 of 6086 overall.
+[2020-09-29 13:04:15,806]     Info: Opening target connection (192.168.1.1:53)...
+[2020-09-29 13:04:15,806]     Info: Connection opened.
+[2020-09-29 13:04:15,806]   [35m[1mTest Step: Pre_Send callback: "check_alive"[0m
+[2020-09-29 13:04:18,832]       [32m[1mCheck OK: 设备存活![0m
+[2020-09-29 13:04:18,832]   [35m[1mTest Step: Fuzzing Node 'Query'[0m
+[2020-09-29 13:04:18,833]     Info: Sending 27 bytes...
+[2020-09-29 13:04:18,836]     [36mTransmitted 27 bytes: 09 87 01 00 00 01 00 00 00 00 00 00 05 62 61 69 64 75 03 63 6f 6d 00 00 01 00 01 b'\t\x87\x01\x00\x00\x01\x00\x00\x00\x00\x00\x00\x05baidu\x03com\x00\x00\x01\x00\x01'[0m
+[2020-09-29 13:04:18,836]     Info: Receiving...
+[2020-09-29 13:04:23,974]     [36mReceived: [0m
+[2020-09-29 13:04:23,974]   [35m[1mTest Step: Post- test case callback: "get_case_info"[0m
+[2020-09-29 13:04:23,974]     Info: TransactionID: 
+                              b'\t\x87'
+[2020-09-29 13:04:23,974]     Info: domain_part: 
+                              b'baidu'
+[2020-09-29 13:04:23,974]     Info: aname: 
+                              b''
+[2020-09-29 13:04:23,974]     Info: domain_padding: 
+                              b'com'
+[2020-09-29 13:04:23,974]     Info: payload: 
+                              b'\x01'
+[2020-09-29 13:04:23,974]   [35m[1mTest Step: Cleaning up connections from callbacks[0m
+[2020-09-29 13:04:23,974]     Info: Closing target connection...
+[2020-09-29 13:04:23,974]     Info: Connection closed.
+[2020-09-29 13:04:23,974]   [35m[1mTest Step: Sleep between tests.[0m
+[2020-09-29 13:04:23,974]     Info: sleeping for 1.000000 seconds
+[2020-09-29 13:04:25,029] [33m[1mTest Case: 44: Query.TransactionID.44[0m
+[2020-09-29 13:04:25,029]     Info: Type: RandomData. Default value: b'\x8e\x07'. Case 44 of 6086 overall.
+[2020-09-29 13:04:25,029]     Info: Opening target connection (192.168.1.1:53)...
+[2020-09-29 13:04:25,030]     Info: Connection opened.
+[2020-09-29 13:04:25,030]   [35m[1mTest Step: Pre_Send callback: "check_alive"[0m
+[2020-09-29 13:04:28,059]       [32m[1mCheck OK: 设备存活![0m
+[2020-09-29 13:04:28,059]   [35m[1mTest Step: Fuzzing Node 'Query'[0m
+[2020-09-29 13:04:28,059]     Info: Sending 27 bytes...
+[2020-09-29 13:04:28,060]     [36mTransmitted 27 bytes: 83 cc 01 00 00 01 00 00 00 00 00 00 05 62 61 69 64 75 03 63 6f 6d 00 00 01 00 01 b'\x83\xcc\x01\x00\x00\x01\x00\x00\x00\x00\x00\x00\x05baidu\x03com\x00\x00\x01\x00\x01'[0m
+[2020-09-29 13:04:28,060]     Info: Receiving...
+[2020-09-29 13:04:33,190]     [36mReceived: [0m
+[2020-09-29 13:04:33,190]   [35m[1mTest Step: Post- test case callback: "get_case_info"[0m
+[2020-09-29 13:04:33,190]     Info: TransactionID: 
+                              b'\x83\xcc'
+[2020-09-29 13:04:33,190]     Info: domain_part: 
+                              b'baidu'
+[2020-09-29 13:04:33,190]     Info: aname: 
+                              b''
+[2020-09-29 13:04:33,190]     Info: domain_padding: 
+                              b'com'
+[2020-09-29 13:04:33,190]     Info: payload: 
+                              b'\x01'
+[2020-09-29 13:04:33,190]   [35m[1mTest Step: Cleaning up connections from callbacks[0m
+[2020-09-29 13:04:33,190]     Info: Closing target connection...
+[2020-09-29 13:04:33,190]     Info: Connection closed.
+[2020-09-29 13:04:33,190]   [35m[1mTest Step: Sleep between tests.[0m
+[2020-09-29 13:04:33,190]     Info: sleeping for 1.000000 seconds
+[2020-09-29 13:04:34,248] [33m[1mTest Case: 45: Query.TransactionID.45[0m
+[2020-09-29 13:04:34,248]     Info: Type: RandomData. Default value: b'\x8e\x07'. Case 45 of 6086 overall.
+[2020-09-29 13:04:34,248]     Info: Opening target connection (192.168.1.1:53)...
+[2020-09-29 13:04:34,248]     Info: Connection opened.
+[2020-09-29 13:04:34,248]   [35m[1mTest Step: Pre_Send callback: "check_alive"[0m
+[2020-09-29 13:04:37,271]       [32m[1mCheck OK: 设备存活![0m
+[2020-09-29 13:04:37,271]   [35m[1mTest Step: Fuzzing Node 'Query'[0m
+[2020-09-29 13:04:37,272]     Info: Sending 27 bytes...
+[2020-09-29 13:04:37,272]     [36mTransmitted 27 bytes: e2 47 01 00 00 01 00 00 00 00 00 00 05 62 61 69 64 75 03 63 6f 6d 00 00 01 00 01 b'\xe2G\x01\x00\x00\x01\x00\x00\x00\x00\x00\x00\x05baidu\x03com\x00\x00\x01\x00\x01'[0m
+[2020-09-29 13:04:37,272]     Info: Receiving...
+[2020-09-29 13:04:42,406]     [36mReceived: [0m
+[2020-09-29 13:04:42,406]   [35m[1mTest Step: Post- test case callback: "get_case_info"[0m
+[2020-09-29 13:04:42,406]     Info: TransactionID: 
+                              b'\xe2G'
+[2020-09-29 13:04:42,406]     Info: domain_part: 
+                              b'baidu'
+[2020-09-29 13:04:42,406]     Info: aname: 
+                              b''
+[2020-09-29 13:04:42,406]     Info: domain_padding: 
+                              b'com'
+[2020-09-29 13:04:42,406]     Info: payload: 
+                              b'\x01'
+[2020-09-29 13:04:42,406]   [35m[1mTest Step: Cleaning up connections from callbacks[0m
+[2020-09-29 13:04:42,406]     Info: Closing target connection...
+[2020-09-29 13:04:42,406]     Info: Connection closed.
+[2020-09-29 13:04:42,406]   [35m[1mTest Step: Sleep between tests.[0m
+[2020-09-29 13:04:42,406]     Info: sleeping for 1.000000 seconds
+[2020-09-29 13:04:43,430] [33m[1mTest Case: 46: Query.TransactionID.46[0m
+[2020-09-29 13:04:43,430]     Info: Type: RandomData. Default value: b'\x8e\x07'. Case 46 of 6086 overall.
+[2020-09-29 13:04:43,430]     Info: Opening target connection (192.168.1.1:53)...
+[2020-09-29 13:04:43,430]     Info: Connection opened.
+[2020-09-29 13:04:43,430]   [35m[1mTest Step: Pre_Send callback: "check_alive"[0m
+[2020-09-29 13:04:46,454]       [32m[1mCheck OK: 设备存活![0m
+[2020-09-29 13:04:46,454]   [35m[1mTest Step: Fuzzing Node 'Query'[0m
+[2020-09-29 13:04:46,455]     Info: Sending 27 bytes...
+[2020-09-29 13:04:46,455]     [36mTransmitted 27 bytes: 40 71 01 00 00 01 00 00 00 00 00 00 05 62 61 69 64 75 03 63 6f 6d 00 00 01 00 01 b'@q\x01\x00\x00\x01\x00\x00\x00\x00\x00\x00\x05baidu\x03com\x00\x00\x01\x00\x01'[0m
+[2020-09-29 13:04:46,455]     Info: Receiving...
+[2020-09-29 13:04:51,622]     [36mReceived: [0m
+[2020-09-29 13:04:51,622]   [35m[1mTest Step: Post- test case callback: "get_case_info"[0m
+[2020-09-29 13:04:51,623]     Info: TransactionID: 
+                              b'@q'
+[2020-09-29 13:04:51,623]     Info: domain_part: 
+                              b'baidu'
+[2020-09-29 13:04:51,623]     Info: aname: 
+                              b''
+[2020-09-29 13:04:51,623]     Info: domain_padding: 
+                              b'com'
+[2020-09-29 13:04:51,623]     Info: payload: 
+                              b'\x01'
+[2020-09-29 13:04:51,623]   [35m[1mTest Step: Cleaning up connections from callbacks[0m
+[2020-09-29 13:04:51,623]     Info: Closing target connection...
+[2020-09-29 13:04:51,624]     Info: Connection closed.
+[2020-09-29 13:04:51,624]   [35m[1mTest Step: Sleep between tests.[0m
+[2020-09-29 13:04:51,624]     Info: sleeping for 1.000000 seconds
+[2020-09-29 13:04:52,675] [33m[1mTest Case: 47: Query.TransactionID.47[0m
+[2020-09-29 13:04:52,675]     Info: Type: RandomData. Default value: b'\x8e\x07'. Case 47 of 6086 overall.
+[2020-09-29 13:04:52,675]     Info: Opening target connection (192.168.1.1:53)...
+[2020-09-29 13:04:52,675]     Info: Connection opened.
+[2020-09-29 13:04:52,675]   [35m[1mTest Step: Pre_Send callback: "check_alive"[0m
+[2020-09-29 13:04:55,715]       [32m[1mCheck OK: 设备存活![0m
+[2020-09-29 13:04:55,715]   [35m[1mTest Step: Fuzzing Node 'Query'[0m
+[2020-09-29 13:04:55,716]     Info: Sending 27 bytes...
+[2020-09-29 13:04:55,716]     [36mTransmitted 27 bytes: 3b 20 01 00 00 01 00 00 00 00 00 00 05 62 61 69 64 75 03 63 6f 6d 00 00 01 00 01 b'; \x01\x00\x00\x01\x00\x00\x00\x00\x00\x00\x05baidu\x03com\x00\x00\x01\x00\x01'[0m
+[2020-09-29 13:04:55,716]     Info: Receiving...
+[2020-09-29 13:05:00,838]     [36mReceived: [0m
+[2020-09-29 13:05:00,838]   [35m[1mTest Step: Post- test case callback: "get_case_info"[0m
+[2020-09-29 13:05:00,838]     Info: TransactionID: 
+                              b'; '
+[2020-09-29 13:05:00,838]     Info: domain_part: 
+                              b'baidu'
+[2020-09-29 13:05:00,838]     Info: aname: 
+                              b''
+[2020-09-29 13:05:00,838]     Info: domain_padding: 
+                              b'com'
+[2020-09-29 13:05:00,838]     Info: payload: 
+                              b'\x01'
+[2020-09-29 13:05:00,838]   [35m[1mTest Step: Cleaning up connections from callbacks[0m
+[2020-09-29 13:05:00,838]     Info: Closing target connection...
+[2020-09-29 13:05:00,838]     Info: Connection closed.
+[2020-09-29 13:05:00,838]   [35m[1mTest Step: Sleep between tests.[0m
+[2020-09-29 13:05:00,838]     Info: sleeping for 1.000000 seconds
+[2020-09-29 13:05:01,905] [33m[1mTest Case: 48: Query.TransactionID.48[0m
+[2020-09-29 13:05:01,905]     Info: Type: RandomData. Default value: b'\x8e\x07'. Case 48 of 6086 overall.
+[2020-09-29 13:05:01,905]     Info: Opening target connection (192.168.1.1:53)...
+[2020-09-29 13:05:01,906]     Info: Connection opened.
+[2020-09-29 13:05:01,906]   [35m[1mTest Step: Pre_Send callback: "check_alive"[0m
+[2020-09-29 13:05:04,959]       [32m[1mCheck OK: 设备存活![0m
+[2020-09-29 13:05:04,959]   [35m[1mTest Step: Fuzzing Node 'Query'[0m
+[2020-09-29 13:05:04,960]     Info: Sending 27 bytes...
+[2020-09-29 13:05:04,960]     [36mTransmitted 27 bytes: b6 16 01 00 00 01 00 00 00 00 00 00 05 62 61 69 64 75 03 63 6f 6d 00 00 01 00 01 b'\xb6\x16\x01\x00\x00\x01\x00\x00\x00\x00\x00\x00\x05baidu\x03com\x00\x00\x01\x00\x01'[0m
+[2020-09-29 13:05:04,960]     Info: Receiving...
+[2020-09-29 13:05:10,054]     [36mReceived: [0m
+[2020-09-29 13:05:10,054]   [35m[1mTest Step: Post- test case callback: "get_case_info"[0m
+[2020-09-29 13:05:10,054]     Info: TransactionID: 
+                              b'\xb6\x16'
+[2020-09-29 13:05:10,054]     Info: domain_part: 
+                              b'baidu'
+[2020-09-29 13:05:10,054]     Info: aname: 
+                              b''
+[2020-09-29 13:05:10,054]     Info: domain_padding: 
+                              b'com'
+[2020-09-29 13:05:10,054]     Info: payload: 
+                              b'\x01'
+[2020-09-29 13:05:10,054]   [35m[1mTest Step: Cleaning up connections from callbacks[0m
+[2020-09-29 13:05:10,054]     Info: Closing target connection...
+[2020-09-29 13:05:10,054]     Info: Connection closed.
+[2020-09-29 13:05:10,054]   [35m[1mTest Step: Sleep between tests.[0m
+[2020-09-29 13:05:10,054]     Info: sleeping for 1.000000 seconds
+[2020-09-29 13:05:11,097] [33m[1mTest Case: 49: Query.TransactionID.49[0m
+[2020-09-29 13:05:11,097]     Info: Type: RandomData. Default value: b'\x8e\x07'. Case 49 of 6086 overall.
+[2020-09-29 13:05:11,097]     Info: Opening target connection (192.168.1.1:53)...
+[2020-09-29 13:05:11,097]     Info: Connection opened.
+[2020-09-29 13:05:11,097]   [35m[1mTest Step: Pre_Send callback: "check_alive"[0m
+[2020-09-29 13:05:14,120]       [32m[1mCheck OK: 设备存活![0m
+[2020-09-29 13:05:14,120]   [35m[1mTest Step: Fuzzing Node 'Query'[0m
+[2020-09-29 13:05:14,120]     Info: Sending 27 bytes...
+[2020-09-29 13:05:14,121]     [36mTransmitted 27 bytes: 5c 2e 01 00 00 01 00 00 00 00 00 00 05 62 61 69 64 75 03 63 6f 6d 00 00 01 00 01 b'\\.\x01\x00\x00\x01\x00\x00\x00\x00\x00\x00\x05baidu\x03com\x00\x00\x01\x00\x01'[0m
+[2020-09-29 13:05:14,121]     Info: Receiving...
+[2020-09-29 13:05:19,270]     [36mReceived: [0m
+[2020-09-29 13:05:19,270]   [35m[1mTest Step: Post- test case callback: "get_case_info"[0m
+[2020-09-29 13:05:19,270]     Info: TransactionID: 
+                              b'\\.'
+[2020-09-29 13:05:19,270]     Info: domain_part: 
+                              b'baidu'
+[2020-09-29 13:05:19,270]     Info: aname: 
+                              b''
+[2020-09-29 13:05:19,270]     Info: domain_padding: 
+                              b'com'
+[2020-09-29 13:05:19,270]     Info: payload: 
+                              b'\x01'
+[2020-09-29 13:05:19,270]   [35m[1mTest Step: Cleaning up connections from callbacks[0m
+[2020-09-29 13:05:19,270]     Info: Closing target connection...
+[2020-09-29 13:05:19,270]     Info: Connection closed.
+[2020-09-29 13:05:19,270]   [35m[1mTest Step: Sleep between tests.[0m
+[2020-09-29 13:05:19,270]     Info: sleeping for 1.000000 seconds
+[2020-09-29 13:05:20,328] [33m[1mTest Case: 50: Query.TransactionID.50[0m
+[2020-09-29 13:05:20,329]     Info: Type: RandomData. Default value: b'\x8e\x07'. Case 50 of 6086 overall.
+[2020-09-29 13:05:20,329]     Info: Opening target connection (192.168.1.1:53)...
+[2020-09-29 13:05:20,329]     Info: Connection opened.
+[2020-09-29 13:05:20,329]   [35m[1mTest Step: Pre_Send callback: "check_alive"[0m
+[2020-09-29 13:05:23,353]       [32m[1mCheck OK: 设备存活![0m
+[2020-09-29 13:05:23,354]   [35m[1mTest Step: Fuzzing Node 'Query'[0m
+[2020-09-29 13:05:23,354]     Info: Sending 27 bytes...
+[2020-09-29 13:05:23,354]     [36mTransmitted 27 bytes: 00 62 01 00 00 01 00 00 00 00 00 00 05 62 61 69 64 75 03 63 6f 6d 00 00 01 00 01 b'\x00b\x01\x00\x00\x01\x00\x00\x00\x00\x00\x00\x05baidu\x03com\x00\x00\x01\x00\x01'[0m
+[2020-09-29 13:05:23,354]     Info: Receiving...
+[2020-09-29 13:05:28,486]     [36mReceived: [0m
+[2020-09-29 13:05:28,486]   [35m[1mTest Step: Post- test case callback: "get_case_info"[0m
+[2020-09-29 13:05:28,486]     Info: TransactionID: 
+                              b'\x00b'
+[2020-09-29 13:05:28,486]     Info: domain_part: 
+                              b'baidu'
+[2020-09-29 13:05:28,486]     Info: aname: 
+                              b''
+[2020-09-29 13:05:28,486]     Info: domain_padding: 
+                              b'com'
+[2020-09-29 13:05:28,486]     Info: payload: 
+                              b'\x01'
+[2020-09-29 13:05:28,486]   [35m[1mTest Step: Cleaning up connections from callbacks[0m
+[2020-09-29 13:05:28,486]     Info: Closing target connection...
+[2020-09-29 13:05:28,486]     Info: Connection closed.
+[2020-09-29 13:05:28,486]   [35m[1mTest Step: Sleep between tests.[0m
+[2020-09-29 13:05:28,486]     Info: sleeping for 1.000000 seconds
+[2020-09-29 13:05:29,537] [33m[1mTest Case: 51: Query.TransactionID.51[0m
+[2020-09-29 13:05:29,537]     Info: Type: RandomData. Default value: b'\x8e\x07'. Case 51 of 6086 overall.
+[2020-09-29 13:05:29,537]     Info: Opening target connection (192.168.1.1:53)...
+[2020-09-29 13:05:29,538]     Info: Connection opened.
+[2020-09-29 13:05:29,538]   [35m[1mTest Step: Pre_Send callback: "check_alive"[0m
+[2020-09-29 13:05:32,584]       [32m[1mCheck OK: 设备存活![0m
+[2020-09-29 13:05:32,585]   [35m[1mTest Step: Fuzzing Node 'Query'[0m
+[2020-09-29 13:05:32,585]     Info: Sending 27 bytes...
+[2020-09-29 13:05:32,588]     [36mTransmitted 27 bytes: 3d 89 01 00 00 01 00 00 00 00 00 00 05 62 61 69 64 75 03 63 6f 6d 00 00 01 00 01 b'=\x89\x01\x00\x00\x01\x00\x00\x00\x00\x00\x00\x05baidu\x03com\x00\x00\x01\x00\x01'[0m
+[2020-09-29 13:05:32,588]     Info: Receiving...
+[2020-09-29 13:05:37,702]     [36mReceived: [0m
+[2020-09-29 13:05:37,702]   [35m[1mTest Step: Post- test case callback: "get_case_info"[0m
+[2020-09-29 13:05:37,702]     Info: TransactionID: 
+                              b'=\x89'
+[2020-09-29 13:05:37,702]     Info: domain_part: 
+                              b'baidu'
+[2020-09-29 13:05:37,702]     Info: aname: 
+                              b''
+[2020-09-29 13:05:37,702]     Info: domain_padding: 
+                              b'com'
+[2020-09-29 13:05:37,702]     Info: payload: 
+                              b'\x01'
+[2020-09-29 13:05:37,702]   [35m[1mTest Step: Cleaning up connections from callbacks[0m
+[2020-09-29 13:05:37,702]     Info: Closing target connection...
+[2020-09-29 13:05:37,702]     Info: Connection closed.
+[2020-09-29 13:05:37,702]   [35m[1mTest Step: Sleep between tests.[0m
+[2020-09-29 13:05:37,702]     Info: sleeping for 1.000000 seconds
+[2020-09-29 13:05:38,742] [33m[1mTest Case: 52: Query.TransactionID.52[0m
+[2020-09-29 13:05:38,742]     Info: Type: RandomData. Default value: b'\x8e\x07'. Case 52 of 6086 overall.
+[2020-09-29 13:05:38,742]     Info: Opening target connection (192.168.1.1:53)...
+[2020-09-29 13:05:38,742]     Info: Connection opened.
+[2020-09-29 13:05:38,742]   [35m[1mTest Step: Pre_Send callback: "check_alive"[0m
+[2020-09-29 13:05:41,761]       [32m[1mCheck OK: 设备存活![0m
+[2020-09-29 13:05:41,761]   [35m[1mTest Step: Fuzzing Node 'Query'[0m
+[2020-09-29 13:05:41,764]     Info: Sending 27 bytes...
+[2020-09-29 13:05:41,764]     [36mTransmitted 27 bytes: a0 74 01 00 00 01 00 00 00 00 00 00 05 62 61 69 64 75 03 63 6f 6d 00 00 01 00 01 b'\xa0t\x01\x00\x00\x01\x00\x00\x00\x00\x00\x00\x05baidu\x03com\x00\x00\x01\x00\x01'[0m
+[2020-09-29 13:05:41,765]     Info: Receiving...
+[2020-09-29 13:05:46,918]     [36mReceived: [0m
+[2020-09-29 13:05:46,918]   [35m[1mTest Step: Post- test case callback: "get_case_info"[0m
+[2020-09-29 13:05:46,918]     Info: TransactionID: 
+                              b'\xa0t'
+[2020-09-29 13:05:46,918]     Info: domain_part: 
+                              b'baidu'
+[2020-09-29 13:05:46,918]     Info: aname: 
+                              b''
+[2020-09-29 13:05:46,918]     Info: domain_padding: 
+                              b'com'
+[2020-09-29 13:05:46,918]     Info: payload: 
+                              b'\x01'
+[2020-09-29 13:05:46,918]   [35m[1mTest Step: Cleaning up connections from callbacks[0m
+[2020-09-29 13:05:46,918]     Info: Closing target connection...
+[2020-09-29 13:05:46,918]     Info: Connection closed.
+[2020-09-29 13:05:46,918]   [35m[1mTest Step: Sleep between tests.[0m
+[2020-09-29 13:05:46,919]     Info: sleeping for 1.000000 seconds
+[2020-09-29 13:05:47,982] [33m[1mTest Case: 53: Query.TransactionID.53[0m
+[2020-09-29 13:05:47,982]     Info: Type: RandomData. Default value: b'\x8e\x07'. Case 53 of 6086 overall.
+[2020-09-29 13:05:47,982]     Info: Opening target connection (192.168.1.1:53)...
+[2020-09-29 13:05:47,982]     Info: Connection opened.
+[2020-09-29 13:05:47,982]   [35m[1mTest Step: Pre_Send callback: "check_alive"[0m
+[2020-09-29 13:05:51,029]       [32m[1mCheck OK: 设备存活![0m
+[2020-09-29 13:05:51,030]   [35m[1mTest Step: Fuzzing Node 'Query'[0m
+[2020-09-29 13:05:51,030]     Info: Sending 27 bytes...
+[2020-09-29 13:05:51,031]     [36mTransmitted 27 bytes: 85 23 01 00 00 01 00 00 00 00 00 00 05 62 61 69 64 75 03 63 6f 6d 00 00 01 00 01 b'\x85#\x01\x00\x00\x01\x00\x00\x00\x00\x00\x00\x05baidu\x03com\x00\x00\x01\x00\x01'[0m
+[2020-09-29 13:05:51,031]     Info: Receiving...
+[2020-09-29 13:05:56,134]     [36mReceived: [0m
+[2020-09-29 13:05:56,134]   [35m[1mTest Step: Post- test case callback: "get_case_info"[0m
+[2020-09-29 13:05:56,134]     Info: TransactionID: 
+                              b'\x85#'
+[2020-09-29 13:05:56,134]     Info: domain_part: 
+                              b'baidu'
+[2020-09-29 13:05:56,134]     Info: aname: 
+                              b''
+[2020-09-29 13:05:56,134]     Info: domain_padding: 
+                              b'com'
+[2020-09-29 13:05:56,134]     Info: payload: 
+                              b'\x01'
+[2020-09-29 13:05:56,134]   [35m[1mTest Step: Cleaning up connections from callbacks[0m
+[2020-09-29 13:05:56,134]     Info: Closing target connection...
+[2020-09-29 13:05:56,134]     Info: Connection closed.
+[2020-09-29 13:05:56,134]   [35m[1mTest Step: Sleep between tests.[0m
+[2020-09-29 13:05:56,134]     Info: sleeping for 1.000000 seconds
+[2020-09-29 13:05:57,162] [33m[1mTest Case: 54: Query.TransactionID.54[0m
+[2020-09-29 13:05:57,162]     Info: Type: RandomData. Default value: b'\x8e\x07'. Case 54 of 6086 overall.
+[2020-09-29 13:05:57,162]     Info: Opening target connection (192.168.1.1:53)...
+[2020-09-29 13:05:57,162]     Info: Connection opened.
+[2020-09-29 13:05:57,162]   [35m[1mTest Step: Pre_Send callback: "check_alive"[0m
+[2020-09-29 13:06:00,186]       [32m[1mCheck OK: 设备存活![0m
+[2020-09-29 13:06:00,186]   [35m[1mTest Step: Fuzzing Node 'Query'[0m
+[2020-09-29 13:06:00,186]     Info: Sending 27 bytes...
+[2020-09-29 13:06:00,187]     [36mTransmitted 27 bytes: f5 09 01 00 00 01 00 00 00 00 00 00 05 62 61 69 64 75 03 63 6f 6d 00 00 01 00 01 b'\xf5\t\x01\x00\x00\x01\x00\x00\x00\x00\x00\x00\x05baidu\x03com\x00\x00\x01\x00\x01'[0m
+[2020-09-29 13:06:00,187]     Info: Receiving...
+[2020-09-29 13:06:05,350]     [36mReceived: [0m
+[2020-09-29 13:06:05,350]   [35m[1mTest Step: Post- test case callback: "get_case_info"[0m
+[2020-09-29 13:06:05,350]     Info: TransactionID: 
+                              b'\xf5\t'
+[2020-09-29 13:06:05,350]     Info: domain_part: 
+                              b'baidu'
+[2020-09-29 13:06:05,350]     Info: aname: 
+                              b''
+[2020-09-29 13:06:05,350]     Info: domain_padding: 
+                              b'com'
+[2020-09-29 13:06:05,350]     Info: payload: 
+                              b'\x01'
+[2020-09-29 13:06:05,350]   [35m[1mTest Step: Cleaning up connections from callbacks[0m
+[2020-09-29 13:06:05,350]     Info: Closing target connection...
+[2020-09-29 13:06:05,350]     Info: Connection closed.
+[2020-09-29 13:06:05,350]   [35m[1mTest Step: Sleep between tests.[0m
+[2020-09-29 13:06:05,350]     Info: sleeping for 1.000000 seconds
+[2020-09-29 13:06:06,404] [33m[1mTest Case: 55: Query.TransactionID.55[0m
+[2020-09-29 13:06:06,404]     Info: Type: RandomData. Default value: b'\x8e\x07'. Case 55 of 6086 overall.
+[2020-09-29 13:06:06,404]     Info: Opening target connection (192.168.1.1:53)...
+[2020-09-29 13:06:06,404]     Info: Connection opened.
+[2020-09-29 13:06:06,404]   [35m[1mTest Step: Pre_Send callback: "check_alive"[0m
+[2020-09-29 13:06:09,474]       [32m[1mCheck OK: 设备存活![0m
+[2020-09-29 13:06:09,474]   [35m[1mTest Step: Fuzzing Node 'Query'[0m
+[2020-09-29 13:06:09,474]     Info: Sending 27 bytes...
+[2020-09-29 13:06:09,475]     [36mTransmitted 27 bytes: e8 a2 01 00 00 01 00 00 00 00 00 00 05 62 61 69 64 75 03 63 6f 6d 00 00 01 00 01 b'\xe8\xa2\x01\x00\x00\x01\x00\x00\x00\x00\x00\x00\x05baidu\x03com\x00\x00\x01\x00\x01'[0m
+[2020-09-29 13:06:09,475]     Info: Receiving...
+[2020-09-29 13:06:14,566]     [36mReceived: [0m
+[2020-09-29 13:06:14,566]   [35m[1mTest Step: Post- test case callback: "get_case_info"[0m
+[2020-09-29 13:06:14,566]     Info: TransactionID: 
+                              b'\xe8\xa2'
+[2020-09-29 13:06:14,566]     Info: domain_part: 
+                              b'baidu'
+[2020-09-29 13:06:14,566]     Info: aname: 
+                              b''
+[2020-09-29 13:06:14,566]     Info: domain_padding: 
+                              b'com'
+[2020-09-29 13:06:14,566]     Info: payload: 
+                              b'\x01'
+[2020-09-29 13:06:14,566]   [35m[1mTest Step: Cleaning up connections from callbacks[0m
+[2020-09-29 13:06:14,566]     Info: Closing target connection...
+[2020-09-29 13:06:14,566]     Info: Connection closed.
+[2020-09-29 13:06:14,566]   [35m[1mTest Step: Sleep between tests.[0m
+[2020-09-29 13:06:14,566]     Info: sleeping for 1.000000 seconds
+[2020-09-29 13:06:15,600] [33m[1mTest Case: 56: Query.TransactionID.56[0m
+[2020-09-29 13:06:15,601]     Info: Type: RandomData. Default value: b'\x8e\x07'. Case 56 of 6086 overall.
+[2020-09-29 13:06:15,601]     Info: Opening target connection (192.168.1.1:53)...
+[2020-09-29 13:06:15,601]     Info: Connection opened.
+[2020-09-29 13:06:15,601]   [35m[1mTest Step: Pre_Send callback: "check_alive"[0m
+[2020-09-29 13:06:18,621]       [32m[1mCheck OK: 设备存活![0m
+[2020-09-29 13:06:18,621]   [35m[1mTest Step: Fuzzing Node 'Query'[0m
+[2020-09-29 13:06:18,624]     Info: Sending 27 bytes...
+[2020-09-29 13:06:18,624]     [36mTransmitted 27 bytes: 99 6d 01 00 00 01 00 00 00 00 00 00 05 62 61 69 64 75 03 63 6f 6d 00 00 01 00 01 b'\x99m\x01\x00\x00\x01\x00\x00\x00\x00\x00\x00\x05baidu\x03com\x00\x00\x01\x00\x01'[0m
+[2020-09-29 13:06:18,624]     Info: Receiving...
+[2020-09-29 13:06:23,782]     [36mReceived: [0m
+[2020-09-29 13:06:23,782]   [35m[1mTest Step: Post- test case callback: "get_case_info"[0m
+[2020-09-29 13:06:23,782]     Info: TransactionID: 
+                              b'\x99m'
+[2020-09-29 13:06:23,782]     Info: domain_part: 
+                              b'baidu'
+[2020-09-29 13:06:23,782]     Info: aname: 
+                              b''
+[2020-09-29 13:06:23,782]     Info: domain_padding: 
+                              b'com'
+[2020-09-29 13:06:23,782]     Info: payload: 
+                              b'\x01'
+[2020-09-29 13:06:23,782]   [35m[1mTest Step: Cleaning up connections from callbacks[0m
+[2020-09-29 13:06:23,782]     Info: Closing target connection...
+[2020-09-29 13:06:23,782]     Info: Connection closed.
+[2020-09-29 13:06:23,782]   [35m[1mTest Step: Sleep between tests.[0m
+[2020-09-29 13:06:23,783]     Info: sleeping for 1.000000 seconds
+[2020-09-29 13:06:24,838] [33m[1mTest Case: 57: Query.TransactionID.57[0m
+[2020-09-29 13:06:24,838]     Info: Type: RandomData. Default value: b'\x8e\x07'. Case 57 of 6086 overall.
+[2020-09-29 13:06:24,838]     Info: Opening target connection (192.168.1.1:53)...
+[2020-09-29 13:06:24,838]     Info: Connection opened.
+[2020-09-29 13:06:24,838]   [35m[1mTest Step: Pre_Send callback: "check_alive"[0m
+[2020-09-29 13:06:27,864]       [32m[1mCheck OK: 设备存活![0m
+[2020-09-29 13:06:27,864]   [35m[1mTest Step: Fuzzing Node 'Query'[0m
+[2020-09-29 13:06:27,865]     Info: Sending 27 bytes...
+[2020-09-29 13:06:27,867]     [36mTransmitted 27 bytes: 1e f4 01 00 00 01 00 00 00 00 00 00 05 62 61 69 64 75 03 63 6f 6d 00 00 01 00 01 b'\x1e\xf4\x01\x00\x00\x01\x00\x00\x00\x00\x00\x00\x05baidu\x03com\x00\x00\x01\x00\x01'[0m
+[2020-09-29 13:06:27,868]     Info: Receiving...
+[2020-09-29 13:06:32,998]     [36mReceived: [0m
+[2020-09-29 13:06:32,998]   [35m[1mTest Step: Post- test case callback: "get_case_info"[0m
+[2020-09-29 13:06:32,998]     Info: TransactionID: 
+                              b'\x1e\xf4'
+[2020-09-29 13:06:32,998]     Info: domain_part: 
+                              b'baidu'
+[2020-09-29 13:06:32,998]     Info: aname: 
+                              b''
+[2020-09-29 13:06:32,998]     Info: domain_padding: 
+                              b'com'
+[2020-09-29 13:06:32,998]     Info: payload: 
+                              b'\x01'
+[2020-09-29 13:06:32,998]   [35m[1mTest Step: Cleaning up connections from callbacks[0m
+[2020-09-29 13:06:32,998]     Info: Closing target connection...
+[2020-09-29 13:06:32,998]     Info: Connection closed.
+[2020-09-29 13:06:32,998]   [35m[1mTest Step: Sleep between tests.[0m
+[2020-09-29 13:06:32,998]     Info: sleeping for 1.000000 seconds
+[2020-09-29 13:06:34,059] [33m[1mTest Case: 58: Query.TransactionID.58[0m
+[2020-09-29 13:06:34,059]     Info: Type: RandomData. Default value: b'\x8e\x07'. Case 58 of 6086 overall.
+[2020-09-29 13:06:34,059]     Info: Opening target connection (192.168.1.1:53)...
+[2020-09-29 13:06:34,060]     Info: Connection opened.
+[2020-09-29 13:06:34,060]   [35m[1mTest Step: Pre_Send callback: "check_alive"[0m
+[2020-09-29 13:06:37,137]       [32m[1mCheck OK: 设备存活![0m
+[2020-09-29 13:06:37,137]   [35m[1mTest Step: Fuzzing Node 'Query'[0m
+[2020-09-29 13:06:37,138]     Info: Sending 27 bytes...
+[2020-09-29 13:06:37,139]     [36mTransmitted 27 bytes: 7f 34 01 00 00 01 00 00 00 00 00 00 05 62 61 69 64 75 03 63 6f 6d 00 00 01 00 01 b'\x7f4\x01\x00\x00\x01\x00\x00\x00\x00\x00\x00\x05baidu\x03com\x00\x00\x01\x00\x01'[0m
+[2020-09-29 13:06:37,139]     Info: Receiving...
+[2020-09-29 13:06:42,215]     [36mReceived: [0m
+[2020-09-29 13:06:42,215]   [35m[1mTest Step: Post- test case callback: "get_case_info"[0m
+[2020-09-29 13:06:42,215]     Info: TransactionID: 
+                              b'\x7f4'
+[2020-09-29 13:06:42,215]     Info: domain_part: 
+                              b'baidu'
+[2020-09-29 13:06:42,215]     Info: aname: 
+                              b''
+[2020-09-29 13:06:42,215]     Info: domain_padding: 
+                              b'com'
+[2020-09-29 13:06:42,215]     Info: payload: 
+                              b'\x01'
+[2020-09-29 13:06:42,215]   [35m[1mTest Step: Cleaning up connections from callbacks[0m
+[2020-09-29 13:06:42,215]     Info: Closing target connection...
+[2020-09-29 13:06:42,215]     Info: Connection closed.
+[2020-09-29 13:06:42,216]   [35m[1mTest Step: Sleep between tests.[0m
+[2020-09-29 13:06:42,216]     Info: sleeping for 1.000000 seconds
+[2020-09-29 13:06:43,266] [33m[1mTest Case: 59: Query.TransactionID.59[0m
+[2020-09-29 13:06:43,266]     Info: Type: RandomData. Default value: b'\x8e\x07'. Case 59 of 6086 overall.
+[2020-09-29 13:06:43,266]     Info: Opening target connection (192.168.1.1:53)...
+[2020-09-29 13:06:43,267]     Info: Connection opened.
+[2020-09-29 13:06:43,267]   [35m[1mTest Step: Pre_Send callback: "check_alive"[0m
+[2020-09-29 13:06:46,323]       [32m[1mCheck OK: 设备存活![0m
+[2020-09-29 13:06:46,323]   [35m[1mTest Step: Fuzzing Node 'Query'[0m
+[2020-09-29 13:06:46,323]     Info: Sending 27 bytes...
+[2020-09-29 13:06:46,324]     [36mTransmitted 27 bytes: 7e 01 01 00 00 01 00 00 00 00 00 00 05 62 61 69 64 75 03 63 6f 6d 00 00 01 00 01 b'~\x01\x01\x00\x00\x01\x00\x00\x00\x00\x00\x00\x05baidu\x03com\x00\x00\x01\x00\x01'[0m
+[2020-09-29 13:06:46,324]     Info: Receiving...
+[2020-09-29 13:06:51,430]     [36mReceived: [0m
+[2020-09-29 13:06:51,430]   [35m[1mTest Step: Post- test case callback: "get_case_info"[0m
+[2020-09-29 13:06:51,430]     Info: TransactionID: 
+                              b'~\x01'
+[2020-09-29 13:06:51,430]     Info: domain_part: 
+                              b'baidu'
+[2020-09-29 13:06:51,430]     Info: aname: 
+                              b''
+[2020-09-29 13:06:51,430]     Info: domain_padding: 
+                              b'com'
+[2020-09-29 13:06:51,430]     Info: payload: 
+                              b'\x01'
+[2020-09-29 13:06:51,430]   [35m[1mTest Step: Cleaning up connections from callbacks[0m
+[2020-09-29 13:06:51,430]     Info: Closing target connection...
+[2020-09-29 13:06:51,430]     Info: Connection closed.
+[2020-09-29 13:06:51,430]   [35m[1mTest Step: Sleep between tests.[0m
+[2020-09-29 13:06:51,430]     Info: sleeping for 1.000000 seconds
+[2020-09-29 13:06:52,488] [33m[1mTest Case: 60: Query.TransactionID.60[0m
+[2020-09-29 13:06:52,488]     Info: Type: RandomData. Default value: b'\x8e\x07'. Case 60 of 6086 overall.
+[2020-09-29 13:06:52,488]     Info: Opening target connection (192.168.1.1:53)...
+[2020-09-29 13:06:52,488]     Info: Connection opened.
+[2020-09-29 13:06:52,488]   [35m[1mTest Step: Pre_Send callback: "check_alive"[0m
+[2020-09-29 13:06:55,546]       [32m[1mCheck OK: 设备存活![0m
+[2020-09-29 13:06:55,547]   [35m[1mTest Step: Fuzzing Node 'Query'[0m
+[2020-09-29 13:06:55,547]     Info: Sending 27 bytes...
+[2020-09-29 13:06:55,547]     [36mTransmitted 27 bytes: 9d e1 01 00 00 01 00 00 00 00 00 00 05 62 61 69 64 75 03 63 6f 6d 00 00 01 00 01 b'\x9d\xe1\x01\x00\x00\x01\x00\x00\x00\x00\x00\x00\x05baidu\x03com\x00\x00\x01\x00\x01'[0m
+[2020-09-29 13:06:55,547]     Info: Receiving...
+[2020-09-29 13:07:00,645]     [36mReceived: [0m
+[2020-09-29 13:07:00,645]   [35m[1mTest Step: Post- test case callback: "get_case_info"[0m
+[2020-09-29 13:07:00,645]     Info: TransactionID: 
+                              b'\x9d\xe1'
+[2020-09-29 13:07:00,645]     Info: domain_part: 
+                              b'baidu'
+[2020-09-29 13:07:00,645]     Info: aname: 
+                              b''
+[2020-09-29 13:07:00,645]     Info: domain_padding: 
+                              b'com'
+[2020-09-29 13:07:00,645]     Info: payload: 
+                              b'\x01'
+[2020-09-29 13:07:00,645]   [35m[1mTest Step: Cleaning up connections from callbacks[0m
+[2020-09-29 13:07:00,645]     Info: Closing target connection...
+[2020-09-29 13:07:00,646]     Info: Connection closed.
+[2020-09-29 13:07:00,646]   [35m[1mTest Step: Sleep between tests.[0m
+[2020-09-29 13:07:00,646]     Info: sleeping for 1.000000 seconds
+[2020-09-29 13:07:01,681] [33m[1mTest Case: 61: Query.TransactionID.61[0m
+[2020-09-29 13:07:01,681]     Info: Type: RandomData. Default value: b'\x8e\x07'. Case 61 of 6086 overall.
+[2020-09-29 13:07:01,682]     Info: Opening target connection (192.168.1.1:53)...
+[2020-09-29 13:07:01,682]     Info: Connection opened.
+[2020-09-29 13:07:01,682]   [35m[1mTest Step: Pre_Send callback: "check_alive"[0m
+[2020-09-29 13:07:04,723]       [32m[1mCheck OK: 设备存活![0m
+[2020-09-29 13:07:04,723]   [35m[1mTest Step: Fuzzing Node 'Query'[0m
+[2020-09-29 13:07:04,723]     Info: Sending 27 bytes...
+[2020-09-29 13:07:04,723]     [36mTransmitted 27 bytes: 65 d1 01 00 00 01 00 00 00 00 00 00 05 62 61 69 64 75 03 63 6f 6d 00 00 01 00 01 b'e\xd1\x01\x00\x00\x01\x00\x00\x00\x00\x00\x00\x05baidu\x03com\x00\x00\x01\x00\x01'[0m
+[2020-09-29 13:07:04,723]     Info: Receiving...
+[2020-09-29 13:07:09,862]     [36mReceived: [0m
+[2020-09-29 13:07:09,862]   [35m[1mTest Step: Post- test case callback: "get_case_info"[0m
+[2020-09-29 13:07:09,862]     Info: TransactionID: 
+                              b'e\xd1'
+[2020-09-29 13:07:09,862]     Info: domain_part: 
+                              b'baidu'
+[2020-09-29 13:07:09,862]     Info: aname: 
+                              b''
+[2020-09-29 13:07:09,862]     Info: domain_padding: 
+                              b'com'
+[2020-09-29 13:07:09,862]     Info: payload: 
+                              b'\x01'
+[2020-09-29 13:07:09,862]   [35m[1mTest Step: Cleaning up connections from callbacks[0m
+[2020-09-29 13:07:09,862]     Info: Closing target connection...
+[2020-09-29 13:07:09,862]     Info: Connection closed.
+[2020-09-29 13:07:09,863]   [35m[1mTest Step: Sleep between tests.[0m
+[2020-09-29 13:07:09,863]     Info: sleeping for 1.000000 seconds
+[2020-09-29 13:07:10,916] [33m[1mTest Case: 62: Query.TransactionID.62[0m
+[2020-09-29 13:07:10,916]     Info: Type: RandomData. Default value: b'\x8e\x07'. Case 62 of 6086 overall.
+[2020-09-29 13:07:10,916]     Info: Opening target connection (192.168.1.1:53)...
+[2020-09-29 13:07:10,916]     Info: Connection opened.
+[2020-09-29 13:07:10,916]   [35m[1mTest Step: Pre_Send callback: "check_alive"[0m
+[2020-09-29 13:07:13,973]       [32m[1mCheck OK: 设备存活![0m
+[2020-09-29 13:07:13,973]   [35m[1mTest Step: Fuzzing Node 'Query'[0m
+[2020-09-29 13:07:13,973]     Info: Sending 27 bytes...
+[2020-09-29 13:07:13,974]     [36mTransmitted 27 bytes: 89 8e 01 00 00 01 00 00 00 00 00 00 05 62 61 69 64 75 03 63 6f 6d 00 00 01 00 01 b'\x89\x8e\x01\x00\x00\x01\x00\x00\x00\x00\x00\x00\x05baidu\x03com\x00\x00\x01\x00\x01'[0m
+[2020-09-29 13:07:13,974]     Info: Receiving...
+[2020-09-29 13:07:19,078]     [36mReceived: [0m
+[2020-09-29 13:07:19,078]   [35m[1mTest Step: Post- test case callback: "get_case_info"[0m
+[2020-09-29 13:07:19,078]     Info: TransactionID: 
+                              b'\x89\x8e'
+[2020-09-29 13:07:19,078]     Info: domain_part: 
+                              b'baidu'
+[2020-09-29 13:07:19,078]     Info: aname: 
+                              b''
+[2020-09-29 13:07:19,078]     Info: domain_padding: 
+                              b'com'
+[2020-09-29 13:07:19,078]     Info: payload: 
+                              b'\x01'
+[2020-09-29 13:07:19,078]   [35m[1mTest Step: Cleaning up connections from callbacks[0m
+[2020-09-29 13:07:19,078]     Info: Closing target connection...
+[2020-09-29 13:07:19,079]     Info: Connection closed.
+[2020-09-29 13:07:19,079]   [35m[1mTest Step: Sleep between tests.[0m
+[2020-09-29 13:07:19,079]     Info: sleeping for 1.000000 seconds
+[2020-09-29 13:07:20,148] [33m[1mTest Case: 63: Query.TransactionID.63[0m
+[2020-09-29 13:07:20,148]     Info: Type: RandomData. Default value: b'\x8e\x07'. Case 63 of 6086 overall.
+[2020-09-29 13:07:20,148]     Info: Opening target connection (192.168.1.1:53)...
+[2020-09-29 13:07:20,148]     Info: Connection opened.
+[2020-09-29 13:07:20,148]   [35m[1mTest Step: Pre_Send callback: "check_alive"[0m
+[2020-09-29 13:07:23,178]       [32m[1mCheck OK: 设备存活![0m
+[2020-09-29 13:07:23,178]   [35m[1mTest Step: Fuzzing Node 'Query'[0m
+[2020-09-29 13:07:23,179]     Info: Sending 27 bytes...
+[2020-09-29 13:07:23,179]     [36mTransmitted 27 bytes: 2f 17 01 00 00 01 00 00 00 00 00 00 05 62 61 69 64 75 03 63 6f 6d 00 00 01 00 01 b'/\x17\x01\x00\x00\x01\x00\x00\x00\x00\x00\x00\x05baidu\x03com\x00\x00\x01\x00\x01'[0m
+[2020-09-29 13:07:23,179]     Info: Receiving...
+[2020-09-29 13:07:28,294]     [36mReceived: [0m
+[2020-09-29 13:07:28,294]   [35m[1mTest Step: Post- test case callback: "get_case_info"[0m
+[2020-09-29 13:07:28,294]     Info: TransactionID: 
+                              b'/\x17'
+[2020-09-29 13:07:28,294]     Info: domain_part: 
+                              b'baidu'
+[2020-09-29 13:07:28,294]     Info: aname: 
+                              b''
+[2020-09-29 13:07:28,294]     Info: domain_padding: 
+                              b'com'
+[2020-09-29 13:07:28,294]     Info: payload: 
+                              b'\x01'
+[2020-09-29 13:07:28,294]   [35m[1mTest Step: Cleaning up connections from callbacks[0m
+[2020-09-29 13:07:28,294]     Info: Closing target connection...
+[2020-09-29 13:07:28,294]     Info: Connection closed.
+[2020-09-29 13:07:28,294]   [35m[1mTest Step: Sleep between tests.[0m
+[2020-09-29 13:07:28,294]     Info: sleeping for 1.000000 seconds
+[2020-09-29 13:07:29,360] [33m[1mTest Case: 64: Query.TransactionID.64[0m
+[2020-09-29 13:07:29,360]     Info: Type: RandomData. Default value: b'\x8e\x07'. Case 64 of 6086 overall.
+[2020-09-29 13:07:29,360]     Info: Opening target connection (192.168.1.1:53)...
+[2020-09-29 13:07:29,360]     Info: Connection opened.
+[2020-09-29 13:07:29,360]   [35m[1mTest Step: Pre_Send callback: "check_alive"[0m
+[2020-09-29 13:07:32,390]       [32m[1mCheck OK: 设备存活![0m
+[2020-09-29 13:07:32,390]   [35m[1mTest Step: Fuzzing Node 'Query'[0m
+[2020-09-29 13:07:32,390]     Info: Sending 27 bytes...
+[2020-09-29 13:07:32,391]     [36mTransmitted 27 bytes: 0f 25 01 00 00 01 00 00 00 00 00 00 05 62 61 69 64 75 03 63 6f 6d 00 00 01 00 01 b'\x0f%\x01\x00\x00\x01\x00\x00\x00\x00\x00\x00\x05baidu\x03com\x00\x00\x01\x00\x01'[0m
+[2020-09-29 13:07:32,391]     Info: Receiving...
+[2020-09-29 13:07:37,512]     [36mReceived: [0m
+[2020-09-29 13:07:37,512]   [35m[1mTest Step: Post- test case callback: "get_case_info"[0m
+[2020-09-29 13:07:37,512]     Info: TransactionID: 
+                              b'\x0f%'
+[2020-09-29 13:07:37,512]     Info: domain_part: 
+                              b'baidu'
+[2020-09-29 13:07:37,512]     Info: aname: 
+                              b''
+[2020-09-29 13:07:37,512]     Info: domain_padding: 
+                              b'com'
+[2020-09-29 13:07:37,512]     Info: payload: 
+                              b'\x01'
+[2020-09-29 13:07:37,513]   [35m[1mTest Step: Cleaning up connections from callbacks[0m
+[2020-09-29 13:07:37,514]     Info: Closing target connection...
+[2020-09-29 13:07:37,514]     Info: Connection closed.
+[2020-09-29 13:07:37,514]   [35m[1mTest Step: Sleep between tests.[0m
+[2020-09-29 13:07:37,514]     Info: sleeping for 1.000000 seconds
+[2020-09-29 13:07:38,541] [33m[1mTest Case: 65: Query.TransactionID.65[0m
+[2020-09-29 13:07:38,541]     Info: Type: RandomData. Default value: b'\x8e\x07'. Case 65 of 6086 overall.
+[2020-09-29 13:07:38,541]     Info: Opening target connection (192.168.1.1:53)...
+[2020-09-29 13:07:38,541]     Info: Connection opened.
+[2020-09-29 13:07:38,541]   [35m[1mTest Step: Pre_Send callback: "check_alive"[0m
+[2020-09-29 13:07:41,560]       [32m[1mCheck OK: 设备存活![0m
+[2020-09-29 13:07:41,560]   [35m[1mTest Step: Fuzzing Node 'Query'[0m
+[2020-09-29 13:07:41,561]     Info: Sending 27 bytes...
+[2020-09-29 13:07:41,561]     [36mTransmitted 27 bytes: 9f a6 01 00 00 01 00 00 00 00 00 00 05 62 61 69 64 75 03 63 6f 6d 00 00 01 00 01 b'\x9f\xa6\x01\x00\x00\x01\x00\x00\x00\x00\x00\x00\x05baidu\x03com\x00\x00\x01\x00\x01'[0m
+[2020-09-29 13:07:41,561]     Info: Receiving...
+[2020-09-29 13:07:46,725]     [36mReceived: [0m
+[2020-09-29 13:07:46,726]   [35m[1mTest Step: Post- test case callback: "get_case_info"[0m
+[2020-09-29 13:07:46,726]     Info: TransactionID: 
+                              b'\x9f\xa6'
+[2020-09-29 13:07:46,726]     Info: domain_part: 
+                              b'baidu'
+[2020-09-29 13:07:46,726]     Info: aname: 
+                              b''
+[2020-09-29 13:07:46,726]     Info: domain_padding: 
+                              b'com'
+[2020-09-29 13:07:46,726]     Info: payload: 
+                              b'\x01'
+[2020-09-29 13:07:46,726]   [35m[1mTest Step: Cleaning up connections from callbacks[0m
+[2020-09-29 13:07:46,726]     Info: Closing target connection...
+[2020-09-29 13:07:46,726]     Info: Connection closed.
+[2020-09-29 13:07:46,726]   [35m[1mTest Step: Sleep between tests.[0m
+[2020-09-29 13:07:46,726]     Info: sleeping for 1.000000 seconds
+[2020-09-29 13:07:47,803] [33m[1mTest Case: 66: Query.TransactionID.66[0m
+[2020-09-29 13:07:47,803]     Info: Type: RandomData. Default value: b'\x8e\x07'. Case 66 of 6086 overall.
+[2020-09-29 13:07:47,803]     Info: Opening target connection (192.168.1.1:53)...
+[2020-09-29 13:07:47,803]     Info: Connection opened.
+[2020-09-29 13:07:47,803]   [35m[1mTest Step: Pre_Send callback: "check_alive"[0m
+[2020-09-29 13:07:50,848]       [32m[1mCheck OK: 设备存活![0m
+[2020-09-29 13:07:50,848]   [35m[1mTest Step: Fuzzing Node 'Query'[0m
+[2020-09-29 13:07:50,849]     Info: Sending 27 bytes...
+[2020-09-29 13:07:50,849]     [36mTransmitted 27 bytes: 2b 70 01 00 00 01 00 00 00 00 00 00 05 62 61 69 64 75 03 63 6f 6d 00 00 01 00 01 b'+p\x01\x00\x00\x01\x00\x00\x00\x00\x00\x00\x05baidu\x03com\x00\x00\x01\x00\x01'[0m
+[2020-09-29 13:07:50,849]     Info: Receiving...
+[2020-09-29 13:07:55,943]     [36mReceived: [0m
+[2020-09-29 13:07:55,943]   [35m[1mTest Step: Post- test case callback: "get_case_info"[0m
+[2020-09-29 13:07:55,943]     Info: TransactionID: 
+                              b'+p'
+[2020-09-29 13:07:55,943]     Info: domain_part: 
+                              b'baidu'
+[2020-09-29 13:07:55,943]     Info: aname: 
+                              b''
+[2020-09-29 13:07:55,943]     Info: domain_padding: 
+                              b'com'
+[2020-09-29 13:07:55,943]     Info: payload: 
+                              b'\x01'
+[2020-09-29 13:07:55,943]   [35m[1mTest Step: Cleaning up connections from callbacks[0m
+[2020-09-29 13:07:55,943]     Info: Closing target connection...
+[2020-09-29 13:07:55,943]     Info: Connection closed.
+[2020-09-29 13:07:55,943]   [35m[1mTest Step: Sleep between tests.[0m
+[2020-09-29 13:07:55,943]     Info: sleeping for 1.000000 seconds
+[2020-09-29 13:07:56,989] [33m[1mTest Case: 67: Query.TransactionID.67[0m
+[2020-09-29 13:07:56,989]     Info: Type: RandomData. Default value: b'\x8e\x07'. Case 67 of 6086 overall.
+[2020-09-29 13:07:56,989]     Info: Opening target connection (192.168.1.1:53)...
+[2020-09-29 13:07:56,989]     Info: Connection opened.
+[2020-09-29 13:07:56,989]   [35m[1mTest Step: Pre_Send callback: "check_alive"[0m
+[2020-09-29 13:08:00,009]       [32m[1mCheck OK: 设备存活![0m
+[2020-09-29 13:08:00,009]   [35m[1mTest Step: Fuzzing Node 'Query'[0m
+[2020-09-29 13:08:00,009]     Info: Sending 27 bytes...
+[2020-09-29 13:08:00,010]     [36mTransmitted 27 bytes: 8a 71 01 00 00 01 00 00 00 00 00 00 05 62 61 69 64 75 03 63 6f 6d 00 00 01 00 01 b'\x8aq\x01\x00\x00\x01\x00\x00\x00\x00\x00\x00\x05baidu\x03com\x00\x00\x01\x00\x01'[0m
+[2020-09-29 13:08:00,010]     Info: Receiving...
+[2020-09-29 13:08:05,158]     [36mReceived: [0m
+[2020-09-29 13:08:05,158]   [35m[1mTest Step: Post- test case callback: "get_case_info"[0m
+[2020-09-29 13:08:05,158]     Info: TransactionID: 
+                              b'\x8aq'
+[2020-09-29 13:08:05,158]     Info: domain_part: 
+                              b'baidu'
+[2020-09-29 13:08:05,158]     Info: aname: 
+                              b''
+[2020-09-29 13:08:05,158]     Info: domain_padding: 
+                              b'com'
+[2020-09-29 13:08:05,158]     Info: payload: 
+                              b'\x01'
+[2020-09-29 13:08:05,158]   [35m[1mTest Step: Cleaning up connections from callbacks[0m
+[2020-09-29 13:08:05,158]     Info: Closing target connection...
+[2020-09-29 13:08:05,158]     Info: Connection closed.
+[2020-09-29 13:08:05,158]   [35m[1mTest Step: Sleep between tests.[0m
+[2020-09-29 13:08:05,158]     Info: sleeping for 1.000000 seconds
+[2020-09-29 13:08:06,200] [33m[1mTest Case: 68: Query.TransactionID.68[0m
+[2020-09-29 13:08:06,200]     Info: Type: RandomData. Default value: b'\x8e\x07'. Case 68 of 6086 overall.
+[2020-09-29 13:08:06,200]     Info: Opening target connection (192.168.1.1:53)...
+[2020-09-29 13:08:06,200]     Info: Connection opened.
+[2020-09-29 13:08:06,200]   [35m[1mTest Step: Pre_Send callback: "check_alive"[0m
+[2020-09-29 13:08:09,227]       [32m[1mCheck OK: 设备存活![0m
+[2020-09-29 13:08:09,227]   [35m[1mTest Step: Fuzzing Node 'Query'[0m
+[2020-09-29 13:08:09,228]     Info: Sending 27 bytes...
+[2020-09-29 13:08:09,229]     [36mTransmitted 27 bytes: 54 be 01 00 00 01 00 00 00 00 00 00 05 62 61 69 64 75 03 63 6f 6d 00 00 01 00 01 b'T\xbe\x01\x00\x00\x01\x00\x00\x00\x00\x00\x00\x05baidu\x03com\x00\x00\x01\x00\x01'[0m
+[2020-09-29 13:08:09,229]     Info: Receiving...
+[2020-09-29 13:08:14,376]     [36mReceived: [0m
+[2020-09-29 13:08:14,376]   [35m[1mTest Step: Post- test case callback: "get_case_info"[0m
+[2020-09-29 13:08:14,376]     Info: TransactionID: 
+                              b'T\xbe'
+[2020-09-29 13:08:14,376]     Info: domain_part: 
+                              b'baidu'
+[2020-09-29 13:08:14,376]     Info: aname: 
+                              b''
+[2020-09-29 13:08:14,376]     Info: domain_padding: 
+                              b'com'
+[2020-09-29 13:08:14,376]     Info: payload: 
+                              b'\x01'
+[2020-09-29 13:08:14,376]   [35m[1mTest Step: Cleaning up connections from callbacks[0m
+[2020-09-29 13:08:14,376]     Info: Closing target connection...
+[2020-09-29 13:08:14,376]     Info: Connection closed.
+[2020-09-29 13:08:14,376]   [35m[1mTest Step: Sleep between tests.[0m
+[2020-09-29 13:08:14,376]     Info: sleeping for 1.000000 seconds
+[2020-09-29 13:08:15,432] [33m[1mTest Case: 69: Query.TransactionID.69[0m
+[2020-09-29 13:08:15,432]     Info: Type: RandomData. Default value: b'\x8e\x07'. Case 69 of 6086 overall.
+[2020-09-29 13:08:15,433]     Info: Opening target connection (192.168.1.1:53)...
+[2020-09-29 13:08:15,433]     Info: Connection opened.
+[2020-09-29 13:08:15,433]   [35m[1mTest Step: Pre_Send callback: "check_alive"[0m
+[2020-09-29 13:08:18,492]       [32m[1mCheck OK: 设备存活![0m
+[2020-09-29 13:08:18,492]   [35m[1mTest Step: Fuzzing Node 'Query'[0m
+[2020-09-29 13:08:18,493]     Info: Sending 27 bytes...
+[2020-09-29 13:08:18,495]     [36mTransmitted 27 bytes: 9b 3e 01 00 00 01 00 00 00 00 00 00 05 62 61 69 64 75 03 63 6f 6d 00 00 01 00 01 b'\x9b>\x01\x00\x00\x01\x00\x00\x00\x00\x00\x00\x05baidu\x03com\x00\x00\x01\x00\x01'[0m
+[2020-09-29 13:08:18,497]     Info: Receiving...
+[2020-09-29 13:08:23,590]     [36mReceived: [0m
+[2020-09-29 13:08:23,590]   [35m[1mTest Step: Post- test case callback: "get_case_info"[0m
+[2020-09-29 13:08:23,590]     Info: TransactionID: 
+                              b'\x9b>'
+[2020-09-29 13:08:23,590]     Info: domain_part: 
+                              b'baidu'
+[2020-09-29 13:08:23,590]     Info: aname: 
+                              b''
+[2020-09-29 13:08:23,590]     Info: domain_padding: 
+                              b'com'
+[2020-09-29 13:08:23,590]     Info: payload: 
+                              b'\x01'
+[2020-09-29 13:08:23,590]   [35m[1mTest Step: Cleaning up connections from callbacks[0m
+[2020-09-29 13:08:23,590]     Info: Closing target connection...
+[2020-09-29 13:08:23,590]     Info: Connection closed.
+[2020-09-29 13:08:23,590]   [35m[1mTest Step: Sleep between tests.[0m
+[2020-09-29 13:08:23,590]     Info: sleeping for 1.000000 seconds
+[2020-09-29 13:08:24,640] [33m[1mTest Case: 70: Query.TransactionID.70[0m
+[2020-09-29 13:08:24,640]     Info: Type: RandomData. Default value: b'\x8e\x07'. Case 70 of 6086 overall.
+[2020-09-29 13:08:24,640]     Info: Opening target connection (192.168.1.1:53)...
+[2020-09-29 13:08:24,640]     Info: Connection opened.
+[2020-09-29 13:08:24,640]   [35m[1mTest Step: Pre_Send callback: "check_alive"[0m
+[2020-09-29 13:08:27,657]       [32m[1mCheck OK: 设备存活![0m
+[2020-09-29 13:08:27,657]   [35m[1mTest Step: Fuzzing Node 'Query'[0m
+[2020-09-29 13:08:27,657]     Info: Sending 27 bytes...
+[2020-09-29 13:08:27,658]     [36mTransmitted 27 bytes: 3d 5d 01 00 00 01 00 00 00 00 00 00 05 62 61 69 64 75 03 63 6f 6d 00 00 01 00 01 b'=]\x01\x00\x00\x01\x00\x00\x00\x00\x00\x00\x05baidu\x03com\x00\x00\x01\x00\x01'[0m
+[2020-09-29 13:08:27,658]     Info: Receiving...
+[2020-09-29 13:08:32,806]     [36mReceived: [0m
+[2020-09-29 13:08:32,806]   [35m[1mTest Step: Post- test case callback: "get_case_info"[0m
+[2020-09-29 13:08:32,806]     Info: TransactionID: 
+                              b'=]'
+[2020-09-29 13:08:32,806]     Info: domain_part: 
+                              b'baidu'
+[2020-09-29 13:08:32,806]     Info: aname: 
+                              b''
+[2020-09-29 13:08:32,806]     Info: domain_padding: 
+                              b'com'
+[2020-09-29 13:08:32,806]     Info: payload: 
+                              b'\x01'
+[2020-09-29 13:08:32,806]   [35m[1mTest Step: Cleaning up connections from callbacks[0m
+[2020-09-29 13:08:32,807]     Info: Closing target connection...
+[2020-09-29 13:08:32,807]     Info: Connection closed.
+[2020-09-29 13:08:32,807]   [35m[1mTest Step: Sleep between tests.[0m
+[2020-09-29 13:08:32,807]     Info: sleeping for 1.000000 seconds
+[2020-09-29 13:08:33,851] [33m[1mTest Case: 71: Query.TransactionID.71[0m
+[2020-09-29 13:08:33,851]     Info: Type: RandomData. Default value: b'\x8e\x07'. Case 71 of 6086 overall.
+[2020-09-29 13:08:33,852]     Info: Opening target connection (192.168.1.1:53)...
+[2020-09-29 13:08:33,852]     Info: Connection opened.
+[2020-09-29 13:08:33,852]   [35m[1mTest Step: Pre_Send callback: "check_alive"[0m
+[2020-09-29 13:08:36,890]       [32m[1mCheck OK: 设备存活![0m
+[2020-09-29 13:08:36,890]   [35m[1mTest Step: Fuzzing Node 'Query'[0m
+[2020-09-29 13:08:36,891]     Info: Sending 27 bytes...
+[2020-09-29 13:08:36,891]     [36mTransmitted 27 bytes: be f9 01 00 00 01 00 00 00 00 00 00 05 62 61 69 64 75 03 63 6f 6d 00 00 01 00 01 b'\xbe\xf9\x01\x00\x00\x01\x00\x00\x00\x00\x00\x00\x05baidu\x03com\x00\x00\x01\x00\x01'[0m
+[2020-09-29 13:08:36,891]     Info: Receiving...
+[2020-09-29 13:08:42,022]     [36mReceived: [0m
+[2020-09-29 13:08:42,022]   [35m[1mTest Step: Post- test case callback: "get_case_info"[0m
+[2020-09-29 13:08:42,022]     Info: TransactionID: 
+                              b'\xbe\xf9'
+[2020-09-29 13:08:42,022]     Info: domain_part: 
+                              b'baidu'
+[2020-09-29 13:08:42,022]     Info: aname: 
+                              b''
+[2020-09-29 13:08:42,022]     Info: domain_padding: 
+                              b'com'
+[2020-09-29 13:08:42,022]     Info: payload: 
+                              b'\x01'
+[2020-09-29 13:08:42,022]   [35m[1mTest Step: Cleaning up connections from callbacks[0m
+[2020-09-29 13:08:42,022]     Info: Closing target connection...
+[2020-09-29 13:08:42,022]     Info: Connection closed.
+[2020-09-29 13:08:42,022]   [35m[1mTest Step: Sleep between tests.[0m
+[2020-09-29 13:08:42,022]     Info: sleeping for 1.000000 seconds
+[2020-09-29 13:08:43,113] [33m[1mTest Case: 72: Query.TransactionID.72[0m
+[2020-09-29 13:08:43,113]     Info: Type: RandomData. Default value: b'\x8e\x07'. Case 72 of 6086 overall.
+[2020-09-29 13:08:43,113]     Info: Opening target connection (192.168.1.1:53)...
+[2020-09-29 13:08:43,113]     Info: Connection opened.
+[2020-09-29 13:08:43,114]   [35m[1mTest Step: Pre_Send callback: "check_alive"[0m
+[2020-09-29 13:08:46,139]       [32m[1mCheck OK: 设备存活![0m
+[2020-09-29 13:08:46,139]   [35m[1mTest Step: Fuzzing Node 'Query'[0m
+[2020-09-29 13:08:46,140]     Info: Sending 27 bytes...
+[2020-09-29 13:08:46,140]     [36mTransmitted 27 bytes: d6 03 01 00 00 01 00 00 00 00 00 00 05 62 61 69 64 75 03 63 6f 6d 00 00 01 00 01 b'\xd6\x03\x01\x00\x00\x01\x00\x00\x00\x00\x00\x00\x05baidu\x03com\x00\x00\x01\x00\x01'[0m
+[2020-09-29 13:08:46,140]     Info: Receiving...
+[2020-09-29 13:08:51,238]     [36mReceived: [0m
+[2020-09-29 13:08:51,238]   [35m[1mTest Step: Post- test case callback: "get_case_info"[0m
+[2020-09-29 13:08:51,238]     Info: TransactionID: 
+                              b'\xd6\x03'
+[2020-09-29 13:08:51,238]     Info: domain_part: 
+                              b'baidu'
+[2020-09-29 13:08:51,238]     Info: aname: 
+                              b''
+[2020-09-29 13:08:51,238]     Info: domain_padding: 
+                              b'com'
+[2020-09-29 13:08:51,238]     Info: payload: 
+                              b'\x01'
+[2020-09-29 13:08:51,238]   [35m[1mTest Step: Cleaning up connections from callbacks[0m
+[2020-09-29 13:08:51,238]     Info: Closing target connection...
+[2020-09-29 13:08:51,238]     Info: Connection closed.
+[2020-09-29 13:08:51,238]   [35m[1mTest Step: Sleep between tests.[0m
+[2020-09-29 13:08:51,238]     Info: sleeping for 1.000000 seconds
+[2020-09-29 13:08:52,272] [33m[1mTest Case: 73: Query.TransactionID.73[0m
+[2020-09-29 13:08:52,272]     Info: Type: RandomData. Default value: b'\x8e\x07'. Case 73 of 6086 overall.
+[2020-09-29 13:08:52,272]     Info: Opening target connection (192.168.1.1:53)...
+[2020-09-29 13:08:52,272]     Info: Connection opened.
+[2020-09-29 13:08:52,272]   [35m[1mTest Step: Pre_Send callback: "check_alive"[0m
+[2020-09-29 13:08:55,304]       [32m[1mCheck OK: 设备存活![0m
+[2020-09-29 13:08:55,305]   [35m[1mTest Step: Fuzzing Node 'Query'[0m
+[2020-09-29 13:08:55,305]     Info: Sending 27 bytes...
+[2020-09-29 13:08:55,305]     [36mTransmitted 27 bytes: ed 28 01 00 00 01 00 00 00 00 00 00 05 62 61 69 64 75 03 63 6f 6d 00 00 01 00 01 b'\xed(\x01\x00\x00\x01\x00\x00\x00\x00\x00\x00\x05baidu\x03com\x00\x00\x01\x00\x01'[0m
+[2020-09-29 13:08:55,305]     Info: Receiving...
+[2020-09-29 13:09:00,453]     [36mReceived: [0m
+[2020-09-29 13:09:00,454]   [35m[1mTest Step: Post- test case callback: "get_case_info"[0m
+[2020-09-29 13:09:00,454]     Info: TransactionID: 
+                              b'\xed('
+[2020-09-29 13:09:00,454]     Info: domain_part: 
+                              b'baidu'
+[2020-09-29 13:09:00,454]     Info: aname: 
+                              b''
+[2020-09-29 13:09:00,454]     Info: domain_padding: 
+                              b'com'
+[2020-09-29 13:09:00,454]     Info: payload: 
+                              b'\x01'
+[2020-09-29 13:09:00,454]   [35m[1mTest Step: Cleaning up connections from callbacks[0m
+[2020-09-29 13:09:00,454]     Info: Closing target connection...
+[2020-09-29 13:09:00,454]     Info: Connection closed.
+[2020-09-29 13:09:00,454]   [35m[1mTest Step: Sleep between tests.[0m
+[2020-09-29 13:09:00,454]     Info: sleeping for 1.000000 seconds
